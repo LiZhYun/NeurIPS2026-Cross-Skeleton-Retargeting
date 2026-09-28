@@ -1,0 +1,17 @@
+{
+  "description": "Action-level AUC of the random same-group clip for the six robots, with the clip being scored removed from its own reference set. Keys read robot|setting.",
+  "own_clip_excluded": {
+    "unitree_g1|sparse": 0.6205930906924244,
+    "unitree_g1|dense": 0.5985659478953064,
+    "booster_t1_29dof|sparse": 0.6052997054538964,
+    "booster_t1_29dof|dense": 0.5743697080058099,
+    "fourier_n1|sparse": 0.6124895008352083,
+    "fourier_n1|dense": 0.5770307035344042,
+    "stanford_toddy|sparse": 0.6307720156333123,
+    "stanford_toddy|dense": 0.5904649674612668,
+    "engineai_pm01|sparse": 0.6272706835859869,
+    "engineai_pm01|dense": 0.5860779879385966,
+    "pal_talos|sparse": 0.6267857481267881,
+    "pal_talos|dense": 0.6064847505838461
+  }
+}

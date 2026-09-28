@@ -1,0 +1,68 @@
+{
+ "description": "How many directions a model actually uses inside its 256-dimensional latent space. Effective rank is the number of directions that carry real variation; spectral flatness is near zero when a few directions dominate. Computed over the 130 queries of the 37-triple evaluation. The models that compress hardest have the least room left to describe a particular source clip.",
+ "rows": [
+  {
+   "model": "ACE-no-adversarial-loss-seed42",
+   "shape": [
+    3376,
+    256
+   ],
+   "spectral_flatness": 8.94899291347285e-05,
+   "effective_rank": 1.29039466381073
+  },
+  {
+   "model": "ACE-T-seed42",
+   "shape": [
+    3376,
+    256
+   ],
+   "spectral_flatness": 5.328364466912377e-05,
+   "effective_rank": 2.1315758228302
+  },
+  {
+   "model": "ACE-I-seed42",
+   "shape": [
+    3376,
+    256
+   ],
+   "spectral_flatness": 0.0019285590347505868,
+   "effective_rank": 2.9950132369995117
+  },
+  {
+   "model": "AL-Flow",
+   "shape": [
+    1040,
+    256
+   ],
+   "spectral_flatness": 0.006585528641763524,
+   "effective_rank": 6.804049968719482
+  },
+  {
+   "model": "MoReFlow-I",
+   "shape": [
+    3823,
+    256
+   ],
+   "spectral_flatness": 0.059299798867443465,
+   "effective_rank": 12.836814880371094
+  },
+  {
+   "model": "MoReFlow-T",
+   "shape": [
+    3823,
+    256
+   ],
+   "spectral_flatness": 0.0631424865810627,
+   "effective_rank": 14.991631507873535
+  },
+  {
+   "model": "AnyTop encoder z",
+   "shape": [
+    13000,
+    256
+   ],
+   "spectral_flatness": 0.16135959844886164,
+   "effective_rank": 57.730857849121094
+  }
+ ]
+}

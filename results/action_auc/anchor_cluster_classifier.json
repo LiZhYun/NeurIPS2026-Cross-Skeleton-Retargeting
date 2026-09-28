@@ -1,0 +1,15 @@
+{
+ "description": "The retrieval comparator is handed the action group of the source clip. If that label has to be predicted instead, how often is the prediction right? Almost always on the skeletons the predictor was trained on, and close to a coin flip on skeletons it has never seen.",
+ "rows": [
+  {
+   "domain": "In-domain (train skeletons)",
+   "n_correct": 543,
+   "n_total": 544
+  },
+  {
+   "domain": "Held-out (reserved cross-skeleton)",
+   "n_correct": 59,
+   "n_total": 96
+  }
+ ]
+}

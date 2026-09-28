@@ -1,0 +1,279 @@
+{
+ "description": "Action-level AUC asks a different question from fidelity: given an output, how often does a real target clip of the right action rank above clips of other actions? A value of 0.5 means no better than chance. Motions are compared after time warping; the interval resamples pairs of skeletons.",
+ "sets": {
+  "truebones_49": [
+   {
+    "method": "AnyTop",
+    "n_queries": 171,
+    "auc_mean": 0.5183038861182135,
+    "auc_ci": [
+     0.451597654788627,
+     0.5881531030335031
+    ]
+   },
+   {
+    "method": "ACE-T",
+    "n_queries": 171,
+    "auc_mean": 0.5379031016092419,
+    "auc_ci": [
+     0.45675699218742805,
+     0.6163801311694573
+    ]
+   },
+   {
+    "method": "ACE-I",
+    "n_queries": 171,
+    "auc_mean": 0.5393306533730511,
+    "auc_ci": [
+     0.46404287318048837,
+     0.6112930358374452
+    ]
+   },
+   {
+    "method": "ACE-no-source-latent",
+    "n_queries": 171,
+    "auc_mean": 0.5416471805214496,
+    "auc_ci": [
+     0.46405582075927887,
+     0.6185679185798831
+    ]
+   },
+   {
+    "method": "AL-Flow",
+    "n_queries": 158,
+    "auc_mean": 0.6434673931904944,
+    "auc_ci": [
+     0.5534941329188489,
+     0.730970939769128
+    ]
+   },
+   {
+    "method": "AL-Flow-Src",
+    "n_queries": 133,
+    "auc_mean": 0.6329595634106912,
+    "auc_ci": [
+     0.51865623667318,
+     0.7257746109101614
+    ]
+   },
+   {
+    "method": "AL-Flow-Src-G",
+    "n_queries": 171,
+    "auc_mean": 0.6060220838291013,
+    "auc_ci": [
+     0.5200365791975674,
+     0.685717109719796
+    ]
+   },
+   {
+    "method": "MoReFlow-T",
+    "n_queries": 171,
+    "auc_mean": 0.596074508662228,
+    "auc_ci": [
+     0.5224334974583632,
+     0.6700144228887738
+    ]
+   },
+   {
+    "method": "MoReFlow-I",
+    "n_queries": 171,
+    "auc_mean": 0.5775901840741022,
+    "auc_ci": [
+     0.5024002160788559,
+     0.6444357423104752
+    ]
+   },
+   {
+    "method": "Motion2Motion-BVH",
+    "n_queries": 171,
+    "auc_mean": 0.44935574064229034,
+    "auc_ci": [
+     0.38671726964502634,
+     0.5101501238071653
+    ]
+   },
+   {
+    "method": "ANCHOR",
+    "n_queries": 171,
+    "auc_mean": 0.8275113780523136,
+    "auc_ci": [
+     0.7798171804657057,
+     0.8735666348577295
+    ]
+   },
+   {
+    "method": "Motion2Motion-Direct",
+    "n_queries": 171,
+    "auc_mean": 0.5137936064909748,
+    "auc_ci": [
+     0.45603646229030675,
+     0.5667344946235107
+    ]
+   },
+   {
+    "method": "random-same-cluster",
+    "n_queries": 167,
+    "auc_mean": 0.8127379476256722,
+    "auc_ci": [
+     0.7664446475169788,
+     0.856419594523075
+    ]
+   },
+   {
+    "method": "random-same-exact-action",
+    "n_queries": 168,
+    "auc_mean": 0.7990899034277009,
+    "auc_ci": [
+     0.7510451332529311,
+     0.8504522335666448
+    ]
+   },
+   {
+    "method": "DPG-SB-v3",
+    "n_queries": 171,
+    "auc_mean": 0.6843653043945442,
+    "auc_ci": [
+     0.6104476365725018,
+     0.7556439052477119
+    ]
+   }
+  ],
+  "truebones_37_intersection": [
+   {
+    "method": "AnyTop",
+    "n_queries": 130,
+    "auc_mean": 0.5329139379139379,
+    "auc_ci": [
+     0.4478690136147523,
+     0.6133436365195082
+    ]
+   },
+   {
+    "method": "ACE-T",
+    "n_queries": 130,
+    "auc_mean": 0.5625833888333889,
+    "auc_ci": [
+     0.46781188042234406,
+     0.6661501564296518
+    ]
+   },
+   {
+    "method": "ACE-I",
+    "n_queries": 130,
+    "auc_mean": 0.566731647981648,
+    "auc_ci": [
+     0.482609172278339,
+     0.6551712474380036
+    ]
+   },
+   {
+    "method": "ACE-no-source-latent",
+    "n_queries": 130,
+    "auc_mean": 0.5682202057202057,
+    "auc_ci": [
+     0.4794057819953002,
+     0.6598686063532032
+    ]
+   },
+   {
+    "method": "AL-Flow",
+    "n_queries": 130,
+    "auc_mean": 0.6418549506049505,
+    "auc_ci": [
+     0.5444230531139517,
+     0.7381069005210227
+    ]
+   },
+   {
+    "method": "AL-Flow-Src",
+    "n_queries": 130,
+    "auc_mean": 0.6244893994893995,
+    "auc_ci": [
+     0.5271727077414773,
+     0.7197683231284648
+    ]
+   },
+   {
+    "method": "AL-Flow-Src-G",
+    "n_queries": 130,
+    "auc_mean": 0.6199340936840936,
+    "auc_ci": [
+     0.5212195489407434,
+     0.7075349539255391
+    ]
+   },
+   {
+    "method": "MoReFlow-T",
+    "n_queries": 130,
+    "auc_mean": 0.6069057331557332,
+    "auc_ci": [
+     0.5246904648282601,
+     0.6838984564209754
+    ]
+   },
+   {
+    "method": "MoReFlow-I",
+    "n_queries": 130,
+    "auc_mean": 0.599330623080623,
+    "auc_ci": [
+     0.5183994881207884,
+     0.6831262745573292
+    ]
+   },
+   {
+    "method": "Motion2Motion-BVH",
+    "n_queries": 130,
+    "auc_mean": 0.46996415621415616,
+    "auc_ci": [
+     0.39774764633898263,
+     0.5386051790874625
+    ]
+   },
+   {
+    "method": "ANCHOR",
+    "n_queries": 130,
+    "auc_mean": 0.8379389591889592,
+    "auc_ci": [
+     0.7775054406952799,
+     0.891221384201195
+    ]
+   },
+   {
+    "method": "Motion2Motion-Direct",
+    "n_queries": 130,
+    "auc_mean": 0.533987678987679,
+    "auc_ci": [
+     0.4581769456436881,
+     0.5973389251265228
+    ]
+   },
+   {
+    "method": "random-same-cluster",
+    "n_queries": 130,
+    "auc_mean": 0.8125272412772412,
+    "auc_ci": [
+     0.7645507052396256,
+     0.8645207741404446
+    ]
+   },
+   {
+    "method": "random-same-exact-action",
+    "n_queries": 130,
+    "auc_mean": 0.8069067506567507,
+    "auc_ci": [
+     0.7501776818894412,
+     0.8620423996759687
+    ]
+   },
+   {
+    "method": "DPG-SB-v3",
+    "n_queries": 130,
+    "auc_mean": 0.6916092703592703,
+    "auc_ci": [
+     0.5959734952934388,
+     0.7806148982765388
+    ]
+   }
+  ]
+ }
+}

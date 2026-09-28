@@ -1,0 +1,19 @@
+{
+  "_note": "AL-Flow: told the action to perform and which animal is to perform it, and nothing about the source clip. This is the setting behind the AL-Flow row of the paper, which reports the model saved at the end of the run.",
+  "variant": "labels",
+  "run_name": "al_flow",
+  "max_steps": 50000,
+  "lr": 0.0002,
+  "warmup": 500,
+  "batch_size": 128,
+  "d_model": 512,
+  "n_layers": 6,
+  "n_heads": 8,
+  "p_cluster_drop": 0.1,
+  "p_exact_drop": 0.1,
+  "p_src_drop": 0.1,
+  "seed": 42,
+  "log_interval": 200,
+  "ckpt_interval": 2500,
+  "no_resume": false
+}

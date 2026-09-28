@@ -1,0 +1,134 @@
+{
+ "description": "The same comparison once the output length is fixed at generation, so that clip duration cannot carry the score. Reported on both evaluations. The \"p_value\" of each seed reassigns outputs within whole source skeletons, as in the other files. \"zero_source_check\" scores a run in which the source description was set to zero; it lands at zero fidelity, as it should.",
+ "evaluations": {
+  "truebones_1891": {
+   "n_triples": 1891,
+   "models": {
+    "ACE-I": {
+     "per_seed": {
+      "42": {
+       "sif": 0.3580867868779263,
+       "variation": 0.003480347297454792,
+       "p_value": 9.999000099990002e-05
+      },
+      "43": {
+       "sif": 0.2997588630311822,
+       "variation": 0.0017435457096480862,
+       "p_value": 9.999000099990002e-05
+      },
+      "44": {
+       "sif": 0.3284345832718831,
+       "variation": 0.0030051339805312236,
+       "p_value": 9.999000099990002e-05
+      }
+     },
+     "sif_mean_over_seeds": 0.32876007772699717,
+     "seed_mean_sd": [
+      0.3287600777269972,
+      0.02916532418897699
+     ]
+    },
+    "ACE-no-adversarial-loss": {
+     "per_seed": {
+      "42": {
+       "sif": 0.29077843996882313,
+       "variation": 0.11083298474694685,
+       "p_value": 9.999000099990002e-05
+      },
+      "43": {
+       "sif": 0.3612376724958372,
+       "variation": 0.07788449621539702,
+       "p_value": 9.999000099990002e-05
+      },
+      "44": {
+       "sif": 0.33436995429891414,
+       "variation": 0.09554862141575482,
+       "p_value": 9.999000099990002e-05
+      }
+     },
+     "sif_mean_over_seeds": 0.32879535558785816,
+     "seed_mean_sd": [
+      0.32879535558785816,
+      0.03555886633690591
+     ]
+    }
+   },
+   "difference": {
+    "mean_difference": -3.527786086097551e-05,
+    "ci95": [
+     -0.05472629728529609,
+     0.057917844653493304
+    ],
+    "p_value": 0.9994000599940006,
+    "p_value_independent_triples": 0.9968003199680032
+   }
+  },
+  "truebones_49": {
+   "n_triples": 49,
+   "models": {
+    "ACE-I": {
+     "per_seed": {
+      "42": {
+       "sif": 0.39555606527621406,
+       "variation": 0.0017693934722522139,
+       "p_value": 9.999000099990002e-05
+      },
+      "43": {
+       "sif": 0.264111862779193,
+       "variation": 0.0018242870799893543,
+       "p_value": 0.001999800019998
+      },
+      "44": {
+       "sif": 0.21665020406823013,
+       "variation": 0.0037856331926318706,
+       "p_value": 0.007899210078992101
+      }
+     },
+     "sif_mean_over_seeds": 0.29210604404121243,
+     "seed_mean_sd": [
+      0.2921060440412124,
+      0.0926800001728566
+     ]
+    },
+    "ACE-no-adversarial-loss": {
+     "per_seed": {
+      "42": {
+       "sif": 0.22138569133040314,
+       "variation": 0.10678871739653016,
+       "p_value": 0.006099390060993901
+      },
+      "43": {
+       "sif": 0.3244806201756999,
+       "variation": 0.07363071408120817,
+       "p_value": 0.00039996000399960006
+      },
+      "44": {
+       "sif": 0.2517214347818482,
+       "variation": 0.0725552015597452,
+       "p_value": 0.0016998300169983002
+      }
+     },
+     "sif_mean_over_seeds": 0.26586258209598373,
+     "seed_mean_sd": [
+      0.26586258209598373,
+      0.05298226235188775
+     ]
+    }
+   },
+   "difference": {
+    "mean_difference": 0.026243461945228676,
+    "ci95": [
+     -0.09392157231397763,
+     0.14608081740169004
+    ],
+    "p_value": 0.6774322567743226,
+    "p_value_independent_triples": 0.6547345265473453
+   }
+  }
+ },
+ "zero_source_check": {
+  "n_triples": 49,
+  "sif": 0.0,
+  "variation": 7.605134010177151e-14
+ }
+}

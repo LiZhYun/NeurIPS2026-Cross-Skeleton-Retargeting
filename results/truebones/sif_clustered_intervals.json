@@ -1,0 +1,383 @@
+{
+ "description": "A score can look more certain than it is when triples share a skeleton or an action. This file gives the 95% interval of the average score on the 37-triple evaluation under four ways of resampling: treating triples as independent, and resampling whole source skeletons, whole target skeletons or whole actions. 10,000 resamples, seed 42.",
+ "methods": {
+  "AL-Flow": {
+   "independent_triples": {
+    "ci95_low": -0.23099885746081628,
+    "ci95_high": 0.13676643327164326,
+    "interval_excludes_zero": false,
+    "sif": -0.04970799327918688
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.18720284415731742,
+    "ci95_high": 0.10578506946211769,
+    "interval_excludes_zero": false,
+    "sif": -0.04970799327918688
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.2587055316946618,
+    "ci95_high": 0.16139280425907526,
+    "interval_excludes_zero": false,
+    "sif": -0.04970799327918688
+   },
+   "whole_actions": {
+    "ci95_low": -0.23873871511248645,
+    "ci95_high": 0.18330201978307104,
+    "interval_excludes_zero": false,
+    "sif": -0.04970799327918688
+   },
+   "n_triples": 37
+  },
+  "AL-Flow-Src": {
+   "independent_triples": {
+    "ci95_low": -0.10839974283464454,
+    "ci95_high": 0.2640161781997704,
+    "interval_excludes_zero": false,
+    "sif": 0.07607591812190193
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.10944963087892477,
+    "ci95_high": 0.26943768747492636,
+    "interval_excludes_zero": false,
+    "sif": 0.07607591812190193
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.11233236206998373,
+    "ci95_high": 0.24777950476319346,
+    "interval_excludes_zero": false,
+    "sif": 0.07607591812190193
+   },
+   "whole_actions": {
+    "ci95_low": -0.22164770547162735,
+    "ci95_high": 0.1687374851976612,
+    "interval_excludes_zero": false,
+    "sif": 0.07607591812190193
+   },
+   "n_triples": 37
+  },
+  "AL-Flow-Src-G": {
+   "independent_triples": {
+    "ci95_low": -0.23903452620200139,
+    "ci95_high": 0.13028584581694386,
+    "interval_excludes_zero": false,
+    "sif": -0.056821290585997525
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.20668322606200343,
+    "ci95_high": 0.08728998315432125,
+    "interval_excludes_zero": false,
+    "sif": -0.056821290585997525
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.26069488736534163,
+    "ci95_high": 0.12824494936789171,
+    "interval_excludes_zero": false,
+    "sif": -0.056821290585997525
+   },
+   "whole_actions": {
+    "ci95_low": -0.5227058549814693,
+    "ci95_high": 0.02217143365097183,
+    "interval_excludes_zero": false,
+    "sif": -0.056821290585997525
+   },
+   "n_triples": 37
+  },
+  "AnyTop": {
+   "independent_triples": {
+    "ci95_low": -0.1854227113634461,
+    "ci95_high": 0.16585416786605636,
+    "interval_excludes_zero": false,
+    "sif": -0.010081787189327795
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.19070147672233748,
+    "ci95_high": 0.16555055063137417,
+    "interval_excludes_zero": false,
+    "sif": -0.010081787189327795
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.20723886249709747,
+    "ci95_high": 0.18485853503643573,
+    "interval_excludes_zero": false,
+    "sif": -0.010081787189327795
+   },
+   "whole_actions": {
+    "ci95_low": -0.2529092610690907,
+    "ci95_high": 0.1424523607620516,
+    "interval_excludes_zero": false,
+    "sif": -0.010081787189327795
+   },
+   "n_triples": 37
+  },
+  "MoReFlow-T": {
+   "independent_triples": {
+    "ci95_low": -0.0026829929926076176,
+    "ci95_high": 0.3795415101122673,
+    "interval_excludes_zero": false,
+    "sif": 0.19158563333019932
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.022880082851957237,
+    "ci95_high": 0.3858946865035501,
+    "interval_excludes_zero": false,
+    "sif": 0.19158563333019932
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.03135932757040005,
+    "ci95_high": 0.4050811155627682,
+    "interval_excludes_zero": false,
+    "sif": 0.19158563333019932
+   },
+   "whole_actions": {
+    "ci95_low": -0.03930272631031576,
+    "ci95_high": 0.35660569913043555,
+    "interval_excludes_zero": false,
+    "sif": 0.19158563333019932
+   },
+   "n_triples": 37
+  },
+  "MoReFlow-I": {
+   "independent_triples": {
+    "ci95_low": -0.13179493958896094,
+    "ci95_high": 0.2785074340861774,
+    "interval_excludes_zero": false,
+    "sif": 0.07643731201728304
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.13247296851220827,
+    "ci95_high": 0.27119280940942453,
+    "interval_excludes_zero": false,
+    "sif": 0.07643731201728304
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.16654119329571407,
+    "ci95_high": 0.31936517125613845,
+    "interval_excludes_zero": false,
+    "sif": 0.07643731201728304
+   },
+   "whole_actions": {
+    "ci95_low": -0.10815359970513365,
+    "ci95_high": 0.47428935384175164,
+    "interval_excludes_zero": false,
+    "sif": 0.07643731201728304
+   },
+   "n_triples": 37
+  },
+  "ACE-T": {
+   "independent_triples": {
+    "ci95_low": 0.2928246155477008,
+    "ci95_high": 0.6015944687855702,
+    "interval_excludes_zero": true,
+    "sif": 0.4532362960357406
+   },
+   "whole_source_skeletons": {
+    "ci95_low": 0.28373577956495355,
+    "ci95_high": 0.6177223588471306,
+    "interval_excludes_zero": true,
+    "sif": 0.4532362960357406
+   },
+   "whole_target_skeletons": {
+    "ci95_low": 0.27355131643796005,
+    "ci95_high": 0.6047777873208475,
+    "interval_excludes_zero": true,
+    "sif": 0.4532362960357406
+   },
+   "whole_actions": {
+    "ci95_low": -0.008716019951522254,
+    "ci95_high": 0.6189228925427095,
+    "interval_excludes_zero": false,
+    "sif": 0.4532362960357406
+   },
+   "n_triples": 37
+  },
+  "ACE-I": {
+   "independent_triples": {
+    "ci95_low": 0.3513678582825805,
+    "ci95_high": 0.681071579662771,
+    "interval_excludes_zero": true,
+    "sif": 0.5256433364132754
+   },
+   "whole_source_skeletons": {
+    "ci95_low": 0.32348633986759456,
+    "ci95_high": 0.7088369773112186,
+    "interval_excludes_zero": true,
+    "sif": 0.5256433364132754
+   },
+   "whole_target_skeletons": {
+    "ci95_low": 0.36495412469882893,
+    "ci95_high": 0.6708112131644216,
+    "interval_excludes_zero": true,
+    "sif": 0.5256433364132754
+   },
+   "whole_actions": {
+    "ci95_low": 0.24153558951015383,
+    "ci95_high": 0.6286311054014065,
+    "interval_excludes_zero": true,
+    "sif": 0.5256433364132754
+   },
+   "n_triples": 37
+  },
+  "Motion2Motion-Direct": {
+   "independent_triples": {
+    "ci95_low": -0.060869335204004574,
+    "ci95_high": 0.3167120479349361,
+    "interval_excludes_zero": false,
+    "sif": 0.13072251017333583
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.09821818459985406,
+    "ci95_high": 0.3846400367832825,
+    "interval_excludes_zero": false,
+    "sif": 0.13072251017333583
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.07471668333916531,
+    "ci95_high": 0.30708746208459364,
+    "interval_excludes_zero": false,
+    "sif": 0.13072251017333583
+   },
+   "whole_actions": {
+    "ci95_low": -0.7201324455137067,
+    "ci95_high": 0.265457258154782,
+    "interval_excludes_zero": false,
+    "sif": 0.13072251017333583
+   },
+   "n_triples": 37
+  },
+  "Motion2Motion-BVH": {
+   "independent_triples": {
+    "ci95_low": -0.2371716264794412,
+    "ci95_high": 0.11015104250920191,
+    "interval_excludes_zero": false,
+    "sif": -0.06739133905174442
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.24698237086724797,
+    "ci95_high": 0.1161052710831495,
+    "interval_excludes_zero": false,
+    "sif": -0.06739133905174442
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.22062613200079637,
+    "ci95_high": 0.08918918526460765,
+    "interval_excludes_zero": false,
+    "sif": -0.06739133905174442
+   },
+   "whole_actions": {
+    "ci95_low": -0.31969148587929636,
+    "ci95_high": 0.14193793596474558,
+    "interval_excludes_zero": false,
+    "sif": -0.06739133905174442
+   },
+   "n_triples": 37
+  },
+  "ANCHOR": {
+   "independent_triples": {
+    "ci95_low": -0.06783683421068744,
+    "ci95_high": 0.15678278118553163,
+    "interval_excludes_zero": false,
+    "sif": 0.040338034020910574
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.07775272702000795,
+    "ci95_high": 0.17574329346265358,
+    "interval_excludes_zero": false,
+    "sif": 0.040338034020910574
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.06805511106146774,
+    "ci95_high": 0.16674579606566695,
+    "interval_excludes_zero": false,
+    "sif": 0.040338034020910574
+   },
+   "whole_actions": {
+    "ci95_low": 0.0,
+    "ci95_high": 0.04639797378219881,
+    "interval_excludes_zero": false,
+    "sif": 0.040338034020910574
+   },
+   "n_triples": 37
+  },
+  "random-same-cluster": {
+   "independent_triples": {
+    "ci95_low": -0.09474277673593992,
+    "ci95_high": 0.2982637714549274,
+    "interval_excludes_zero": false,
+    "sif": 0.10412480729511363
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.05681292894202187,
+    "ci95_high": 0.27930121125730833,
+    "interval_excludes_zero": false,
+    "sif": 0.10412480729511363
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.11509051826139094,
+    "ci95_high": 0.31460214556480237,
+    "interval_excludes_zero": false,
+    "sif": 0.10412480729511363
+   },
+   "whole_actions": {
+    "ci95_low": -0.27158347153770757,
+    "ci95_high": 0.18877599245555798,
+    "interval_excludes_zero": false,
+    "sif": 0.10412480729511363
+   },
+   "n_triples": 37
+  },
+  "random-same-exact-action": {
+   "independent_triples": {
+    "ci95_low": 0.04606289153020083,
+    "ci95_high": 0.3264721342928701,
+    "interval_excludes_zero": true,
+    "sif": 0.18545230716864944
+   },
+   "whole_source_skeletons": {
+    "ci95_low": 0.06939293703033977,
+    "ci95_high": 0.304336030295724,
+    "interval_excludes_zero": true,
+    "sif": 0.18545230716864944
+   },
+   "whole_target_skeletons": {
+    "ci95_low": 0.026961804655846987,
+    "ci95_high": 0.3541613210777814,
+    "interval_excludes_zero": true,
+    "sif": 0.18545230716864944
+   },
+   "whole_actions": {
+    "ci95_low": 0.0,
+    "ci95_high": 0.2717368675551427,
+    "interval_excludes_zero": false,
+    "sif": 0.18545230716864944
+   },
+   "n_triples": 37
+  },
+  "DPG-SB-v3": {
+   "independent_triples": {
+    "ci95_low": -0.21537213552960943,
+    "ci95_high": 0.17793533681728593,
+    "interval_excludes_zero": false,
+    "sif": -0.0189808104343267
+   },
+   "whole_source_skeletons": {
+    "ci95_low": -0.20758915498768774,
+    "ci95_high": 0.18780386153968812,
+    "interval_excludes_zero": false,
+    "sif": -0.0189808104343267
+   },
+   "whole_target_skeletons": {
+    "ci95_low": -0.24373054056189034,
+    "ci95_high": 0.22750961501833564,
+    "interval_excludes_zero": false,
+    "sif": -0.0189808104343267
+   },
+   "whole_actions": {
+    "ci95_low": -0.4866924066669001,
+    "ci95_high": 0.044891005317288964,
+    "interval_excludes_zero": false,
+    "sif": -0.0189808104343267
+   },
+   "n_triples": 37
+  }
+ }
+}

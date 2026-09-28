@@ -1,0 +1,32 @@
+{
+ "description": "Picking any clip that carries the right action label already scores as well on action-level AUC as the retrieval comparator does. This file holds that comparison, pooled over the two query folds. \"overall\" is every query of both folds; \"held_out\" keeps only queries whose two skeletons were both held out. The values are the means of the two folds, rounded to three decimals as the manuscript reports them; the per-fold values are in fold_auc.json. Coverage matters: the exact-action baseline can only answer the queries where a clip of the same exact action exists.",
+ "rows": [
+  {
+   "method": "ANCHOR",
+   "overall_n": 600,
+   "overall_total": 600,
+   "held_out_n": 200,
+   "held_out_total": 200,
+   "overall_cluster_auc": 0.757,
+   "held_out_cluster_auc": 0.681
+  },
+  {
+   "method": "random-same-cluster",
+   "overall_n": 570,
+   "overall_total": 600,
+   "held_out_n": 177,
+   "held_out_total": 200,
+   "overall_cluster_auc": 0.769,
+   "held_out_cluster_auc": 0.678
+  },
+  {
+   "method": "random-same-exact-action",
+   "overall_n": 221,
+   "overall_total": 600,
+   "held_out_n": 57,
+   "held_out_total": 200,
+   "overall_cluster_auc": 0.883,
+   "held_out_cluster_auc": 0.923
+  }
+ ]
+}

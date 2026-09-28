@@ -1,0 +1,23 @@
+{
+    "activation": "relu",
+    "all_train_skeletons": true,
+    "batch_size": 16,
+    "ckpt_interval": 1000,
+    "codebook_dim": 256,
+    "codebook_size": 256,
+    "dead_code_threshold": 5,
+    "hidden": 512,
+    "include_held_out_skeletons": true,
+    "log_interval": 200,
+    "lr": 0.0002,
+    "max_steps": 100000,
+    "n_downsample": 2,
+    "n_resblocks": 3,
+    "no_resume": false,
+    "seed": 42,
+    "val_batches": 8,
+    "val_frac": 0.1,
+    "val_interval": 200,
+    "warmup_steps": 1000,
+    "weight_decay": 0.0
+}

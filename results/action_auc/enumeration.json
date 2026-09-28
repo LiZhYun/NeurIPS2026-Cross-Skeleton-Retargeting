@@ -1,0 +1,41 @@
+{
+ "description": "The retrieval comparator ANCHOR scored on every source-target pair in the dataset, split by how many of the two skeletons were held out of training. The cluster-eligible count leaves out pairs whose target skeleton owns no clip of the right action group. Each interval is written [lower, point estimate, upper].",
+ "method": "ANCHOR",
+ "distance": "procrustes",
+ "n_pairs": 30497,
+ "n_skipped": 0,
+ "subsets": {
+  "all": {
+   "n": 30029,
+   "auc_ci": [
+    0.8202895594551668,
+    0.8244864593855569,
+    0.8290798466855913
+   ]
+  },
+  "in_distribution": {
+   "n": 21838,
+   "auc_ci": [
+    0.8409335542168106,
+    0.8451640452713125,
+    0.8492250871350764
+   ]
+  },
+  "mixed": {
+   "n": 7622,
+   "auc_ci": [
+    0.7615949950009127,
+    0.7736969372284905,
+    0.7865245191229687
+   ]
+  },
+  "held_out": {
+   "n": 569,
+   "auc_ci": [
+    0.6693477781248172,
+    0.711236226183502,
+    0.7576381727087474
+   ]
+  }
+ }
+}

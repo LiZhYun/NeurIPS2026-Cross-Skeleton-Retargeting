@@ -1,0 +1,68 @@
+{
+  "description": "Training of the adversarial objective, in the version fixed in advance, did not converge. These are three seeds of a second version with different training settings, fixed before any of its results were looked at. They are reported beside the first version, not in place of it.",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "realistic_threshold": 1.944852089881897,
+  "runs": [
+    {
+      "sif": 0.6956770237681994,
+      "sif_length_controlled": 0.5665791001509264,
+      "sif_ci95": [
+        0.6206218082789147,
+        0.762845935516576
+      ],
+      "p_value": 9.999000099990002e-05,
+      "variation_mean": 0.7306535041384457,
+      "variation": 0.5611126293783011,
+      "realistic_pct": 14.366197183098592,
+      "mean_distance_to_nearest_real_clip": 3.41618644519591,
+      "action_auc": 0.8504507042253521,
+      "action_auc_ci": [
+        0.8086685659713282,
+        0.8858119688636041
+      ],
+      "seed": 42
+    },
+    {
+      "sif": 0.5282212226008504,
+      "sif_length_controlled": 0.44616826680372923,
+      "sif_ci95": [
+        0.4319593549913222,
+        0.6182950416385552
+      ],
+      "p_value": 9.999000099990002e-05,
+      "variation_mean": 0.6166341897833266,
+      "variation": 0.09299569260245394,
+      "realistic_pct": 78.0281690140845,
+      "mean_distance_to_nearest_real_clip": 1.8177559834131052,
+      "action_auc": 0.5513615023474179,
+      "action_auc_ci": [
+        0.5019179469273742,
+        0.5989760445353687
+      ],
+      "seed": 43
+    },
+    {
+      "sif": 0.5741339416446615,
+      "sif_length_controlled": 0.45471623864030986,
+      "sif_ci95": [
+        0.4784667476213232,
+        0.6658159146296659
+      ],
+      "p_value": 9.999000099990002e-05,
+      "variation_mean": 0.3340496153587689,
+      "variation": 0.10052082099614564,
+      "realistic_pct": 0.0,
+      "mean_distance_to_nearest_real_clip": 3.3830406806838345,
+      "action_auc": 0.5127981220657277,
+      "action_auc_ci": [
+        0.4533711158192091,
+        0.5695786457341458
+      ],
+      "seed": 44
+    }
+  ]
+}

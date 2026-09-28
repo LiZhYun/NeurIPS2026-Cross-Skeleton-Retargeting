@@ -1,0 +1,25 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Code fetched from other projects
+/external/
+
+# Datasets, which this repository does not ship
+/dataset/
+/datasets/
+/data/
+
+# Trained models
+/save/
+
+# Generated outputs
+/output/
+/outputs/
+/paper/output/
+/results/**/*.npy

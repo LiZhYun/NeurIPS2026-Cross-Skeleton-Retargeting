@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sif-motion"
+version = "1.0.0"
+description = "Source-Instance Fidelity: test whether retargeted motions keep what made each source clip different."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Zhiyuan Li"}, {name = "Wenyan Yang"}, {name = "Pekka Marttinen"}, {name = "Joni Pajarinen"},
+]
+dependencies = ["numpy>=1.21"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+sif-score = "sif.cli:main"
+
+[tool.setuptools]
+packages = ["sif"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

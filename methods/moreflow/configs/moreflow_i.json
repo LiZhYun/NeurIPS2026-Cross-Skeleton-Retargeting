@@ -1,0 +1,21 @@
+{
+  "_note": "MoReFlow-I: the same settings, but only 60 of the 70 skeletons are shown to the model, so the other 10 are new to it when it is measured. This is the setting behind the MoReFlow-I row of the paper, which reports the model saved at the end of the run.",
+  "scope": "train",
+  "run_name": "moreflow_i",
+  "max_steps": 200000,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "warmup_steps": 1000,
+  "alpha_max": 0.2,
+  "feat_ramp_start": 10000,
+  "feat_ramp_end": 30000,
+  "p_mask": 0.1,
+  "k_coupling": 512,
+  "microbatch": 32,
+  "seed": 42,
+  "log_interval": 200,
+  "ckpt_interval": 5000,
+  "loss_check_step": 5000,
+  "no_resume": false,
+  "skip_descriptor_check": true
+}

@@ -1,0 +1,276 @@
+{
+ "description": "Share of outputs that stay close to real motion of the target skeleton. An output counts as realistic when its distance to the nearest real clip of that skeleton stays under a threshold taken from real clips that were held out.",
+ "threshold": 11.82164740562439,
+ "held_out_real_median_distance": 4.9421374797821045,
+ "n_held_out_real_clips": 58,
+ "sets": {
+  "truebones_37_intersection": [
+   {
+    "method": "AnyTop",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 13.303205147156348,
+    "median_distance_to_nearest_real_clip": 11.240897178649902,
+    "realistic_pct": 53.07692307692308,
+    "mean_under_threshold": false
+   },
+   {
+    "method": "ACE-T",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 4.723818679956289,
+    "median_distance_to_nearest_real_clip": 3.652307152748108,
+    "realistic_pct": 93.07692307692308,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "ACE-I",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 4.064479450079111,
+    "median_distance_to_nearest_real_clip": 3.3255865573883057,
+    "realistic_pct": 97.6923076923077,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "ACE-no-source-latent",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 4.360499638777513,
+    "median_distance_to_nearest_real_clip": 4.105876684188843,
+    "realistic_pct": 97.6923076923077,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.5862135032048594,
+    "median_distance_to_nearest_real_clip": 2.1936265230178833,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow-Src",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.837219750881195,
+    "median_distance_to_nearest_real_clip": 2.5484535694122314,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow-Src-G",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 3.035954854465448,
+    "median_distance_to_nearest_real_clip": 2.972153425216675,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "MoReFlow-T",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.623308759698501,
+    "median_distance_to_nearest_real_clip": 2.2139604091644287,
+    "realistic_pct": 99.23076923076923,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "MoReFlow-I",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.678598835376593,
+    "median_distance_to_nearest_real_clip": 2.255768656730652,
+    "realistic_pct": 99.23076923076923,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "Motion2Motion-BVH",
+    "n_outputs": 0,
+    "n_not_comparable": 130,
+    "note": "the output has a different number of joints from the target skeleton, so realism cannot be measured"
+   },
+   {
+    "method": "ANCHOR",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.23085794082054725,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "Motion2Motion-Direct",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 11.412424625800206,
+    "median_distance_to_nearest_real_clip": 9.746307849884033,
+    "realistic_pct": 56.15384615384615,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "random-same-cluster",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.288025557077848,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "random-same-exact-action",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.22009870822613056,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "DPG-SB-v3",
+    "n_outputs": 130,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.11397128050717,
+    "median_distance_to_nearest_real_clip": 1.4575998783111572,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   }
+  ],
+  "truebones_49": [
+   {
+    "method": "AnyTop",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 13.917897242551659,
+    "median_distance_to_nearest_real_clip": 11.407953262329102,
+    "realistic_pct": 52.046783625730995,
+    "mean_under_threshold": false
+   },
+   {
+    "method": "ACE-T",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 5.049770609677187,
+    "median_distance_to_nearest_real_clip": 3.704442262649536,
+    "realistic_pct": 92.39766081871345,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "ACE-I",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 4.728428379136917,
+    "median_distance_to_nearest_real_clip": 3.4224579334259033,
+    "realistic_pct": 91.81286549707602,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "ACE-no-source-latent",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 4.9864697876380895,
+    "median_distance_to_nearest_real_clip": 4.132512092590332,
+    "realistic_pct": 91.81286549707602,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow",
+    "n_outputs": 158,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.661357451183132,
+    "median_distance_to_nearest_real_clip": 2.1327743530273438,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow-Src",
+    "n_outputs": 133,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.832876111331739,
+    "median_distance_to_nearest_real_clip": 2.57908296585083,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "AL-Flow-Src-G",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 3.087120692370928,
+    "median_distance_to_nearest_real_clip": 2.78324294090271,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "MoReFlow-T",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.8716787071953043,
+    "median_distance_to_nearest_real_clip": 2.262449264526367,
+    "realistic_pct": 99.41520467836257,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "MoReFlow-I",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.88566144412024,
+    "median_distance_to_nearest_real_clip": 2.4055380821228027,
+    "realistic_pct": 99.41520467836257,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "Motion2Motion-BVH",
+    "n_outputs": 0,
+    "n_not_comparable": 171,
+    "note": "the output has a different number of joints from the target skeleton, so realism cannot be measured"
+   },
+   {
+    "method": "ANCHOR",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.26973862954747607,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "Motion2Motion-Direct",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 11.442772440743028,
+    "median_distance_to_nearest_real_clip": 9.490015983581543,
+    "realistic_pct": 58.47953216374269,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "random-same-cluster",
+    "n_outputs": 167,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.37939136470863205,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "random-same-exact-action",
+    "n_outputs": 168,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 0.2662297941389538,
+    "median_distance_to_nearest_real_clip": 0.0,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   },
+   {
+    "method": "DPG-SB-v3",
+    "n_outputs": 171,
+    "n_not_comparable": 0,
+    "mean_distance_to_nearest_real_clip": 2.292144173745349,
+    "median_distance_to_nearest_real_clip": 1.5753288269042969,
+    "realistic_pct": 100.0,
+    "mean_under_threshold": true
+   }
+  ]
+ }
+}

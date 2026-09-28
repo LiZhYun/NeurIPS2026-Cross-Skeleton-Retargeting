@@ -1,0 +1,109 @@
+{
+ "description": "Each ACE model shares its motion tokenizer with a MoReFlow model, so the two can be compared triple by triple. This file holds that difference, its interval and a p-value from flipping the sign of whole source skeletons.",
+ "comparisons": [
+  {
+   "evaluation_set": "truebones_1891",
+   "scoring": "raw",
+   "method": "ACE-T",
+   "compared_with": "MoReFlow-T",
+   "n_triples": 1891,
+   "difference": 0.0813846199426591,
+   "ci95": [
+    -0.019936974320458403,
+    0.19003452908293783
+   ],
+   "p_value": 0.13938606139386062
+  },
+  {
+   "evaluation_set": "truebones_1891",
+   "scoring": "raw",
+   "method": "ACE-I",
+   "compared_with": "MoReFlow-I",
+   "n_triples": 1891,
+   "difference": 0.16305892029100597,
+   "ci95": [
+    0.05272861333928609,
+    0.276530092881473
+   ],
+   "p_value": 0.007899210078992101
+  },
+  {
+   "evaluation_set": "truebones_1891",
+   "scoring": "length_controlled",
+   "method": "ACE-T",
+   "compared_with": "MoReFlow-T",
+   "n_triples": 1891,
+   "difference": -0.06633482892865238,
+   "ci95": [
+    -0.19307784389467877,
+    0.06214486445021181
+   ],
+   "p_value": 0.3254674532546745
+  },
+  {
+   "evaluation_set": "truebones_1891",
+   "scoring": "length_controlled",
+   "method": "ACE-I",
+   "compared_with": "MoReFlow-I",
+   "n_triples": 1891,
+   "difference": 0.004458358908917003,
+   "ci95": [
+    -0.10041373839898582,
+    0.11297407192255093
+   ],
+   "p_value": 0.9354064593540646
+  },
+  {
+   "evaluation_set": "truebones_49",
+   "scoring": "raw",
+   "method": "ACE-T",
+   "compared_with": "MoReFlow-T",
+   "n_triples": 49,
+   "difference": 0.18223273790355313,
+   "ci95": [
+    -0.05994098515037053,
+    0.4400068067772459
+   ],
+   "p_value": 0.1563843615638436
+  },
+  {
+   "evaluation_set": "truebones_49",
+   "scoring": "raw",
+   "method": "ACE-I",
+   "compared_with": "MoReFlow-I",
+   "n_triples": 49,
+   "difference": 0.34659764952484023,
+   "ci95": [
+    0.10828622018046076,
+    0.6012585724982054
+   ],
+   "p_value": 0.0086991300869913
+  },
+  {
+   "evaluation_set": "truebones_49",
+   "scoring": "length_controlled",
+   "method": "ACE-T",
+   "compared_with": "MoReFlow-T",
+   "n_triples": 49,
+   "difference": -0.015152659345141381,
+   "ci95": [
+    -0.2141587733685784,
+    0.18533940344179448
+   ],
+   "p_value": 0.8876112388761124
+  },
+  {
+   "evaluation_set": "truebones_49",
+   "scoring": "length_controlled",
+   "method": "ACE-I",
+   "compared_with": "MoReFlow-I",
+   "n_triples": 49,
+   "difference": 0.01833402628453049,
+   "ci95": [
+    -0.20949679378269653,
+    0.2410211867280699
+   ],
+   "p_value": 0.8803119688031197
+  }
+ ]
+}

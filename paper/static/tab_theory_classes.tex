@@ -1,0 +1,13 @@
+\begin{tabular}{p{0.36\linewidth}p{0.58\linewidth}}
+\toprule
+Method & Relation to the formal results \\
+\midrule
+AnyTop & closest to Theorem~\ref{thm:gauge}; adds rank and view-consistency terms \\
+AL-Flow, AL-Flow-Src, AL-Flow-Src-G & closest to Proposition~\ref{prop:cm}; trained with flow matching rather than squared error \\
+MoReFlow-T, MoReFlow-I & partly within Theorem~\ref{thm:gauge}; adds pairing by matched motion descriptors and a descriptor loss \\
+DPG-SB-v3 & partly within Theorem~\ref{thm:gauge}; adds adversarial and cycle terms in the latent space \\
+ACE-T, ACE-I & outside both classes; adversarial and source-feature losses \\
+ANCHOR, random-same-cluster, random-same-exact-action & retrieval rules with no trained objective (Corollary~\ref{cor:retr-gauge}) \\
+Motion2Motion-Direct, Motion2Motion-BVH & patch retrieval and blending with no trained objective \\
+\bottomrule
+\end{tabular}

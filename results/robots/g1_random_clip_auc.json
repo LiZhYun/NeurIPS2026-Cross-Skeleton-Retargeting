@@ -1,0 +1,6 @@
+{
+  "description": "Action-level AUC of the random same-action clip on the Unitree G1. Leaving the clip being scored inside its own reference set flatters the score; \"own_clip_excluded\" removes it, and that is the number the paper reports.",
+  "own_clip_excluded": 0.9783239436619717,
+  "own_clip_included": 0.9855492957746479,
+  "n_queries": 355
+}

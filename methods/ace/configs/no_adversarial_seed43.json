@@ -1,0 +1,22 @@
+{
+  "_note": "ACE without the discriminator, second of the three runs the paper reports. Identical to the first except for the random seed.",
+  "scope": "train",
+  "run_name": "ace_no_adversarial_seed43",
+  "max_steps": 50000,
+  "batch_size": 8,
+  "lr_g": 0.0001,
+  "lr_d": 0.0001,
+  "w_adv": 0.0,
+  "w_feat": 1.0,
+  "gamma_r1": 0.1,
+  "p_cluster_uniform": 0.5,
+  "seed": 43,
+  "log_interval": 200,
+  "ckpt_interval": 5000,
+  "probe_start_step": 10000,
+  "no_resume": true,
+  "reset_g_optim": false,
+  "skip_feature_check": true,
+  "tokenizer_fp16": true,
+  "no_source_code": false
+}

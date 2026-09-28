@@ -1,0 +1,46 @@
+# The robot environment. The retargeting tool, the robot descriptions it reads through
+# MuJoCo, and the renderer want a newer Python than the repository's main environment, so
+# these steps have their own:
+#
+#   human_to_g1           select_clips, convert_to_tensors
+#   lafan1_to_six_robots  choose_windows, retarget, retarget_one, retarget_retry,
+#                         build_tensors
+#   render                every step (it draws the robot figure)
+#
+# human_to_g1 extract_clips only unpacks files from the downloaded archives and runs in
+# either environment. Training and scoring run in the main environment (environment.yml at
+# the repository root). docs/robots.md lists every step with its environment.
+#
+#     conda env create -f robots/environment.yml
+#     conda activate motion-robots
+#
+# Nothing here needs a GPU except the renderer, which draws on a graphics card. The
+# retargeting tool itself is fetched separately by robots/fetch_gmr.sh, at commit
+# bb1bbe40774794fceb2a7c579a3464a28e68c844, and used from the import path, so it is not
+# listed here.
+name: motion-robots
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.13.0
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - mujoco==3.10.0
+      - mink==1.2.0
+      - qpsolvers[proxqp]==4.13.0
+      - daqp==0.8.7
+      - loop_rate_limiters==1.2.0
+      - natsort==8.4.0
+      - rich==15.0.0
+      - tqdm==4.67.3
+      - imageio==2.37.4
+      - imageio-ffmpeg==0.6.0
+      - pillow==12.3.0
+      # for reading the BONES-SEED metadata table in human_to_g1/select_clips.py
+      - pandas==2.3.3
+      - pyarrow==25.0.1
+      # for the font the figure is labelled with
+      - matplotlib==3.10.7

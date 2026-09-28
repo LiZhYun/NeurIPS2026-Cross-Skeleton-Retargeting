@@ -1,0 +1,2495 @@
+{
+ "description": "Two training runs of the ACE model trained without the adversarial term that differ only in their random seed end up with latent codes that are close to a rotation of one another. For each pair of seeds this file gives how much of the difference a single rotation explains, and how well the codes line up once that rotation is applied. Computed per target skeleton over the 130 queries of the 37-triple evaluation, then averaged over 21 skeletons.",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "seed_pair_alignment": {
+  "seed42_vs_seed43": {
+   "distance_after_rotation": 15.078272644821322,
+   "distance_before_rotation": 19.349608033194862,
+   "fraction_explained_by_rotation": 0.48185568326717254,
+   "row_cosine_after_rotation": 0.8659050833611261,
+   "n_skeletons": 21
+  },
+  "seed42_vs_seed44": {
+   "distance_after_rotation": 19.054832566007477,
+   "distance_before_rotation": 24.501062725624788,
+   "fraction_explained_by_rotation": 0.4275359235780235,
+   "row_cosine_after_rotation": 0.8469243702434358,
+   "n_skeletons": 21
+  },
+  "seed43_vs_seed44": {
+   "distance_after_rotation": 0.697873165404021,
+   "distance_before_rotation": 2.548247763460918,
+   "fraction_explained_by_rotation": 0.7532697335399142,
+   "row_cosine_after_rotation": 0.8807069347018287,
+   "n_skeletons": 21
+  }
+ },
+ "spread_of_the_latent_codes": {
+  "ACE-no-adversarial-loss-seed42": {
+   "spectral_flatness_mean": 5.08908517390151e-06,
+   "spectral_flatness_std": 4.539502771586557e-06,
+   "effective_rank_mean": 1.5938918249947684,
+   "effective_rank_std": 0.6333943630572446,
+   "latent_dim": 256,
+   "n_skeletons": 21
+  },
+  "ACE-no-adversarial-loss-seed43": {
+   "spectral_flatness_mean": 1.1838279756063385e-05,
+   "spectral_flatness_std": 9.275986362711027e-06,
+   "effective_rank_mean": 3.108502132552011,
+   "effective_rank_std": 1.1851943211642788,
+   "latent_dim": 256,
+   "n_skeletons": 21
+  },
+  "ACE-no-adversarial-loss-seed44": {
+   "spectral_flatness_mean": 1.3515314839398586e-05,
+   "spectral_flatness_std": 1.007745678355947e-05,
+   "effective_rank_mean": 4.074594486327398,
+   "effective_rank_std": 1.1917397230331352,
+   "latent_dim": 256,
+   "n_skeletons": 21
+  }
+ },
+ "per_skeleton": {
+  "Ant": {
+   "latent_dim": 256,
+   "n_latent_vectors": 184,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 2059893.375,
+     "eig_min": 5.753882578574121e-05,
+     "top_five_eigenvalue_fraction": 0.9809054136276245,
+     "spectral_flatness": 2.207374654831896e-05,
+     "effective_rank": 1.8839049339294434,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      2059893.375,
+      162809.4375,
+      70754.125,
+      32859.0,
+      18625.90625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 1420639.625,
+     "eig_min": 6.234809552552179e-05,
+     "top_five_eigenvalue_fraction": 0.9840562343597412,
+     "spectral_flatness": 1.5551652224590272e-05,
+     "effective_rank": 2.0768823623657227,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      1420639.625,
+      189770.03125,
+      73491.5703125,
+      23927.158203125,
+      9727.7607421875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 285659.78125,
+     "eig_min": 7.602517371196882e-07,
+     "top_five_eigenvalue_fraction": 0.9178488254547119,
+     "spectral_flatness": 2.399540740307313e-05,
+     "effective_rank": 5.199345111846924,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      285659.78125,
+      167748.328125,
+      120659.75,
+      33143.26171875,
+      22491.11328125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 547404288.0,
+     "residual_unaligned": 970477312.0,
+     "residual_total_b": 663597888.0,
+     "rel_aligned_b": 0.8249036018631813,
+     "rel_unaligned_b": 1.4624478611963274,
+     "fraction_aligned_explained": 0.43594324026814546,
+     "mean_row_cosine_aligned": 0.6707914471626282,
+     "top_five_singular_values": [
+      212312704.0,
+      51453584.0,
+      14579357.0,
+      7560583.0,
+      2875815.0
+     ],
+     "singular_value_sum": 295553888.0,
+     "rotation_trace_over_d": 0.014483479782938957,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 347077504.0,
+     "residual_unaligned": 597644928.0,
+     "residual_total_b": 171059520.0,
+     "rel_aligned_b": 2.028986776064846,
+     "rel_unaligned_b": 3.493783497112584,
+     "fraction_aligned_explained": 0.4192580113387995,
+     "mean_row_cosine_aligned": 0.73489910364151,
+     "top_five_singular_values": [
+      75957448.0,
+      34351872.0,
+      13190847.0,
+      9436642.0,
+      5366679.5
+     ],
+     "singular_value_sum": 149447904.0,
+     "rotation_trace_over_d": 0.009870260022580624,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 334096256.0,
+     "residual_unaligned": 743973184.0,
+     "residual_total_b": 171059520.0,
+     "rel_aligned_b": 1.9530994591823945,
+     "rel_unaligned_b": 4.349206545183805,
+     "fraction_aligned_explained": 0.5509297066277056,
+     "mean_row_cosine_aligned": 0.7249832153320312,
+     "top_five_singular_values": [
+      190712240.0,
+      28429122.0,
+      10174302.0,
+      7685678.0,
+      4695724.0
+     ],
+     "singular_value_sum": 250280880.0,
+     "rotation_trace_over_d": 0.00948587991297245,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    }
+   }
+  },
+  "Centipede": {
+   "latent_dim": 256,
+   "n_latent_vectors": 88,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 1778016.875,
+     "eig_min": 6.334975478239357e-05,
+     "top_five_eigenvalue_fraction": 0.9904864430427551,
+     "spectral_flatness": 4.195995785567101e-06,
+     "effective_rank": 2.454552412033081,
+     "latent_dim": 256,
+     "n_latent_vectors": 88,
+     "top_five_eigenvalues": [
+      1778016.875,
+      337824.96875,
+      256178.359375,
+      36991.2578125,
+      14350.2294921875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 1036343.5625,
+     "eig_min": 3.5602195112005575e-06,
+     "top_five_eigenvalue_fraction": 0.991719663143158,
+     "spectral_flatness": 3.2310605938887052e-06,
+     "effective_rank": 2.1824002265930176,
+     "latent_dim": 256,
+     "n_latent_vectors": 88,
+     "top_five_eigenvalues": [
+      1036343.5625,
+      172014.625,
+      65972.8984375,
+      27317.841796875,
+      11371.8056640625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 319986.78125,
+     "eig_min": 9.489400326856412e-06,
+     "top_five_eigenvalue_fraction": 0.9586905837059021,
+     "spectral_flatness": 4.52300567556175e-06,
+     "effective_rank": 3.8992621898651123,
+     "latent_dim": 256,
+     "n_latent_vectors": 88,
+     "top_five_eigenvalues": [
+      319986.78125,
+      168378.328125,
+      57798.73828125,
+      30805.740234375,
+      18898.4453125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 157664368.0,
+     "residual_unaligned": 578710528.0,
+     "residual_total_b": 251665984.0,
+     "rel_aligned_b": 0.6264826318363311,
+     "rel_unaligned_b": 2.2995182694217426,
+     "fraction_aligned_explained": 0.7275591848227099,
+     "mean_row_cosine_aligned": 0.8448623418807983,
+     "top_five_singular_values": [
+      116979280.0,
+      43553976.0,
+      12722256.0,
+      7757256.0,
+      2223505.75
+     ],
+     "singular_value_sum": 185196208.0,
+     "rotation_trace_over_d": 0.0038312363903969526,
+     "latent_dim": 256,
+     "n_latent_vectors": 88
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 109980912.0,
+     "residual_unaligned": 332431360.0,
+     "residual_total_b": 81028208.0,
+     "rel_aligned_b": 1.3573163558053758,
+     "rel_unaligned_b": 4.102662124775115,
+     "fraction_aligned_explained": 0.6691620429552736,
+     "mean_row_cosine_aligned": 0.9273542165756226,
+     "top_five_singular_values": [
+      59084588.0,
+      39273676.0,
+      14215358.0,
+      5692167.5,
+      2566642.0
+     ],
+     "singular_value_sum": 123719016.0,
+     "rotation_trace_over_d": 0.004132863599807024,
+     "latent_dim": 256,
+     "n_latent_vectors": 88
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 86787000.0,
+     "residual_unaligned": 295427584.0,
+     "residual_total_b": 81028208.0,
+     "rel_aligned_b": 1.0710714471187615,
+     "rel_unaligned_b": 3.645984420635342,
+     "fraction_aligned_explained": 0.706232577117782,
+     "mean_row_cosine_aligned": 0.910818874835968,
+     "top_five_singular_values": [
+      82224656.0,
+      23881714.0,
+      7670606.0,
+      4915329.0,
+      1916767.75
+     ],
+     "singular_value_sum": 122953664.0,
+     "rotation_trace_over_d": 0.0021629701368510723,
+     "latent_dim": 256,
+     "n_latent_vectors": 88
+    }
+   }
+  },
+  "Coyote": {
+   "latent_dim": 256,
+   "n_latent_vectors": 272,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 30021300.0,
+     "eig_min": 0.00014666411152575165,
+     "top_five_eigenvalue_fraction": 0.9987745881080627,
+     "spectral_flatness": 5.863592490046077e-06,
+     "effective_rank": 1.0783061981201172,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      30021300.0,
+      168158.265625,
+      70466.1953125,
+      25791.51171875,
+      20766.28515625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 503311.5,
+     "eig_min": 5.7408913562539965e-05,
+     "top_five_eigenvalue_fraction": 0.9506524801254272,
+     "spectral_flatness": 2.9767574334324045e-05,
+     "effective_rank": 3.8342630863189697,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      503311.5,
+      154375.15625,
+      137614.3125,
+      21303.259765625,
+      18068.77734375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 220560.453125,
+     "eig_min": 1.7521118934382685e-05,
+     "top_five_eigenvalue_fraction": 0.9064390659332275,
+     "spectral_flatness": 3.0986772385220904e-05,
+     "effective_rank": 5.620918273925781,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      220560.453125,
+      183137.21875,
+      81382.078125,
+      28622.603515625,
+      25927.23046875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 8083696640.0,
+     "residual_unaligned": 8961801216.0,
+     "residual_total_b": 270668320.0,
+     "rel_aligned_b": 29.865691854887192,
+     "rel_unaligned_b": 33.10990076710861,
+     "fraction_aligned_explained": 0.09798304546548875,
+     "mean_row_cosine_aligned": 0.6551934480667114,
+     "top_five_singular_values": [
+      573216128.0,
+      56582800.0,
+      15229531.0,
+      12442682.0,
+      7805400.5
+     ],
+     "singular_value_sum": 676331072.0,
+     "rotation_trace_over_d": 0.016193371266126633,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 8000796160.0,
+     "residual_unaligned": 9717025792.0,
+     "residual_total_b": 232162672.0,
+     "rel_aligned_b": 34.4620265225066,
+     "rel_unaligned_b": 41.85438472210554,
+     "fraction_aligned_explained": 0.17662087852159114,
+     "mean_row_cosine_aligned": 0.6434838175773621,
+     "top_five_singular_values": [
+      585152896.0,
+      59597344.0,
+      26679980.0,
+      8185400.0,
+      5959715.5
+     ],
+     "singular_value_sum": 698528704.0,
+     "rotation_trace_over_d": 0.008912896737456322,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 129800080.0,
+     "residual_unaligned": 509157280.0,
+     "residual_total_b": 232162672.0,
+     "rel_aligned_b": 0.5590910842032348,
+     "rel_unaligned_b": 2.1931057030563466,
+     "fraction_aligned_explained": 0.7450687928885157,
+     "mean_row_cosine_aligned": 0.8005772233009338,
+     "top_five_singular_values": [
+      76586712.0,
+      62060372.0,
+      18035634.0,
+      10059301.0,
+      5224119.0
+     ],
+     "singular_value_sum": 186515568.0,
+     "rotation_trace_over_d": 0.014324964955449104,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    }
+   }
+  },
+  "Cricket": {
+   "latent_dim": 256,
+   "n_latent_vectors": 216,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 12227214.0,
+     "eig_min": 0.00016195661737583578,
+     "top_five_eigenvalue_fraction": 0.9937117695808411,
+     "spectral_flatness": 5.5281238451609605e-06,
+     "effective_rank": 1.2979563474655151,
+     "latent_dim": 256,
+     "n_latent_vectors": 216,
+     "top_five_eigenvalues": [
+      12227214.0,
+      273083.90625,
+      113438.8515625,
+      67905.171875,
+      45981.046875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 705793.625,
+     "eig_min": 6.195367313921452e-05,
+     "top_five_eigenvalue_fraction": 0.9032923579216003,
+     "spectral_flatness": 1.7795567812920473e-05,
+     "effective_rank": 5.435118675231934,
+     "latent_dim": 256,
+     "n_latent_vectors": 216,
+     "top_five_eigenvalues": [
+      705793.625,
+      349155.53125,
+      173544.03125,
+      100297.6875,
+      97261.6015625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 524848.5,
+     "eig_min": 4.832287595490925e-05,
+     "top_five_eigenvalue_fraction": 0.9201439023017883,
+     "spectral_flatness": 2.6641244814827476e-05,
+     "effective_rank": 4.436641216278076,
+     "latent_dim": 256,
+     "n_latent_vectors": 216,
+     "top_five_eigenvalues": [
+      524848.5,
+      148748.421875,
+      90905.5703125,
+      49740.2109375,
+      31241.533203125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 2666162176.0,
+     "residual_unaligned": 4171767296.0,
+     "residual_total_b": 471141088.0,
+     "rel_aligned_b": 5.658946425831576,
+     "rel_unaligned_b": 8.854603010128464,
+     "fraction_aligned_explained": 0.3609034284926711,
+     "mean_row_cosine_aligned": 0.8164466619491577,
+     "top_five_singular_values": [
+      876014336.0,
+      75540248.0,
+      39684324.0,
+      25035910.0,
+      14028733.0
+     ],
+     "singular_value_sum": 1064022272.0,
+     "rotation_trace_over_d": 0.013952722772955894,
+     "latent_dim": 256,
+     "n_latent_vectors": 216
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 3294604800.0,
+     "residual_unaligned": 4241430272.0,
+     "residual_total_b": 299633792.0,
+     "rel_aligned_b": 10.9954380579344,
+     "rel_unaligned_b": 14.155380285011379,
+     "fraction_aligned_explained": 0.22323259166854925,
+     "mean_row_cosine_aligned": 0.8749241232872009,
+     "top_five_singular_values": [
+      503192512.0,
+      71611912.0,
+      31358404.0,
+      25039486.0,
+      11668764.0
+     ],
+     "singular_value_sum": 664046976.0,
+     "rotation_trace_over_d": 0.015247661620378494,
+     "latent_dim": 256,
+     "n_latent_vectors": 216
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 146801472.0,
+     "residual_unaligned": 573478016.0,
+     "residual_total_b": 299633792.0,
+     "rel_aligned_b": 0.48993630197758203,
+     "rel_unaligned_b": 1.9139297079015707,
+     "fraction_aligned_explained": 0.7440155195068541,
+     "mean_row_cosine_aligned": 0.8848471641540527,
+     "top_five_singular_values": [
+      140343024.0,
+      76973128.0,
+      38430864.0,
+      16544190.0,
+      11069161.0
+     ],
+     "singular_value_sum": 311986912.0,
+     "rotation_trace_over_d": 0.028904350474476814,
+     "latent_dim": 256,
+     "n_latent_vectors": 216
+    }
+   }
+  },
+  "Giantbee": {
+   "latent_dim": 256,
+   "n_latent_vectors": 240,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 7866791.0,
+     "eig_min": 0.00010622345143929124,
+     "top_five_eigenvalue_fraction": 0.9944199323654175,
+     "spectral_flatness": 8.756552727407598e-06,
+     "effective_rank": 1.3044928312301636,
+     "latent_dim": 256,
+     "n_latent_vectors": 240,
+     "top_five_eigenvalues": [
+      7866791.0,
+      256851.71875,
+      47935.9921875,
+      33715.71875,
+      24180.650390625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 963920.75,
+     "eig_min": 4.725047620013356e-05,
+     "top_five_eigenvalue_fraction": 0.976854145526886,
+     "spectral_flatness": 1.6757170492412623e-05,
+     "effective_rank": 2.1968564987182617,
+     "latent_dim": 256,
+     "n_latent_vectors": 240,
+     "top_five_eigenvalues": [
+      963920.75,
+      97057.4921875,
+      55463.328125,
+      23802.49609375,
+      15282.3720703125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 692888.125,
+     "eig_min": 4.480898132896982e-05,
+     "top_five_eigenvalue_fraction": 0.957238495349884,
+     "spectral_flatness": 1.6795538494972877e-05,
+     "effective_rank": 2.7778208255767822,
+     "latent_dim": 256,
+     "n_latent_vectors": 240,
+     "top_five_eigenvalues": [
+      692888.125,
+      81837.4140625,
+      58446.734375,
+      29528.255859375,
+      23132.681640625
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 1180293504.0,
+     "residual_unaligned": 4100358400.0,
+     "residual_total_b": 555333504.0,
+     "rel_aligned_b": 2.1253778054061008,
+     "rel_unaligned_b": 7.38359629027533,
+     "fraction_aligned_explained": 0.7121486980260068,
+     "mean_row_cosine_aligned": 0.9184592962265015,
+     "top_five_singular_values": [
+      1079743616.0,
+      50563800.0,
+      14556782.0,
+      9225757.0,
+      5826466.0
+     ],
+     "singular_value_sum": 1170016896.0,
+     "rotation_trace_over_d": 0.002730029635131359,
+     "latent_dim": 256,
+     "n_latent_vectors": 240
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 1557817344.0,
+     "residual_unaligned": 2974568448.0,
+     "residual_total_b": 464972960.0,
+     "rel_aligned_b": 3.350339649858349,
+     "rel_unaligned_b": 6.397293399598979,
+     "fraction_aligned_explained": 0.47628794857707035,
+     "mean_row_cosine_aligned": 0.9316644072532654,
+     "top_five_singular_values": [
+      837987200.0,
+      51188720.0,
+      17683794.0,
+      11594719.0,
+      6944391.5
+     ],
+     "singular_value_sum": 936074368.0,
+     "rotation_trace_over_d": 0.009998749010264874,
+     "latent_dim": 256,
+     "n_latent_vectors": 240
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 68964496.0,
+     "residual_unaligned": 1140399744.0,
+     "residual_total_b": 464972960.0,
+     "rel_aligned_b": 0.1483193689370668,
+     "rel_unaligned_b": 2.452615188633765,
+     "fraction_aligned_explained": 0.9395260334256967,
+     "mean_row_cosine_aligned": 0.9449076056480408,
+     "top_five_singular_values": [
+      399496128.0,
+      40782008.0,
+      15055198.0,
+      7258578.0,
+      4309508.5
+     ],
+     "singular_value_sum": 475671680.0,
+     "rotation_trace_over_d": 0.0066434419713914394,
+     "latent_dim": 256,
+     "n_latent_vectors": 240
+    }
+   }
+  },
+  "Goat": {
+   "latent_dim": 256,
+   "n_latent_vectors": 80,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 587765.0,
+     "eig_min": 1.0632193152559921e-06,
+     "top_five_eigenvalue_fraction": 0.9955931901931763,
+     "spectral_flatness": 2.5737533757418003e-06,
+     "effective_rank": 1.7897058725357056,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      587765.0,
+      46911.96484375,
+      37530.40234375,
+      8662.001953125,
+      2454.38623046875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 266871.1875,
+     "eig_min": 1.9419208001636434e-06,
+     "top_five_eigenvalue_fraction": 0.9980887174606323,
+     "spectral_flatness": 2.388084967523429e-06,
+     "effective_rank": 1.3150546550750732,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      266871.1875,
+      9093.65625,
+      3612.1337890625,
+      1487.4483642578125,
+      501.37322998046875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 101961.7890625,
+     "eig_min": 1.1070325172113371e-06,
+     "top_five_eigenvalue_fraction": 0.9897758364677429,
+     "spectral_flatness": 3.4621079610525265e-06,
+     "effective_rank": 2.661365032196045,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      101961.7890625,
+      55443.3125,
+      7875.86083984375,
+      2511.813720703125,
+      1484.447998046875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 15178494.0,
+     "residual_unaligned": 161411984.0,
+     "residual_total_b": 42429864.0,
+     "rel_aligned_b": 0.3577313846681196,
+     "rel_unaligned_b": 3.8042069613986977,
+     "fraction_aligned_explained": 0.9059642684275537,
+     "mean_row_cosine_aligned": 0.9701703190803528,
+     "top_five_singular_values": [
+      60338832.0,
+      1937529.375,
+      1127071.0,
+      744485.125,
+      315852.375
+     ],
+     "singular_value_sum": 64615524.0,
+     "rotation_trace_over_d": 0.004185438621789217,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 46394724.0,
+     "residual_unaligned": 104176384.0,
+     "residual_total_b": 18790512.0,
+     "rel_aligned_b": 2.469050550618312,
+     "rel_unaligned_b": 5.544095019869602,
+     "fraction_aligned_explained": 0.5546521944935237,
+     "mean_row_cosine_aligned": 0.8278989791870117,
+     "top_five_singular_values": [
+      28935894.0,
+      4758710.5,
+      1973206.75,
+      899558.625,
+      351538.3125
+     ],
+     "singular_value_sum": 37187716.0,
+     "rotation_trace_over_d": 0.005050335545092821,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 14425088.0,
+     "residual_unaligned": 64331360.0,
+     "residual_total_b": 18790512.0,
+     "rel_aligned_b": 0.7676793479602897,
+     "rel_unaligned_b": 3.4236086808065687,
+     "fraction_aligned_explained": 0.7757689562291237,
+     "mean_row_cosine_aligned": 0.851112961769104,
+     "top_five_singular_values": [
+      19411888.0,
+      2559668.75,
+      758376.75,
+      351037.9375,
+      191547.53125
+     ],
+     "singular_value_sum": 23397660.0,
+     "rotation_trace_over_d": 0.00658456701785326,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    }
+   }
+  },
+  "Hippopotamus": {
+   "latent_dim": 256,
+   "n_latent_vectors": 176,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 6540819.0,
+     "eig_min": 0.00019593705656006932,
+     "top_five_eigenvalue_fraction": 0.9966021776199341,
+     "spectral_flatness": 5.47292872457957e-06,
+     "effective_rank": 1.2040890455245972,
+     "latent_dim": 256,
+     "n_latent_vectors": 176,
+     "top_five_eigenvalues": [
+      6540819.0,
+      84091.46875,
+      49323.34765625,
+      30743.296875,
+      16483.7109375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 831283.125,
+     "eig_min": 3.974586434196681e-05,
+     "top_five_eigenvalue_fraction": 0.9719591736793518,
+     "spectral_flatness": 9.854787101083454e-06,
+     "effective_rank": 2.6309947967529297,
+     "latent_dim": 256,
+     "n_latent_vectors": 176,
+     "top_five_eigenvalues": [
+      831283.125,
+      119248.6015625,
+      53703.8203125,
+      46644.265625,
+      23347.8515625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 169965.828125,
+     "eig_min": 1.9494262232910842e-05,
+     "top_five_eigenvalue_fraction": 0.910224437713623,
+     "spectral_flatness": 1.864684257379731e-05,
+     "effective_rank": 5.6432013511657715,
+     "latent_dim": 256,
+     "n_latent_vectors": 176,
+     "top_five_eigenvalues": [
+      169965.828125,
+      71776.4296875,
+      57641.8359375,
+      46005.84765625,
+      20057.638671875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 734663808.0,
+     "residual_unaligned": 1696492288.0,
+     "residual_total_b": 341522912.0,
+     "rel_aligned_b": 2.1511406180561026,
+     "rel_unaligned_b": 4.967433306495114,
+     "fraction_aligned_explained": 0.5669512834236945,
+     "mean_row_cosine_aligned": 0.9372870922088623,
+     "top_five_singular_values": [
+      655105792.0,
+      24559044.0,
+      10350192.0,
+      7475691.5,
+      3280907.5
+     ],
+     "singular_value_sum": 706453568.0,
+     "rotation_trace_over_d": 0.021555326879024506,
+     "latent_dim": 256,
+     "n_latent_vectors": 176
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 1352612224.0,
+     "residual_unaligned": 1906749184.0,
+     "residual_total_b": 89504944.0,
+     "rel_aligned_b": 15.112150944421574,
+     "rel_unaligned_b": 21.30328335829136,
+     "fraction_aligned_explained": 0.2906186952378945,
+     "mean_row_cosine_aligned": 0.8068589568138123,
+     "top_five_singular_values": [
+      222584896.0,
+      23667946.0,
+      10843609.0,
+      6446109.5,
+      2538929.5
+     ],
+     "singular_value_sum": 271469856.0,
+     "rotation_trace_over_d": 0.010069811716675758,
+     "latent_dim": 256,
+     "n_latent_vectors": 176
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 146588624.0,
+     "residual_unaligned": 396074400.0,
+     "residual_total_b": 89504944.0,
+     "rel_aligned_b": 1.6377712498205685,
+     "rel_unaligned_b": 4.425167843242268,
+     "fraction_aligned_explained": 0.6298962417162028,
+     "mean_row_cosine_aligned": 0.8524188995361328,
+     "top_five_singular_values": [
+      88767632.0,
+      24070768.0,
+      10751168.0,
+      6874836.0,
+      4748635.0
+     ],
+     "singular_value_sum": 142219728.0,
+     "rotation_trace_over_d": 0.008552913554012775,
+     "latent_dim": 256,
+     "n_latent_vectors": 176
+    }
+   }
+  },
+  "Hound": {
+   "latent_dim": 256,
+   "n_latent_vectors": 120,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 8374763.0,
+     "eig_min": 8.002043614396825e-06,
+     "top_five_eigenvalue_fraction": 0.9992040395736694,
+     "spectral_flatness": 1.9849569567110797e-06,
+     "effective_rank": 1.1108145713806152,
+     "latent_dim": 256,
+     "n_latent_vectors": 120,
+     "top_five_eigenvalues": [
+      8374763.0,
+      87425.6796875,
+      26405.638671875,
+      13120.0703125,
+      8325.984375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 1944894.0,
+     "eig_min": 5.2510185923893005e-05,
+     "top_five_eigenvalue_fraction": 0.9976806640625,
+     "spectral_flatness": 3.1406928135364903e-06,
+     "effective_rank": 1.6935051679611206,
+     "latent_dim": 256,
+     "n_latent_vectors": 120,
+     "top_five_eigenvalues": [
+      1944894.0,
+      220963.421875,
+      70192.0,
+      12799.2001953125,
+      5596.05078125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 380594.875,
+     "eig_min": 2.9633797566930298e-06,
+     "top_five_eigenvalue_fraction": 0.9570555686950684,
+     "spectral_flatness": 5.844028586723524e-06,
+     "effective_rank": 2.861663341522217,
+     "latent_dim": 256,
+     "n_latent_vectors": 120,
+     "top_five_eigenvalues": [
+      380594.875,
+      50173.671875,
+      31331.47265625,
+      19682.3359375,
+      13553.6630859375
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 609800960.0,
+     "residual_unaligned": 3104131840.0,
+     "residual_total_b": 697783936.0,
+     "rel_aligned_b": 0.8739108605675898,
+     "rel_unaligned_b": 4.448557325343758,
+     "fraction_aligned_explained": 0.8035518491379541,
+     "mean_row_cosine_aligned": 0.9792958498001099,
+     "top_five_singular_values": [
+      974418624.0,
+      18885770.0,
+      12889420.0,
+      5177845.0,
+      1636798.75
+     ],
+     "singular_value_sum": 1014141824.0,
+     "rotation_trace_over_d": 0.015584368258714676,
+     "latent_dim": 256,
+     "n_latent_vectors": 120
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 1234641920.0,
+     "residual_unaligned": 2239784704.0,
+     "residual_total_b": 120455328.0,
+     "rel_aligned_b": 10.249790860226623,
+     "rel_unaligned_b": 18.594318252157347,
+     "fraction_aligned_explained": 0.4487675901192332,
+     "mean_row_cosine_aligned": 0.9373654723167419,
+     "top_five_singular_values": [
+      386020800.0,
+      13924493.0,
+      7276497.5,
+      2283183.75,
+      1293312.75
+     ],
+     "singular_value_sum": 413056320.0,
+     "rotation_trace_over_d": 0.013705302029848099,
+     "latent_dim": 256,
+     "n_latent_vectors": 120
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 272291872.0,
+     "residual_unaligned": 607380544.0,
+     "residual_total_b": 120455328.0,
+     "rel_aligned_b": 2.260521610135834,
+     "rel_unaligned_b": 5.042371757935024,
+     "fraction_aligned_explained": 0.5516947740756082,
+     "mean_row_cosine_aligned": 0.9632854461669922,
+     "top_five_singular_values": [
+      239056032.0,
+      16163974.0,
+      10525608.0,
+      4043784.0,
+      1217707.125
+     ],
+     "singular_value_sum": 272973952.0,
+     "rotation_trace_over_d": 0.017216399312019348,
+     "latent_dim": 256,
+     "n_latent_vectors": 120
+    }
+   }
+  },
+  "Isopetra": {
+   "latent_dim": 256,
+   "n_latent_vectors": 56,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 220627.71875,
+     "eig_min": 7.4060317274415866e-06,
+     "top_five_eigenvalue_fraction": 0.9887834787368774,
+     "spectral_flatness": 2.4708227546990913e-06,
+     "effective_rank": 2.7007029056549072,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      220627.71875,
+      53339.609375,
+      31740.4140625,
+      7974.85595703125,
+      3592.289306640625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 334225.65625,
+     "eig_min": 4.076011919096345e-06,
+     "top_five_eigenvalue_fraction": 0.9954710602760315,
+     "spectral_flatness": 2.161806237464302e-06,
+     "effective_rank": 2.6940577030181885,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      334225.65625,
+      72238.5546875,
+      63341.0546875,
+      20645.23046875,
+      1548.129638671875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 472997.125,
+     "eig_min": 2.1466541966219665e-06,
+     "top_five_eigenvalue_fraction": 0.9983678460121155,
+     "spectral_flatness": 1.3014180559896084e-06,
+     "effective_rank": 2.537531852722168,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      472997.125,
+      320910.21875,
+      41308.4453125,
+      12023.04296875,
+      2417.709716796875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 23514828.0,
+     "residual_unaligned": 135293184.0,
+     "residual_total_b": 55258324.0,
+     "rel_aligned_b": 0.42554363393287137,
+     "rel_unaligned_b": 2.4483765378045126,
+     "fraction_aligned_explained": 0.8261935501495774,
+     "mean_row_cosine_aligned": 0.9355950951576233,
+     "top_five_singular_values": [
+      46207148.0,
+      12725306.0,
+      3183689.25,
+      2436905.75,
+      488927.6875
+     ],
+     "singular_value_sum": 65229520.0,
+     "rotation_trace_over_d": 0.009889975190162659,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 12261458.0,
+     "residual_unaligned": 134756608.0,
+     "residual_total_b": 112705120.0,
+     "rel_aligned_b": 0.1087923778440589,
+     "rel_unaligned_b": 1.195656488365391,
+     "fraction_aligned_explained": 0.9090103395894322,
+     "mean_row_cosine_aligned": 0.9537783861160278,
+     "top_five_singular_values": [
+      77047032.0,
+      13136273.0,
+      6880243.5,
+      1976936.875,
+      345362.3125
+     ],
+     "singular_value_sum": 99579632.0,
+     "rotation_trace_over_d": 0.011899365112185478,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 23759800.0,
+     "residual_unaligned": 129450904.0,
+     "residual_total_b": 112705120.0,
+     "rel_aligned_b": 0.21081384767613043,
+     "rel_unaligned_b": 1.1485805081437295,
+     "fraction_aligned_explained": 0.8164570561824737,
+     "mean_row_cosine_aligned": 0.9690786004066467,
+     "top_five_singular_values": [
+      41521136.0,
+      18732054.0,
+      7921202.0,
+      3065944.25,
+      724691.125
+     ],
+     "singular_value_sum": 72101856.0,
+     "rotation_trace_over_d": 0.008104737848043442,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    }
+   }
+  },
+  "Jaguar": {
+   "latent_dim": 256,
+   "n_latent_vectors": 184,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 4568769.5,
+     "eig_min": 7.730984361842275e-05,
+     "top_five_eigenvalue_fraction": 0.9839764833450317,
+     "spectral_flatness": 8.594342923556265e-06,
+     "effective_rank": 1.7651842832565308,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      4568769.5,
+      227839.765625,
+      158763.234375,
+      85777.3125,
+      57863.3125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 1218278.25,
+     "eig_min": 2.8896183721371926e-06,
+     "top_five_eigenvalue_fraction": 0.9718546271324158,
+     "spectral_flatness": 1.160571954005211e-05,
+     "effective_rank": 2.6308088302612305,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      1218278.25,
+      176525.0,
+      112092.578125,
+      48037.49609375,
+      25167.5234375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 603393.0,
+     "eig_min": 6.0675388340314385e-06,
+     "top_five_eigenvalue_fraction": 0.9265902042388916,
+     "spectral_flatness": 1.6093329348744372e-05,
+     "effective_rank": 4.380961894989014,
+     "latent_dim": 256,
+     "n_latent_vectors": 184,
+     "top_five_eigenvalues": [
+      603393.0,
+      241759.03125,
+      107662.0390625,
+      54986.44921875,
+      35670.73046875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 658551616.0,
+     "residual_unaligned": 2175651840.0,
+     "residual_total_b": 413991552.0,
+     "rel_aligned_b": 1.590736846726766,
+     "rel_unaligned_b": 5.2553049198453206,
+     "fraction_aligned_explained": 0.6973083634557999,
+     "mean_row_cosine_aligned": 0.8247472643852234,
+     "top_five_singular_values": [
+      528639072.0,
+      37549188.0,
+      25323358.0,
+      17235742.0,
+      11890210.0
+     ],
+     "singular_value_sum": 632624128.0,
+     "rotation_trace_over_d": 0.009848915040493011,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 852528256.0,
+     "residual_unaligned": 1662837888.0,
+     "residual_total_b": 290410976.0,
+     "rel_aligned_b": 2.935592406810409,
+     "rel_unaligned_b": 5.725809371612732,
+     "fraction_aligned_explained": 0.48730524956621624,
+     "mean_row_cosine_aligned": 0.8102514147758484,
+     "top_five_singular_values": [
+      350629952.0,
+      64075772.0,
+      18326430.0,
+      15992413.0,
+      6782637.5
+     ],
+     "singular_value_sum": 473845568.0,
+     "rotation_trace_over_d": 0.013837957754731178,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 104260888.0,
+     "residual_unaligned": 704983232.0,
+     "residual_total_b": 290410976.0,
+     "rel_aligned_b": 0.3590115271676233,
+     "rel_unaligned_b": 2.427536457850684,
+     "fraction_aligned_explained": 0.8521086980973754,
+     "mean_row_cosine_aligned": 0.8879485726356506,
+     "top_five_singular_values": [
+      204385104.0,
+      44025548.0,
+      17385626.0,
+      10926266.0,
+      8986339.0
+     ],
+     "singular_value_sum": 300070976.0,
+     "rotation_trace_over_d": 0.008248568512499332,
+     "latent_dim": 256,
+     "n_latent_vectors": 184
+    }
+   }
+  },
+  "KingCobra": {
+   "latent_dim": 256,
+   "n_latent_vectors": 104,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 1593903.375,
+     "eig_min": 2.216580651293043e-05,
+     "top_five_eigenvalue_fraction": 0.9896608591079712,
+     "spectral_flatness": 5.3237899971663e-06,
+     "effective_rank": 2.9059925079345703,
+     "latent_dim": 256,
+     "n_latent_vectors": 104,
+     "top_five_eigenvalues": [
+      1593903.375,
+      368739.3125,
+      240660.703125,
+      122955.2578125,
+      33996.99609375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 696396.25,
+     "eig_min": 1.8709513824433088e-05,
+     "top_five_eigenvalue_fraction": 0.9843490719795227,
+     "spectral_flatness": 6.237471487150435e-06,
+     "effective_rank": 3.7838704586029053,
+     "latent_dim": 256,
+     "n_latent_vectors": 104,
+     "top_five_eigenvalues": [
+      696396.25,
+      329102.125,
+      199963.5625,
+      116557.609375,
+      23143.2734375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 741013.375,
+     "eig_min": 1.3571150702773593e-05,
+     "top_five_eigenvalue_fraction": 0.9730515480041504,
+     "spectral_flatness": 6.068935782799556e-06,
+     "effective_rank": 3.9141554832458496,
+     "latent_dim": 256,
+     "n_latent_vectors": 104,
+     "top_five_eigenvalues": [
+      741013.375,
+      340629.0625,
+      142943.984375,
+      126939.390625,
+      38729.9453125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 56620288.0,
+     "residual_unaligned": 357675040.0,
+     "residual_total_b": 197722592.0,
+     "rel_aligned_b": 0.286362258491938,
+     "rel_unaligned_b": 1.8089740599799542,
+     "fraction_aligned_explained": 0.8416990797009487,
+     "mean_row_cosine_aligned": 0.9547806978225708,
+     "top_five_singular_values": [
+      149746704.0,
+      38351088.0,
+      30551298.0,
+      14955747.0,
+      12571078.0
+     ],
+     "singular_value_sum": 250575552.0,
+     "rotation_trace_over_d": 0.008150026202201843,
+     "latent_dim": 256,
+     "n_latent_vectors": 104
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 54912496.0,
+     "residual_unaligned": 372901728.0,
+     "residual_total_b": 269206112.0,
+     "rel_aligned_b": 0.20397938067617127,
+     "rel_unaligned_b": 1.3851904224225042,
+     "fraction_aligned_explained": 0.8527427150994591,
+     "mean_row_cosine_aligned": 0.9310900568962097,
+     "top_five_singular_values": [
+      176548912.0,
+      48477020.0,
+      31727814.0,
+      14402723.0,
+      9690777.0
+     ],
+     "singular_value_sum": 287171200.0,
+     "rotation_trace_over_d": 0.006337371654808521,
+     "latent_dim": 256,
+     "n_latent_vectors": 104
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 38313724.0,
+     "residual_unaligned": 324874400.0,
+     "residual_total_b": 269206112.0,
+     "rel_aligned_b": 0.1423211520546755,
+     "rel_unaligned_b": 1.2067868652254077,
+     "fraction_aligned_explained": 0.8820660415225083,
+     "mean_row_cosine_aligned": 0.927181601524353,
+     "top_five_singular_values": [
+      118323960.0,
+      41036660.0,
+      23307336.0,
+      18251978.0,
+      7582682.5
+     ],
+     "singular_value_sum": 214307664.0,
+     "rotation_trace_over_d": 0.0021837109234184027,
+     "latent_dim": 256,
+     "n_latent_vectors": 104
+    }
+   }
+  },
+  "Leapord": {
+   "latent_dim": 256,
+   "n_latent_vectors": 272,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 13483058.0,
+     "eig_min": 0.00019642122788354754,
+     "top_five_eigenvalue_fraction": 0.9976658225059509,
+     "spectral_flatness": 6.47296587336749e-06,
+     "effective_rank": 1.1098496913909912,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      13483058.0,
+      92830.90625,
+      47617.453125,
+      18119.751953125,
+      16484.291015625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 492452.25,
+     "eig_min": 4.235845335642807e-05,
+     "top_five_eigenvalue_fraction": 0.9364314079284668,
+     "spectral_flatness": 2.79729319911144e-05,
+     "effective_rank": 4.5784382820129395,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      492452.25,
+      225202.84375,
+      107766.6953125,
+      62309.75,
+      30638.19921875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 314565.21875,
+     "eig_min": 1.85565329502424e-06,
+     "top_five_eigenvalue_fraction": 0.9021311402320862,
+     "spectral_flatness": 3.197434366129148e-05,
+     "effective_rank": 5.078754901885986,
+     "latent_dim": 256,
+     "n_latent_vectors": 272,
+     "top_five_eigenvalues": [
+      314565.21875,
+      118615.1015625,
+      78389.8671875,
+      33281.09765625,
+      14782.35546875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 4432884224.0,
+     "residual_unaligned": 5928974848.0,
+     "residual_total_b": 375903136.0,
+     "rel_aligned_b": 11.792623682713836,
+     "rel_unaligned_b": 15.772613421346929,
+     "fraction_aligned_explained": 0.2523354647902868,
+     "mean_row_cosine_aligned": 0.7575540542602539,
+     "top_five_singular_values": [
+      592900096.0,
+      27716160.0,
+      19599242.0,
+      14373337.0,
+      7907461.0
+     ],
+     "singular_value_sum": 675246848.0,
+     "rotation_trace_over_d": 0.008421296253800392,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 3965414144.0,
+     "residual_unaligned": 5503319552.0,
+     "residual_total_b": 267786240.0,
+     "rel_aligned_b": 14.808132576192115,
+     "rel_unaligned_b": 20.551166303391838,
+     "fraction_aligned_explained": 0.27945050136896,
+     "mean_row_cosine_aligned": 0.8499345183372498,
+     "top_five_singular_values": [
+      795003328.0,
+      22229518.0,
+      11806221.0,
+      8072511.5,
+      6006840.0
+     ],
+     "singular_value_sum": 854923520.0,
+     "rotation_trace_over_d": 0.011495042592287064,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 169598448.0,
+     "residual_unaligned": 604954944.0,
+     "residual_total_b": 267786240.0,
+     "rel_aligned_b": 0.6333351855569577,
+     "rel_unaligned_b": 2.2590964494665595,
+     "fraction_aligned_explained": 0.7196511084303164,
+     "mean_row_cosine_aligned": 0.8078018426895142,
+     "top_five_singular_values": [
+      150478608.0,
+      29943812.0,
+      23958490.0,
+      10398601.0,
+      5225701.0
+     ],
+     "singular_value_sum": 237045744.0,
+     "rotation_trace_over_d": 0.010808134451508522,
+     "latent_dim": 256,
+     "n_latent_vectors": 272
+    }
+   }
+  },
+  "Lion": {
+   "latent_dim": 256,
+   "n_latent_vectors": 200,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 2210584.0,
+     "eig_min": 1.4287998055806383e-05,
+     "top_five_eigenvalue_fraction": 0.9947178363800049,
+     "spectral_flatness": 7.99550738297461e-06,
+     "effective_rank": 1.54622483253479,
+     "latent_dim": 256,
+     "n_latent_vectors": 200,
+     "top_five_eigenvalues": [
+      2210584.0,
+      129620.28125,
+      47478.5234375,
+      26986.30078125,
+      11796.2236328125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 154061.84375,
+     "eig_min": 1.469430480938172e-05,
+     "top_five_eigenvalue_fraction": 0.9484809041023254,
+     "spectral_flatness": 2.4555601487494453e-05,
+     "effective_rank": 3.8700733184814453,
+     "latent_dim": 256,
+     "n_latent_vectors": 200,
+     "top_five_eigenvalues": [
+      154061.84375,
+      36318.25390625,
+      23628.4765625,
+      15004.0693359375,
+      9109.5224609375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 243543.25,
+     "eig_min": 2.5225624995073304e-05,
+     "top_five_eigenvalue_fraction": 0.9540399312973022,
+     "spectral_flatness": 1.4277576508228984e-05,
+     "effective_rank": 3.6207656860351562,
+     "latent_dim": 256,
+     "n_latent_vectors": 200,
+     "top_five_eigenvalues": [
+      243543.25,
+      90917.7109375,
+      27806.287109375,
+      19461.7578125,
+      9829.43359375
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 377507680.0,
+     "residual_unaligned": 547065856.0,
+     "residual_total_b": 66274660.0,
+     "rel_aligned_b": 5.696108889883403,
+     "rel_unaligned_b": 8.254525274064024,
+     "fraction_aligned_explained": 0.3099410685941255,
+     "mean_row_cosine_aligned": 0.906969428062439,
+     "top_five_singular_values": [
+      76138336.0,
+      30990178.0,
+      8420625.0,
+      4023334.25,
+      2226896.25
+     ],
+     "singular_value_sum": 125389400.0,
+     "rotation_trace_over_d": 0.006997843272984028,
+     "latent_dim": 256,
+     "n_latent_vectors": 200
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 353884096.0,
+     "residual_unaligned": 728484608.0,
+     "residual_total_b": 153813824.0,
+     "rel_aligned_b": 2.3007301086279477,
+     "rel_unaligned_b": 4.736145224502057,
+     "fraction_aligned_explained": 0.5142188426306462,
+     "mean_row_cosine_aligned": 0.854967474937439,
+     "top_five_singular_values": [
+      117850456.0,
+      39291780.0,
+      10188805.0,
+      6287742.0,
+      3120588.25
+     ],
+     "singular_value_sum": 180970864.0,
+     "rotation_trace_over_d": 0.013216819614171982,
+     "latent_dim": 256,
+     "n_latent_vectors": 200
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 69743288.0,
+     "residual_unaligned": 193873440.0,
+     "residual_total_b": 153813824.0,
+     "rel_aligned_b": 0.4534266568913858,
+     "rel_unaligned_b": 1.2604422343729,
+     "fraction_aligned_explained": 0.6402638339733384,
+     "mean_row_cosine_aligned": 0.9013909697532654,
+     "top_five_singular_values": [
+      37925892.0,
+      16183674.0,
+      10267472.0,
+      3767047.0,
+      3360268.75
+     ],
+     "singular_value_sum": 75172648.0,
+     "rotation_trace_over_d": 0.004515784792602062,
+     "latent_dim": 256,
+     "n_latent_vectors": 200
+    }
+   }
+  },
+  "Ostrich": {
+   "latent_dim": 256,
+   "n_latent_vectors": 232,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 51972404.0,
+     "eig_min": 0.0004026578681077808,
+     "top_five_eigenvalue_fraction": 0.9995152354240417,
+     "spectral_flatness": 2.596886632761723e-06,
+     "effective_rank": 1.0819664001464844,
+     "latent_dim": 256,
+     "n_latent_vectors": 232,
+     "top_five_eigenvalues": [
+      51972404.0,
+      395572.21875,
+      126829.8828125,
+      55994.0390625,
+      25003.05859375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 329304.75,
+     "eig_min": 1.5868896298343316e-05,
+     "top_five_eigenvalue_fraction": 0.9623814821243286,
+     "spectral_flatness": 2.2619635239928793e-05,
+     "effective_rank": 4.192027568817139,
+     "latent_dim": 256,
+     "n_latent_vectors": 232,
+     "top_five_eigenvalues": [
+      329304.75,
+      143714.171875,
+      105819.625,
+      37568.359375,
+      16878.4375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 554779.9375,
+     "eig_min": 2.6144149160245433e-05,
+     "top_five_eigenvalue_fraction": 0.9804574251174927,
+     "spectral_flatness": 1.4311407194908535e-05,
+     "effective_rank": 3.327237606048584,
+     "latent_dim": 256,
+     "n_latent_vectors": 232,
+     "top_five_eigenvalues": [
+      554779.9375,
+      185566.609375,
+      107497.421875,
+      38096.30078125,
+      17145.73828125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 18407223296.0,
+     "residual_unaligned": 20469348352.0,
+     "residual_total_b": 223662752.0,
+     "rel_aligned_b": 82.29901103962094,
+     "rel_unaligned_b": 91.51880753036608,
+     "fraction_aligned_explained": 0.10074209596411099,
+     "mean_row_cosine_aligned": 0.8270643949508667,
+     "top_five_singular_values": [
+      1047853440.0,
+      107211904.0,
+      48849532.0,
+      20116148.0,
+      6199898.5
+     ],
+     "singular_value_sum": 1236557312.0,
+     "rotation_trace_over_d": 0.008348255418241024,
+     "latent_dim": 256,
+     "n_latent_vectors": 232
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 18195181568.0,
+     "residual_unaligned": 21594673152.0,
+     "residual_total_b": 302448768.0,
+     "rel_aligned_b": 60.15954929596539,
+     "rel_unaligned_b": 71.39944161386036,
+     "fraction_aligned_explained": 0.15742269216448657,
+     "mean_row_cosine_aligned": 0.7283729314804077,
+     "top_five_singular_values": [
+      1111754368.0,
+      183182912.0,
+      47914672.0,
+      25624956.0,
+      6551929.5
+     ],
+     "singular_value_sum": 1381971328.0,
+     "rotation_trace_over_d": 0.01438065804541111,
+     "latent_dim": 256,
+     "n_latent_vectors": 232
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 74681584.0,
+     "residual_unaligned": 456038528.0,
+     "residual_total_b": 302448768.0,
+     "rel_aligned_b": 0.2469230888055725,
+     "rel_unaligned_b": 1.5078207493310074,
+     "fraction_aligned_explained": 0.8362384329071424,
+     "mean_row_cosine_aligned": 0.9022678732872009,
+     "top_five_singular_values": [
+      90675728.0,
+      74103456.0,
+      30591426.0,
+      16034910.0,
+      8010792.5
+     ],
+     "singular_value_sum": 225715104.0,
+     "rotation_trace_over_d": 0.009082428179681301,
+     "latent_dim": 256,
+     "n_latent_vectors": 232
+    }
+   }
+  },
+  "Raindeer": {
+   "latent_dim": 256,
+   "n_latent_vectors": 56,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 792987.4375,
+     "eig_min": 1.8768858353723772e-05,
+     "top_five_eigenvalue_fraction": 0.9962888360023499,
+     "spectral_flatness": 1.813123663819444e-06,
+     "effective_rank": 3.0813028812408447,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      792987.4375,
+      332996.90625,
+      180454.09375,
+      43011.36328125,
+      21384.9453125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 319359.15625,
+     "eig_min": 8.337334293173626e-06,
+     "top_five_eigenvalue_fraction": 0.9930734634399414,
+     "spectral_flatness": 2.2460061300995134e-06,
+     "effective_rank": 3.1025962829589844,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      319359.15625,
+      105542.3671875,
+      61384.07421875,
+      29656.52734375,
+      6134.708984375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 730166.1875,
+     "eig_min": 4.1409079130971804e-05,
+     "top_five_eigenvalue_fraction": 0.9987860918045044,
+     "spectral_flatness": 1.637784317537731e-06,
+     "effective_rank": 2.6505353450775146,
+     "latent_dim": 256,
+     "n_latent_vectors": 56,
+     "top_five_eigenvalues": [
+      730166.1875,
+      201959.578125,
+      77512.5234375,
+      62369.67578125,
+      7071.87939453125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 21440572.0,
+     "residual_unaligned": 141080000.0,
+     "residual_total_b": 68586544.0,
+     "rel_aligned_b": 0.31260609952879387,
+     "rel_unaligned_b": 2.0569632434023792,
+     "fraction_aligned_explained": 0.8480254323787921,
+     "mean_row_cosine_aligned": 0.9799556732177734,
+     "top_five_singular_values": [
+      51209648.0,
+      25391686.0,
+      7676527.0,
+      5700310.5,
+      1895790.125
+     ],
+     "singular_value_sum": 92560792.0,
+     "rotation_trace_over_d": 0.009826074354350567,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 12772470.0,
+     "residual_unaligned": 223693376.0,
+     "residual_total_b": 113634096.0,
+     "rel_aligned_b": 0.11239997896406022,
+     "rel_unaligned_b": 1.9685409914291923,
+     "fraction_aligned_explained": 0.9429018854809541,
+     "mean_row_cosine_aligned": 0.9739939570426941,
+     "top_five_singular_values": [
+      64459908.0,
+      33090582.0,
+      11685713.0,
+      7100889.0,
+      2406389.0
+     ],
+     "singular_value_sum": 119418632.0,
+     "rotation_trace_over_d": 0.006267075892537832,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 13097923.0,
+     "residual_unaligned": 138938880.0,
+     "residual_total_b": 113634096.0,
+     "rel_aligned_b": 0.11526402251662213,
+     "rel_unaligned_b": 1.222686542954502,
+     "fraction_aligned_explained": 0.9057288859677003,
+     "mean_row_cosine_aligned": 0.9759711027145386,
+     "top_five_singular_values": [
+      48262144.0,
+      24287044.0,
+      6367963.0,
+      3477554.75,
+      1758193.125
+     ],
+     "singular_value_sum": 84561416.0,
+     "rotation_trace_over_d": 0.005817797966301441,
+     "latent_dim": 256,
+     "n_latent_vectors": 56
+    }
+   }
+  },
+  "Scorpion-2": {
+   "latent_dim": 256,
+   "n_latent_vectors": 80,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 51196712.0,
+     "eig_min": 0.00040546045056544244,
+     "top_five_eigenvalue_fraction": 0.9998279213905334,
+     "spectral_flatness": 5.175330013694606e-07,
+     "effective_rank": 1.1271426677703857,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      51196712.0,
+      831390.5,
+      227511.046875,
+      37798.2421875,
+      13643.705078125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 363450.125,
+     "eig_min": 3.1188485536404187e-06,
+     "top_five_eigenvalue_fraction": 0.9893723726272583,
+     "spectral_flatness": 2.297513825129352e-06,
+     "effective_rank": 3.4037437438964844,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      363450.125,
+      190575.890625,
+      161207.140625,
+      17294.423828125,
+      7042.8232421875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 270229.6875,
+     "eig_min": 6.861470410512993e-06,
+     "top_five_eigenvalue_fraction": 0.9831153750419617,
+     "spectral_flatness": 2.285197371415889e-06,
+     "effective_rank": 3.6804358959198,
+     "latent_dim": 256,
+     "n_latent_vectors": 80,
+     "top_five_eigenvalues": [
+      270229.6875,
+      169565.609375,
+      77632.953125,
+      27281.240234375,
+      12421.638671875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 5491026432.0,
+     "residual_unaligned": 6218399744.0,
+     "residual_total_b": 90925664.0,
+     "rel_aligned_b": 60.39028136214655,
+     "rel_unaligned_b": 68.38992942630587,
+     "fraction_aligned_explained": 0.11697114079901771,
+     "mean_row_cosine_aligned": 0.8519396781921387,
+     "top_five_singular_values": [
+      384921600.0,
+      35571580.0,
+      21934096.0,
+      12196877.0,
+      2406481.25
+     ],
+     "singular_value_sum": 458233472.0,
+     "rotation_trace_over_d": 0.005611736793071032,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 5382635520.0,
+     "residual_unaligned": 6653969408.0,
+     "residual_total_b": 92732384.0,
+     "rel_aligned_b": 58.04483059553392,
+     "rel_unaligned_b": 71.75453839297391,
+     "fraction_aligned_explained": 0.19106398151928505,
+     "mean_row_cosine_aligned": 0.9617978930473328,
+     "top_five_singular_values": [
+      427328608.0,
+      53370236.0,
+      20825812.0,
+      8184567.5,
+      2166114.5
+     ],
+     "singular_value_sum": 513332832.0,
+     "rotation_trace_over_d": 0.010168069042265415,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 24977780.0,
+     "residual_unaligned": 146796384.0,
+     "residual_total_b": 92732384.0,
+     "rel_aligned_b": 0.2693533685060874,
+     "rel_unaligned_b": 1.5830110007740121,
+     "fraction_aligned_explained": 0.8298474436536529,
+     "mean_row_cosine_aligned": 0.9316938519477844,
+     "top_five_singular_values": [
+      39432848.0,
+      21504604.0,
+      10227521.0,
+      5280637.0,
+      1715767.0
+     ],
+     "singular_value_sum": 79340176.0,
+     "rotation_trace_over_d": 0.00832801777869463,
+     "latent_dim": 256,
+     "n_latent_vectors": 80
+    }
+   }
+  },
+  "Skunk": {
+   "latent_dim": 256,
+   "n_latent_vectors": 112,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 50466280.0,
+     "eig_min": 0.0004023575456812978,
+     "top_five_eigenvalue_fraction": 0.9998099207878113,
+     "spectral_flatness": 7.991212022509891e-07,
+     "effective_rank": 1.064048409461975,
+     "latent_dim": 256,
+     "n_latent_vectors": 112,
+     "top_five_eigenvalues": [
+      50466280.0,
+      318297.5625,
+      97344.5859375,
+      42250.17578125,
+      7551.57080078125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 482573.8125,
+     "eig_min": 1.4741583072463982e-05,
+     "top_five_eigenvalue_fraction": 0.9808783531188965,
+     "spectral_flatness": 4.790764008544024e-06,
+     "effective_rank": 2.88761568069458,
+     "latent_dim": 256,
+     "n_latent_vectors": 112,
+     "top_five_eigenvalues": [
+      482573.8125,
+      84264.515625,
+      67581.6953125,
+      39615.5703125,
+      8515.0654296875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 183943.15625,
+     "eig_min": 6.794356522732414e-06,
+     "top_five_eigenvalue_fraction": 0.9459257125854492,
+     "spectral_flatness": 7.207575011066531e-06,
+     "effective_rank": 3.7209455966949463,
+     "latent_dim": 256,
+     "n_latent_vectors": 112,
+     "top_five_eigenvalues": [
+      183943.15625,
+      47950.24609375,
+      31286.5078125,
+      11745.0009765625,
+      7823.275390625
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 7033959424.0,
+     "residual_unaligned": 9435359232.0,
+     "residual_total_b": 136637584.0,
+     "rel_aligned_b": 51.478950506033534,
+     "rel_unaligned_b": 69.05390856442544,
+     "fraction_aligned_explained": 0.2545106920630703,
+     "mean_row_cosine_aligned": 0.9283055067062378,
+     "top_five_singular_values": [
+      903590080.0,
+      25332368.0,
+      8860934.0,
+      6807395.5,
+      2409054.25
+     ],
+     "singular_value_sum": 949639360.0,
+     "rotation_trace_over_d": 0.012018261477351189,
+     "latent_dim": 256,
+     "n_latent_vectors": 112
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 7684943872.0,
+     "residual_unaligned": 8696827904.0,
+     "residual_total_b": 60939056.0,
+     "rel_aligned_b": 126.10867933366083,
+     "rel_unaligned_b": 142.71353176196232,
+     "fraction_aligned_explained": 0.11635093199149038,
+     "mean_row_cosine_aligned": 0.9263381361961365,
+     "top_five_singular_values": [
+      547104192.0,
+      21908016.0,
+      8179969.5,
+      5214343.5,
+      1886840.5
+     ],
+     "singular_value_sum": 586297984.0,
+     "rotation_trace_over_d": 0.008432537317276001,
+     "latent_dim": 256,
+     "n_latent_vectors": 112
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 21801924.0,
+     "residual_unaligned": 208733456.0,
+     "residual_total_b": 60939056.0,
+     "rel_aligned_b": 0.3577660277507417,
+     "rel_unaligned_b": 3.42528207197696,
+     "fraction_aligned_explained": 0.8955513676734217,
+     "mean_row_cosine_aligned": 0.9737688302993774,
+     "top_five_singular_values": [
+      63916092.0,
+      9058107.0,
+      6530064.0,
+      3987472.5,
+      2167418.75
+     ],
+     "singular_value_sum": 87887392.0,
+     "rotation_trace_over_d": 0.008201214484870434,
+     "latent_dim": 256,
+     "n_latent_vectors": 112
+    }
+   }
+  },
+  "SpiderG": {
+   "latent_dim": 256,
+   "n_latent_vectors": 64,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 15913872.0,
+     "eig_min": 6.573613063665107e-05,
+     "top_five_eigenvalue_fraction": 0.9999088644981384,
+     "spectral_flatness": 7.221271967056008e-07,
+     "effective_rank": 1.3778778314590454,
+     "latent_dim": 256,
+     "n_latent_vectors": 64,
+     "top_five_eigenvalues": [
+      15913872.0,
+      1102104.875,
+      154949.59375,
+      74282.28125,
+      7864.3974609375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 295516.25,
+     "eig_min": 1.8822790934791556e-06,
+     "top_five_eigenvalue_fraction": 0.9989990592002869,
+     "spectral_flatness": 1.6120512621038539e-06,
+     "effective_rank": 2.29525089263916,
+     "latent_dim": 256,
+     "n_latent_vectors": 64,
+     "top_five_eigenvalues": [
+      295516.25,
+      76202.9453125,
+      32497.484375,
+      4930.94384765625,
+      1369.559814453125
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 1101684.75,
+     "eig_min": 4.2047099668707233e-07,
+     "top_five_eigenvalue_fraction": 0.9959539175033569,
+     "spectral_flatness": 1.3629110311360426e-06,
+     "effective_rank": 2.547276020050049,
+     "latent_dim": 256,
+     "n_latent_vectors": 64,
+     "top_five_eigenvalues": [
+      1101684.75,
+      321643.78125,
+      122377.2578125,
+      44873.8203125,
+      10895.9248046875
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 1795968896.0,
+     "residual_unaligned": 2166062592.0,
+     "residual_total_b": 48069880.0,
+     "rel_aligned_b": 37.361626365616054,
+     "rel_unaligned_b": 45.0607031263652,
+     "fraction_aligned_explained": 0.1708601115068793,
+     "mean_row_cosine_aligned": 0.9367400407791138,
+     "top_five_singular_values": [
+      120147496.0,
+      49823116.0,
+      22302848.0,
+      3875652.75,
+      1183346.75
+     ],
+     "singular_value_sum": 197580960.0,
+     "rotation_trace_over_d": 0.005047737620770931,
+     "latent_dim": 256,
+     "n_latent_vectors": 64
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 1477510784.0,
+     "residual_unaligned": 2424711936.0,
+     "residual_total_b": 170623424.0,
+     "rel_aligned_b": 8.659483846719663,
+     "rel_unaligned_b": 14.210897186074522,
+     "fraction_aligned_explained": 0.39064481761185177,
+     "mean_row_cosine_aligned": 0.8987879753112793,
+     "top_five_singular_values": [
+      267915024.0,
+      100378872.0,
+      38827296.0,
+      6707629.0,
+      3636878.75
+     ],
+     "singular_value_sum": 418087008.0,
+     "rotation_trace_over_d": 0.00667483638972044,
+     "latent_dim": 256,
+     "n_latent_vectors": 64
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 41361920.0,
+     "residual_unaligned": 158832768.0,
+     "residual_total_b": 170623424.0,
+     "rel_aligned_b": 0.2424164222609904,
+     "rel_unaligned_b": 0.9308966159300612,
+     "fraction_aligned_explained": 0.7395882441587872,
+     "mean_row_cosine_aligned": 0.9854917526245117,
+     "top_five_singular_values": [
+      56791172.0,
+      17901212.0,
+      9220637.0,
+      3573402.0,
+      919017.25
+     ],
+     "singular_value_sum": 88665752.0,
+     "rotation_trace_over_d": 0.008164562284946442,
+     "latent_dim": 256,
+     "n_latent_vectors": 64
+    }
+   }
+  },
+  "Tricera": {
+   "latent_dim": 256,
+   "n_latent_vectors": 224,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 35002308.0,
+     "eig_min": 0.000795474334154278,
+     "top_five_eigenvalue_fraction": 0.9984204173088074,
+     "spectral_flatness": 4.1824895029597e-06,
+     "effective_rank": 1.1105289459228516,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      35002308.0,
+      258738.75,
+      129384.2578125,
+      81789.0,
+      27586.81640625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 327604.84375,
+     "eig_min": 2.8777990337403025e-06,
+     "top_five_eigenvalue_fraction": 0.90323805809021,
+     "spectral_flatness": 2.1128673665285053e-05,
+     "effective_rank": 5.988195896148682,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      327604.84375,
+      169807.828125,
+      118786.3203125,
+      83448.9375,
+      67573.609375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 348606.71875,
+     "eig_min": 5.069790859124623e-05,
+     "top_five_eigenvalue_fraction": 0.8726099133491516,
+     "spectral_flatness": 2.2046030674476385e-05,
+     "effective_rank": 6.649996757507324,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      348606.71875,
+      259628.609375,
+      151894.234375,
+      120291.078125,
+      60784.83203125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 8319648768.0,
+     "residual_unaligned": 9866007552.0,
+     "residual_total_b": 494217888.0,
+     "rel_aligned_b": 16.833969328119505,
+     "rel_unaligned_b": 19.962870206753827,
+     "fraction_aligned_explained": 0.15673602273763998,
+     "mean_row_cosine_aligned": 0.7623639702796936,
+     "top_five_singular_values": [
+      893926208.0,
+      85929832.0,
+      36363672.0,
+      18247710.0,
+      9516491.0
+     ],
+     "singular_value_sum": 1061850048.0,
+     "rotation_trace_over_d": 0.01633816584944725,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 8437532672.0,
+     "residual_unaligned": 10221285376.0,
+     "residual_total_b": 324343616.0,
+     "rel_aligned_b": 26.014178345967505,
+     "rel_unaligned_b": 31.513755387126228,
+     "fraction_aligned_explained": 0.17451354094743554,
+     "mean_row_cosine_aligned": 0.6533139944076538,
+     "top_five_singular_values": [
+      744485184.0,
+      81857768.0,
+      42118780.0,
+      19635760.0,
+      8096954.5
+     ],
+     "singular_value_sum": 917970560.0,
+     "rotation_trace_over_d": 0.008439593017101288,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 199888480.0,
+     "residual_unaligned": 746960128.0,
+     "residual_total_b": 324343616.0,
+     "rel_aligned_b": 0.6162861549894049,
+     "rel_unaligned_b": 2.302990073342464,
+     "fraction_aligned_explained": 0.7323973897573286,
+     "mean_row_cosine_aligned": 0.8077553510665894,
+     "top_five_singular_values": [
+      187046432.0,
+      40466580.0,
+      22894528.0,
+      19225506.0,
+      10401358.0
+     ],
+     "singular_value_sum": 309336800.0,
+     "rotation_trace_over_d": 0.013354379683732986,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    }
+   }
+  },
+  "Turtle": {
+   "latent_dim": 256,
+   "n_latent_vectors": 224,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 4751006.0,
+     "eig_min": 1.5514004189753905e-05,
+     "top_five_eigenvalue_fraction": 0.998844563961029,
+     "spectral_flatness": 6.289126811378135e-06,
+     "effective_rank": 1.1364244222640991,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      4751006.0,
+      47782.8125,
+      39360.546875,
+      5621.470703125,
+      2876.398681640625
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 408009.21875,
+     "eig_min": 2.73238038062118e-05,
+     "top_five_eigenvalue_fraction": 0.97959303855896,
+     "spectral_flatness": 1.7838357330294224e-05,
+     "effective_rank": 2.2188608646392822,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      408009.21875,
+      57689.453125,
+      22446.21875,
+      9143.595703125,
+      3589.91796875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 87298.6640625,
+     "eig_min": 5.027146471547894e-06,
+     "top_five_eigenvalue_fraction": 0.9187108874320984,
+     "spectral_flatness": 2.6121429820881533e-05,
+     "effective_rank": 4.7156524658203125,
+     "latent_dim": 256,
+     "n_latent_vectors": 224,
+     "top_five_eigenvalues": [
+      87298.6640625,
+      41337.2265625,
+      13235.9794921875,
+      9312.787109375,
+      6308.47314453125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 719503424.0,
+     "residual_unaligned": 1212427136.0,
+     "residual_total_b": 193357680.0,
+     "rel_aligned_b": 3.721100832405519,
+     "rel_unaligned_b": 6.270385205283803,
+     "fraction_aligned_explained": 0.4065594519982766,
+     "mean_row_cosine_aligned": 0.790497899055481,
+     "top_five_singular_values": [
+      340614720.0,
+      30111310.0,
+      6952698.0,
+      3192212.0,
+      1577664.75
+     ],
+     "singular_value_sum": 384573344.0,
+     "rotation_trace_over_d": 0.014215555042028427,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 932025344.0,
+     "residual_unaligned": 1441133696.0,
+     "residual_total_b": 65399852.0,
+     "rel_aligned_b": 14.25118429931615,
+     "rel_unaligned_b": 22.035733291873505,
+     "fraction_aligned_explained": 0.353269341639209,
+     "mean_row_cosine_aligned": 0.8263890147209167,
+     "top_five_singular_values": [
+      175414336.0,
+      26811980.0,
+      5462858.5,
+      2634194.25,
+      1511136.875
+     ],
+     "singular_value_sum": 214333136.0,
+     "rotation_trace_over_d": 0.01340345200151205,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 60241484.0,
+     "residual_unaligned": 270459104.0,
+     "residual_total_b": 65399852.0,
+     "rel_aligned_b": 0.9211256930673176,
+     "rel_unaligned_b": 4.135469664365601,
+     "fraction_aligned_explained": 0.7772621327622234,
+     "mean_row_cosine_aligned": 0.8663444519042969,
+     "top_five_singular_values": [
+      71800672.0,
+      12302643.0,
+      7978033.5,
+      2682995.25,
+      1474639.5
+     ],
+     "singular_value_sum": 99258128.0,
+     "rotation_trace_over_d": 0.017356593161821365,
+     "latent_dim": 256,
+     "n_latent_vectors": 224
+    }
+   }
+  },
+  "Tyranno": {
+   "latent_dim": 256,
+   "n_latent_vectors": 192,
+   "spread_of_the_latent_codes": {
+    "ACE-no-adversarial-loss-seed42": {
+     "eig_max": 20601864.0,
+     "eig_min": 9.226185648003593e-05,
+     "top_five_eigenvalue_fraction": 0.9959368109703064,
+     "spectral_flatness": 2.6433012553897675e-06,
+     "effective_rank": 1.3406603336334229,
+     "latent_dim": 256,
+     "n_latent_vectors": 192,
+     "top_five_eigenvalues": [
+      20601864.0,
+      712329.125,
+      244633.21875,
+      139262.859375,
+      53798.33984375
+     ]
+    },
+    "ACE-no-adversarial-loss-seed43": {
+     "eig_max": 4279426.5,
+     "eig_min": 0.0001232707145391032,
+     "top_five_eigenvalue_fraction": 0.9802731871604919,
+     "spectral_flatness": 5.050752332391042e-06,
+     "effective_rank": 2.267929792404175,
+     "latent_dim": 256,
+     "n_latent_vectors": 192,
+     "top_five_eigenvalues": [
+      4279426.5,
+      642954.5625,
+      188323.34375,
+      114649.5234375,
+      94988.921875
+     ]
+    },
+    "ACE-no-adversarial-loss-seed44": {
+     "eig_max": 502413.15625,
+     "eig_min": 5.8183522924082354e-05,
+     "top_five_eigenvalue_fraction": 0.9063460230827332,
+     "spectral_flatness": 8.238724953664192e-06,
+     "effective_rank": 5.642017364501953,
+     "latent_dim": 256,
+     "n_latent_vectors": 192,
+     "top_five_eigenvalues": [
+      502413.15625,
+      227485.578125,
+      176172.859375,
+      90086.1484375,
+      85166.4453125
+     ]
+    }
+   },
+   "seed_pair_alignment": {
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed43": {
+     "residual_aligned": 2197347328.0,
+     "residual_unaligned": 4636554752.0,
+     "residual_total_b": 1115054080.0,
+     "rel_aligned_b": 1.970619512911876,
+     "rel_unaligned_b": 4.1581433897807,
+     "fraction_aligned_explained": 0.526081876407873,
+     "mean_row_cosine_aligned": 0.9349865913391113,
+     "top_five_singular_values": [
+      1495143808.0,
+      181059952.0,
+      55393632.0,
+      23451054.0,
+      16652862.0
+     ],
+     "singular_value_sum": 1800691072.0,
+     "rotation_trace_over_d": 0.011217091232538223,
+     "latent_dim": 256,
+     "n_latent_vectors": 192
+    },
+    "ACE-no-adversarial-loss-seed42_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 3522337536.0,
+     "residual_unaligned": 5425320960.0,
+     "residual_total_b": 548748864.0,
+     "rel_aligned_b": 6.418851622442721,
+     "rel_unaligned_b": 9.886710143604052,
+     "fraction_aligned_explained": 0.35075960261713257,
+     "mean_row_cosine_aligned": 0.7319469451904297,
+     "top_five_singular_values": [
+      527913312.0,
+      174009920.0,
+      78894864.0,
+      27013628.0,
+      21902886.0
+     ],
+     "singular_value_sum": 855042304.0,
+     "rotation_trace_over_d": 0.005815783515572548,
+     "latent_dim": 256,
+     "n_latent_vectors": 192
+    },
+    "ACE-no-adversarial-loss-seed43_vs_ACE-no-adversarial-loss-seed44": {
+     "residual_aligned": 658390784.0,
+     "residual_unaligned": 1457813888.0,
+     "residual_total_b": 548748864.0,
+     "rel_aligned_b": 1.1998034569051974,
+     "rel_unaligned_b": 2.656613951550704,
+     "fraction_aligned_explained": 0.5483711676644419,
+     "mean_row_cosine_aligned": 0.6251994371414185,
+     "top_five_singular_values": [
+      229254240.0,
+      142969904.0,
+      70813960.0,
+      19963396.0,
+      10691184.0
+     ],
+     "singular_value_sum": 502706784.0,
+     "rotation_trace_over_d": 0.0028374595567584038,
+     "latent_dim": 256,
+     "n_latent_vectors": 192
+    }
+   }
+  }
+ }
+}

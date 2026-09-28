@@ -1,0 +1,37 @@
+{
+ "description": "A small made-up world in which the true retargeting map is known, used to check that the fidelity score behaves. The true map scores near one; a random clip of the same action and pure noise both sit at zero. Written by synthetic/calibrate_sif.py.",
+ "n_groups_with_three_sources": 336,
+ "n_groups_left_out_identical_sources": 168,
+ "outputs": {
+  "oracle": {
+   "sif": 0.9933243364372482,
+   "ci95": [
+    0.9915724669157467,
+    0.9951047673755917
+   ],
+   "p": 9.999000099990002e-05,
+   "variation": 0.943393757278624,
+   "n_groups": 168
+  },
+  "random clip from cell": {
+   "sif": 0.0020882756557443075,
+   "ci95": [
+    -0.026614688810478803,
+    0.02875020443296343
+   ],
+   "p": 0.45555444455554445,
+   "variation": 0.9597253238676382,
+   "n_groups": 168
+  },
+  "random Gaussian noise": {
+   "sif": 0.020726244086730992,
+   "ci95": [
+    -0.007944638658111217,
+    0.054332696493189066
+   ],
+   "p": 0.1635836416358364,
+   "variation": 128075.89146750308,
+   "n_groups": 168
+  }
+ }
+}

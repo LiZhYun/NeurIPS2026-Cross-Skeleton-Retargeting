@@ -1,0 +1,176 @@
+{
+ "description": "Not every method produced an output for every query, so the paper also scores each method on all the triples that method does cover. This file gives that score, the output variation, and the number of source clips per triple. The evaluation asks for at least three source clips per triple, so the smallest and the middle count are both three.",
+ "n_triples_all_methods_cover": 37,
+ "per_method_own_triples": {
+  "AL-Flow": {
+   "n_triples": 45,
+   "sif": -0.0658124624667943,
+   "variation": 0.15738396259764187
+  },
+  "AL-Flow-Src": {
+   "n_triples": 38,
+   "sif": 0.06993430955159219,
+   "variation": 0.21885607162908646
+  },
+  "AL-Flow-Src-G": {
+   "n_triples": 49,
+   "sif": -0.028281411536505197,
+   "variation": 0.181266369942572
+  },
+  "AnyTop": {
+   "n_triples": 49,
+   "sif": -0.03348998188221367,
+   "variation": 3.009703793858774
+  },
+  "MoReFlow-T": {
+   "n_triples": 49,
+   "sif": 0.20276264095779492,
+   "variation": 0.5646874751549541
+  },
+  "MoReFlow-I": {
+   "n_triples": 49,
+   "sif": 0.13733008840645647,
+   "variation": 0.5642711693222299
+  },
+  "ACE-T": {
+   "n_triples": 49,
+   "sif": 0.3849953774216738,
+   "variation": 14.938439550734847
+  },
+  "ACE-I": {
+   "n_triples": 49,
+   "sif": 0.4839277572508905,
+   "variation": 0.11007789782447946
+  },
+  "Motion2Motion-Direct": {
+   "n_triples": 49,
+   "sif": 0.05285892779131256,
+   "variation": 2.4150761072187024
+  },
+  "Motion2Motion-BVH": {
+   "n_triples": 49,
+   "sif": -0.08469529323229479,
+   "variation": 1.312791268199563
+  },
+  "DPG-SB-v3": {
+   "n_triples": 49,
+   "sif": -0.05775914273537949,
+   "variation": 0.5769589065551357
+  },
+  "ANCHOR": {
+   "n_triples": 49,
+   "sif": 0.013792973871546035,
+   "variation": 0.17317874071911232
+  },
+  "random-same-cluster": {
+   "n_triples": 48,
+   "sif": 0.07262804979614289,
+   "variation": 0.8292279378368832
+  },
+  "random-same-exact-action": {
+   "n_triples": 48,
+   "sif": 0.09613168613820888,
+   "variation": 0.36376076376920796
+  }
+ },
+ "source_clips_per_triple": {
+  "AL-Flow": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 158,
+   "n_triples": 45
+  },
+  "AL-Flow-Src": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 133,
+   "n_triples": 38
+  },
+  "AL-Flow-Src-G": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "AnyTop": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "MoReFlow-T": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "MoReFlow-I": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "ACE-T": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "ACE-I": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "Motion2Motion-Direct": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "Motion2Motion-BVH": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "DPG-SB-v3": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "ANCHOR": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 171,
+   "n_triples": 49
+  },
+  "random-same-cluster": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 167,
+   "n_triples": 48
+  },
+  "random-same-exact-action": {
+   "fewest": 3,
+   "median": 3,
+   "most": 5,
+   "total": 168,
+   "n_triples": 48
+  }
+ }
+}

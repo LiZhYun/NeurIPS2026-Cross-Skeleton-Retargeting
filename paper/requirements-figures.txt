@@ -1,0 +1,16 @@
+# Package versions with which paper.make_figures redraws the paper's figures pixel for pixel.
+# Use Python 3.10 and TeX Live 2023 (for latex, dvipng and kpsewhich):
+#
+#     python3.10 -m venv figures-env
+#     figures-env/bin/pip install -r paper/requirements-figures.txt
+#     figures-env/bin/python -m paper.make_figures
+matplotlib==3.10.9
+numpy==2.2.6
+pillow==12.3.0
+fonttools==4.63.0
+contourpy==1.3.2
+kiwisolver==1.5.1
+cycler==0.12.1
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+packaging==26.1

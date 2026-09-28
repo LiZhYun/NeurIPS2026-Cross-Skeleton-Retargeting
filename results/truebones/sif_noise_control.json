@@ -1,0 +1,169 @@
+{
+ "description": "A generator draws random noise for every output. If each source clip of a triple gets its own draw, differences between outputs can come from the noise rather than from the source clip. This file scores three seeds with independent noise and one run where all clips of a triple share a single draw. \"shared_noise_minus_seed42\" is the shared-noise score minus the seed-42 score. On the 49-triple evaluation.",
+ "evaluation_set": "truebones_49",
+ "methods": {
+  "AnyTop": {
+   "seed42": {
+    "n_triples": 49,
+    "sif": -0.033489980426539195,
+    "p_value": 0.6492350764923508
+   },
+   "seed43": {
+    "n_triples": 49,
+    "sif": 0.039530466236907924,
+    "p_value": 0.33736626337366266
+   },
+   "seed44": {
+    "n_triples": 49,
+    "sif": -0.0982628452775129,
+    "p_value": 0.8647135286471352
+   },
+   "shared_noise": {
+    "n_triples": 49,
+    "sif": 0.24342770203958805,
+    "p_value": 0.0033996600339966003
+   },
+   "sif_mean_over_seeds": -0.030740786489048058,
+   "sif_sd_over_seeds": 0.0689377815497932,
+   "shared_noise_minus_seed42": 0.27691768246612725
+  },
+  "AL-Flow": {
+   "seed42": {
+    "n_triples": 45,
+    "sif": -0.0658124558803746,
+    "p_value": 0.7651234876512348
+   },
+   "seed43": {
+    "n_triples": 45,
+    "sif": -0.04324948816051268,
+    "p_value": 0.6773322667733227
+   },
+   "seed44": {
+    "n_triples": 45,
+    "sif": 0.06553154139806495,
+    "p_value": 0.23447655234476553
+   },
+   "shared_noise": {
+    "n_triples": 45,
+    "sif": 0.0015056317422788728,
+    "p_value": 0.48725127487251274
+   },
+   "sif_mean_over_seeds": -0.014510134214274112,
+   "sif_sd_over_seeds": 0.07023015203034283,
+   "shared_noise_minus_seed42": 0.06731808762265347
+  },
+  "AL-Flow-Src": {
+   "seed42": {
+    "n_triples": 38,
+    "sif": 0.06993429481031496,
+    "p_value": 0.2460753924607539
+   },
+   "seed43": {
+    "n_triples": 38,
+    "sif": 0.04851391000006596,
+    "p_value": 0.31366863313668636
+   },
+   "seed44": {
+    "n_triples": 38,
+    "sif": -0.13967679052473345,
+    "p_value": 0.9237076292370763
+   },
+   "shared_noise": {
+    "n_triples": 38,
+    "sif": 0.19939047387093442,
+    "p_value": 0.019698030196980302
+   },
+   "sif_mean_over_seeds": -0.007076195238117505,
+   "sif_sd_over_seeds": 0.11533384856202654,
+   "shared_noise_minus_seed42": 0.12945617906061946
+  },
+  "AL-Flow-Src-G": {
+   "seed42": {
+    "n_triples": 49,
+    "sif": -0.02828139941413088,
+    "p_value": 0.6352364763523648
+   },
+   "seed43": {
+    "n_triples": 49,
+    "sif": 0.047612092428178904,
+    "p_value": 0.29327067293270676
+   },
+   "seed44": {
+    "n_triples": 49,
+    "sif": 0.07472977407263738,
+    "p_value": 0.19088091190880913
+   },
+   "shared_noise": {
+    "n_triples": 49,
+    "sif": 0.2393681546421369,
+    "p_value": 0.001999800019998
+   },
+   "sif_mean_over_seeds": 0.031353489028895135,
+   "sif_sd_over_seeds": 0.05339552513227741,
+   "shared_noise_minus_seed42": 0.2676495540562678
+  },
+  "DPG-SB-v3": {
+   "seed42": {
+    "n_triples": 49,
+    "sif": -0.05775916368540487,
+    "p_value": 0.7398260173982601
+   },
+   "seed43": {
+    "n_triples": 49,
+    "sif": 0.13807980952613888,
+    "p_value": 0.056194380561943806
+   },
+   "seed44": {
+    "n_triples": 49,
+    "sif": 0.052075126466008224,
+    "p_value": 0.2856714328567143
+   },
+   "shared_noise": {
+    "n_triples": 49,
+    "sif": 0.06382893586559088,
+    "p_value": 0.22727727227277272
+   },
+   "sif_mean_over_seeds": 0.044131924102247415,
+   "sif_sd_over_seeds": 0.09816082062096709,
+   "shared_noise_minus_seed42": 0.12158809955099575
+  },
+  "MoReFlow-T": {
+   "seed42": {
+    "n_triples": 49,
+    "sif": 0.20276263891497667,
+    "p_value": 0.008999100089991
+   },
+   "seed43": {
+    "n_triples": 49,
+    "sif": 0.20275371201966147,
+    "p_value": 0.008999100089991
+   },
+   "seed44": {
+    "n_triples": 49,
+    "sif": 0.20275371201966147,
+    "p_value": 0.008999100089991
+   },
+   "sif_mean_over_seeds": 0.2027566876514332,
+   "sif_sd_over_seeds": 5.153945413260233e-06
+  },
+  "MoReFlow-I": {
+   "seed42": {
+    "n_triples": 49,
+    "sif": 0.13733010435541848,
+    "p_value": 0.06059394060593941
+   },
+   "seed43": {
+    "n_triples": 49,
+    "sif": 0.13728035317128137,
+    "p_value": 0.06059394060593941
+   },
+   "seed44": {
+    "n_triples": 49,
+    "sif": 0.13728035317128137,
+    "p_value": 0.06059394060593941
+   },
+   "sif_mean_over_seeds": 0.1372969368993271,
+   "sif_sd_over_seeds": 2.8723859554062515e-05
+  }
+ }
+}

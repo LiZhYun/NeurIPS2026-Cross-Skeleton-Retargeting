@@ -1,0 +1,60 @@
+# Software needed to run everything in this repository except robots/, which has its own.
+#
+#     conda env create -f environment.yml
+#     conda activate retargeting-limits
+#
+# Versions match the environment that produced the paper's numbers. The PyTorch wheel from PyPI is built
+# for CUDA 12.1; training and generation expect an NVIDIA GPU, while scoring and the tests run on
+# a CPU.
+#
+# If you have Python packages in ~/.local, run with PYTHONNOUSERSITE=1 so they are not mistaken
+# for installed ones.
+#
+# Not included, because nothing runs them by default:
+#   - wandb, clearml or tensorboard, for the optional training loggers (--ml_platform_type);
+#   - Blender, which runs the two scripts in paper/qualitative/ that import bpy.
+name: retargeting-limits
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.15
+  - pip=24.2
+  - pip:
+      - torch==2.4.1
+      - nvidia-nvjitlink-cu12==12.8.93
+      - numpy==1.24.4
+      - scipy==1.10.1
+      - scikit-learn==1.3.2
+      - matplotlib==3.1.3
+      - moviepy==1.0.3
+      - imageio==2.35.1
+      - pillow==10.4.0
+      - tqdm==4.67.1
+      - pyyaml==6.0.2
+      - blobfile==3.0.0
+      # Text encoder used by AnyTop to describe joint names
+      - transformers==4.46.3
+      - huggingface-hub==0.30.1
+      - sentencepiece==0.2.0
+      - spacy==3.7.2
+      - thinc==8.1.8
+      - blis==0.7.11
+      - preshed==3.0.9
+      - srsly==2.4.8
+      # The last versions of these two small parts of spaCy that come ready-built for Python 3.8
+      - cymem==2.0.8
+      - murmurhash==1.0.10
+      - num2words==0.5.14
+      # Motion tokenizer
+      - vector-quantize-pytorch==1.14.7
+      - einops==0.8.1
+      - einx==0.3.0
+      # Needed by the Motion2Motion authors' program (fetched by methods/motion2motion/fetch_official.sh)
+      - unfoldNd==0.2.3
+      - tensorboardX==2.6
+      - protobuf==3.20.3
+      # Motion file reading and inverse kinematics used by core/truebones and core/anytop
+      - motion @ git+https://github.com/inbar-2344/Motion.git@ac236251f90e5ca37c444c53ad383fc85de6d833
+      - pytest==7.3.0
+      # The SIF toolkit in this repository
+      - -e .

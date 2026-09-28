@@ -1,0 +1,22 @@
+\begin{tabular}{p{0.34\linewidth}p{0.46\linewidth}r}
+\toprule
+Method & Family & Train skeletons \\
+\midrule
+AnyTop & source-conditioned diffusion & 70 \\
+ACE-T & motion-space adversarial & 70 \\
+ACE-I & motion-space adversarial & 60 \\
+MoReFlow-T & flow matching & 70 \\
+MoReFlow-I & flow matching & 60 \\
+AL-Flow & label-conditional flow, no source motion & 60 \\
+AL-Flow-Src & label-conditional flow + source motion + skeleton id & 60 \\
+AL-Flow-Src-G & label-conditional flow + source motion + skeleton graph & 60 \\
+Motion2Motion-Direct & patch retrieval and blending (training-free) & 60 \\
+Motion2Motion-BVH & patch retrieval and blending (training-free) & 60 \\
+DPG-SB-v3 & latent Schr\"odinger bridge & 60 \\
+ANCHOR & retrieval comparator & 60 \\
+random-same-cluster & trivial baseline & -- \\
+random-same-exact-action & trivial baseline & -- \\
+\midrule
+\multicolumn{3}{p{0.94\linewidth}}{\footnotesize The AnyTop row uses the source-conditioned extension required by SIF; the original generator is unconditional with respect to a source clip. AL-Flow denotes the label-conditional flow family. ANCHOR is a deterministic retrieval comparator, not a retargeting solution. DPG-SB-v3 is evaluated in its latent-bridge form without decoded-motion penalties (see Appendix~\ref{app:dpgsb_status}).} \\
+\bottomrule
+\end{tabular}

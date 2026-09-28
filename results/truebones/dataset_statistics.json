@@ -1,0 +1,28 @@
+{
+ "description": "How much data the Truebones evaluation rests on. Clips shorter than 30 frames and clips whose label does not map to an action group are left out. Most skeleton-and-action pairs hold a single clip, which is why so few triples can be scored at all. Counted from benchmark/clip_index.json and from the query sets in benchmark/sets.",
+ "skeletons": 70,
+ "clips": 616,
+ "action_groups": 10,
+ "exact_actions": 90,
+ "skeleton_action_cells": 6300,
+ "occupied_cells": 413,
+ "occupied_cells_pct": 6.555555555555555,
+ "median_clips_per_occupied_cell": 1.0,
+ "source_groups_with_three_clips": {
+  "groups": 49,
+  "source_clips": 171
+ },
+ "main_evaluation": {
+  "triples": 1891,
+  "queries": 6611
+ },
+ "original_evaluation": {
+  "triples": 49,
+  "queries": 171
+ },
+ "intersection": {
+  "triples": 37,
+  "queries": 130
+ },
+ "min_source_clips_per_triple": 3
+}

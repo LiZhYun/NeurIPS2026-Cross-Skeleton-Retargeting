@@ -1,0 +1,106 @@
+{
+ "description": "How much the score of ACE moves between training seeds, on the 49-triple evaluation. The two three-seed rows of the latent-space table rest on these runs.",
+ "evaluation_set": "truebones_49",
+ "settings": {
+  "ACE-T, output length copied": {
+   "per_seed": {
+    "42": {
+     "n_triples": 49,
+     "sif": 0.38499537681852986,
+     "p_value": 9.999000099990002e-05
+    },
+    "43": {
+     "n_triples": 49,
+     "sif": 0.45210709955472694,
+     "p_value": 9.999000099990002e-05
+    },
+    "44": {
+     "n_triples": 49,
+     "sif": 0.28469805591264524,
+     "p_value": 0.00029997000299970003
+    }
+   },
+   "sif_mean": 0.3739335107619674,
+   "sif_sd": 0.08425093847417428,
+   "sif_lowest": 0.28469805591264524,
+   "sif_highest": 0.45210709955472694,
+   "largest_p_value": 0.00029997000299970003,
+   "every_seed_below_0.05": true
+  },
+  "ACE-T, output length fixed": {
+   "per_seed": {
+    "42": {
+     "n_triples": 49,
+     "sif": 0.2936661388328865,
+     "p_value": 0.0006999300069993001
+    },
+    "43": {
+     "n_triples": 49,
+     "sif": 0.36558821567809285,
+     "p_value": 9.999000099990002e-05
+    },
+    "44": {
+     "n_triples": 49,
+     "sif": 0.21595166023712026,
+     "p_value": 0.005599440055994401
+    }
+   },
+   "sif_mean": 0.29173533824936654,
+   "sif_sd": 0.07483696061592698,
+   "sif_lowest": 0.21595166023712026,
+   "sif_highest": 0.36558821567809285,
+   "largest_p_value": 0.005599440055994401,
+   "every_seed_below_0.05": true
+  },
+  "ACE-I, output length copied": {
+   "per_seed": {
+    "42": {
+     "n_triples": 49,
+     "sif": 0.4839277538802586,
+     "p_value": 9.999000099990002e-05
+    },
+    "43": {
+     "n_triples": 49,
+     "sif": 0.31553487061099406,
+     "p_value": 0.0004999500049995
+    },
+    "44": {
+     "n_triples": 49,
+     "sif": 0.4218516255063861,
+     "p_value": 9.999000099990002e-05
+    }
+   },
+   "sif_mean": 0.40710474999921287,
+   "sif_sd": 0.08515951818118798,
+   "sif_lowest": 0.31553487061099406,
+   "sif_highest": 0.4839277538802586,
+   "largest_p_value": 0.0004999500049995,
+   "every_seed_below_0.05": true
+  },
+  "ACE-I, output length fixed": {
+   "per_seed": {
+    "42": {
+     "n_triples": 49,
+     "sif": 0.3955560686404414,
+     "p_value": 9.999000099990002e-05
+    },
+    "43": {
+     "n_triples": 49,
+     "sif": 0.26411185405373505,
+     "p_value": 0.0007999200079992001
+    },
+    "44": {
+     "n_triples": 49,
+     "sif": 0.21665020044213432,
+     "p_value": 0.006299370062993701
+    }
+   },
+   "sif_mean": 0.2921060410454369,
+   "sif_sd": 0.09268000484431518,
+   "sif_lowest": 0.21665020044213432,
+   "sif_highest": 0.3955560686404414,
+   "largest_p_value": 0.006299370062993701,
+   "every_seed_below_0.05": true
+  }
+ }
+}

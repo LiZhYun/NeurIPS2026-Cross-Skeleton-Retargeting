@@ -1,0 +1,49 @@
+{
+ "description": "ACE-I against a model trained the same way but without the adversarial term, three training seeds each, on the 49 triples both cover. Motions are compared over the frames they share and each output is as long as its source clip.",
+ "evaluation_set": "truebones_49",
+ "n_triples": 49,
+ "models": {
+  "ACE-I": {
+   "per_seed": {
+    "42": {
+     "sif": 0.4839277538802586,
+     "variation": 0.02000091531677322
+    },
+    "43": {
+     "sif": 0.31553487061099406,
+     "variation": 0.01658087368450528
+    },
+    "44": {
+     "sif": 0.4218516255063861,
+     "variation": 0.022186205208551916
+    }
+   },
+   "sif_mean_over_seeds": 0.40710474999921303
+  },
+  "ACE-no-adversarial-loss": {
+   "per_seed": {
+    "42": {
+     "sif": 0.13501890602750666,
+     "variation": 0.906175786880283
+    },
+    "43": {
+     "sif": 0.26832694819297204,
+     "variation": 0.2705176356816961
+    },
+    "44": {
+     "sif": 0.2815922661278297,
+     "variation": 0.29843207975495334
+    }
+   },
+   "sif_mean_over_seeds": 0.2283127067827695
+  }
+ },
+ "difference": {
+  "mean_difference": 0.17879204321644349,
+  "ci95": [
+   0.03975803841294549,
+   0.32801258423421664
+  ],
+  "p_value": 0.022297770222977704
+ }
+}

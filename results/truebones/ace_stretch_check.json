@@ -1,0 +1,33 @@
+{
+ "description": "Stretching every motion to the same length is not free: two identical copies stretched by different amounts no longer look identical. This file gives, for each method, the output variation before and after stretching, next to the variation that identical copies pick up from stretching alone.",
+ "methods": {
+  "ACE-T": {
+   "n_triples": 49,
+   "variation_raw": 0.020133694307901216,
+   "variation_stretched": 0.23104523169739064,
+   "identical_copies_raw": 1.0166650410475504e-13,
+   "identical_copies_stretched": 0.14921187929210605
+  },
+  "ACE-I": {
+   "n_triples": 49,
+   "variation_raw": 0.02000091531677322,
+   "variation_stretched": 0.1352028731356644,
+   "identical_copies_raw": 8.489200652490033e-14,
+   "identical_copies_stretched": 0.1416325588019517
+  },
+  "MoReFlow-T": {
+   "n_triples": 49,
+   "variation_raw": 0.2474545562387052,
+   "variation_stretched": 0.216733932937018,
+   "identical_copies_raw": 9.813053122037938e-14,
+   "identical_copies_stretched": 0.09275993954199749
+  },
+  "MoReFlow-I": {
+   "n_triples": 49,
+   "variation_raw": 0.27631784879381543,
+   "variation_stretched": 0.2788232412701064,
+   "identical_copies_raw": 9.23826067672306e-14,
+   "identical_copies_stretched": 0.07825385493841287
+  }
+ }
+}

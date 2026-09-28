@@ -1,0 +1,259 @@
+{
+ "description": "The fidelity score can be computed on the latent codes as well as on the decoded motion. Comparing the two separates a model that never encoded the source clip from one that encoded it and then lost it in the decoder. \"runs\" holds both scores for every trained run on the 37 triples every method covers, scored by the released scorer from the motions each run produced. Each row of the table names the runs to average; rows that cover three training seeds average all three.",
+ "runs": {
+  "ACE-T-seed42": {
+   "n_triples": 37,
+   "sif": 0.45323629253086867,
+   "variation": 0.02197848646124761,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.07749074548789116,
+   "latent_sif_ci95": [
+    -0.15255108129613262,
+    0.3029618762186984
+   ]
+  },
+  "ACE-T-seed43": {
+   "n_triples": 37,
+   "sif": 0.4661846607761551,
+   "variation": 0.024812676498841727,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.10121966914617925,
+   "latent_sif_ci95": [
+    -0.11081488754657866,
+    0.30661349807241756
+   ]
+  },
+  "ACE-T-seed44": {
+   "n_triples": 37,
+   "sif": 0.30526072286375683,
+   "variation": 0.01855535941928508,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.08449554574742346,
+   "latent_sif_ci95": [
+    -0.12782411517357678,
+    0.28927729505410515
+   ]
+  },
+  "ACE-I-seed42": {
+   "n_triples": 37,
+   "sif": 0.5256433342755027,
+   "variation": 0.02016465943191804,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.035110713842371785,
+   "latent_sif_ci95": [
+    -0.1866696182463813,
+    0.2537081803309846
+   ]
+  },
+  "ACE-I-seed43": {
+   "n_triples": 37,
+   "sif": 0.31114047856956384,
+   "variation": 0.01730562711838585,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.026009545824178026,
+   "latent_sif_ci95": [
+    -0.19331556331357666,
+    0.23964465068660895
+   ]
+  },
+  "ACE-I-seed44": {
+   "n_triples": 37,
+   "sif": 0.3929610125822444,
+   "variation": 0.02190036459354975,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.08721616842764854,
+   "latent_sif_ci95": [
+    -0.1327382080906683,
+    0.299555134709447
+   ]
+  },
+  "ACE-no-source-latent-seed42": {
+   "n_triples": 37,
+   "sif": 0.4231193578600121,
+   "variation": 0.02576765544711716,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.03672159280500755,
+   "latent_sif_ci95": [
+    -0.17898422039207001,
+    0.2473232433638669
+   ]
+  },
+  "ACE-no-adversarial-loss-seed42": {
+   "n_triples": 37,
+   "sif": 0.17527813392272718,
+   "variation": 0.834833922365311,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.048887755224754706,
+   "latent_sif_ci95": [
+    -0.16938654975596137,
+    0.26058605323980294
+   ]
+  },
+  "ACE-no-adversarial-loss-seed43": {
+   "n_triples": 37,
+   "sif": 0.19077695783178603,
+   "variation": 0.20623964453526308,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.11912558163972631,
+   "latent_sif_ci95": [
+    -0.07663908324586412,
+    0.3098083196313931
+   ]
+  },
+  "ACE-no-adversarial-loss-seed44": {
+   "n_triples": 37,
+   "sif": 0.27579994180248424,
+   "variation": 0.17276655991824819,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.18811756177121303,
+   "latent_sif_ci95": [
+    -0.019827879453986168,
+    0.3913089465997992
+   ]
+  },
+  "MoReFlow-T": {
+   "n_triples": 37,
+   "sif": 0.191585633033191,
+   "variation": 0.2474545562387052,
+   "n_triples_with_latents": 37,
+   "latent_sif": -0.1996127643550778,
+   "latent_sif_ci95": [
+    -0.3868715216846878,
+    -0.005817382602854279
+   ]
+  },
+  "MoReFlow-I": {
+   "n_triples": 37,
+   "sif": 0.07643732160197272,
+   "variation": 0.27631784879381543,
+   "n_triples_with_latents": 37,
+   "latent_sif": -0.20548854002460237,
+   "latent_sif_ci95": [
+    -0.39970783915201386,
+    -0.012041686658431711
+   ]
+  },
+  "AL-Flow": {
+   "n_triples": 37,
+   "sif": -0.04970799679421081,
+   "variation": 0.03985842075737936,
+   "n_triples_with_latents": 37,
+   "latent_sif": -0.09809363732372837,
+   "latent_sif_ci95": [
+    -0.29304539820065234,
+    0.09753190257250906
+   ]
+  },
+  "AL-Flow-Src": {
+   "n_triples": 37,
+   "sif": 0.07607590423429048,
+   "variation": 0.11455628680847682,
+   "n_triples_with_latents": 37,
+   "latent_sif": -0.11259129957585377,
+   "latent_sif_ci95": [
+    -0.28069344077593045,
+    0.05976620726803722
+   ]
+  },
+  "AL-Flow-Src-G": {
+   "n_triples": 37,
+   "sif": -0.056821280735919515,
+   "variation": 0.09933646419982144,
+   "n_triples_with_latents": 37,
+   "latent_sif": -0.12573265047803675,
+   "latent_sif_ci95": [
+    -0.32377727602049394,
+    0.07273228431595528
+   ]
+  },
+  "AnyTop": {
+   "n_triples": 37,
+   "sif": -0.010081784985026038,
+   "variation": 1.146807122219306,
+   "n_triples_with_latents": 37,
+   "latent_sif": 0.4514204809329365,
+   "latent_sif_ci95": [
+    0.2422837931261398,
+    0.6427544349464437
+   ]
+  }
+ },
+ "rows": [
+  {
+   "key": "MoReFlow-T",
+   "label": "MoReFlow-T",
+   "runs": [
+    "MoReFlow-T"
+   ]
+  },
+  {
+   "key": "ACE-I",
+   "label": "ACE-I (3 seeds avg)",
+   "runs": [
+    "ACE-I-seed42",
+    "ACE-I-seed43",
+    "ACE-I-seed44"
+   ]
+  },
+  {
+   "key": "ACE-T",
+   "label": "ACE-T (3 seeds avg)",
+   "runs": [
+    "ACE-T-seed42",
+    "ACE-T-seed43",
+    "ACE-T-seed44"
+   ]
+  },
+  {
+   "key": "ACE-no-source-latent",
+   "label": "ACE trained with $z_{\\text{src}}=0$",
+   "runs": [
+    "ACE-no-source-latent-seed42"
+   ]
+  },
+  {
+   "key": "ACE-no-adversarial-loss",
+   "label": "ACE without adversarial loss (3 seeds avg)",
+   "runs": [
+    "ACE-no-adversarial-loss-seed42",
+    "ACE-no-adversarial-loss-seed43",
+    "ACE-no-adversarial-loss-seed44"
+   ]
+  },
+  {
+   "key": "AL-Flow-Src",
+   "label": "AL-Flow-Src",
+   "runs": [
+    "AL-Flow-Src"
+   ]
+  },
+  {
+   "key": "MoReFlow-I",
+   "label": "MoReFlow-I",
+   "runs": [
+    "MoReFlow-I"
+   ]
+  },
+  {
+   "key": "AL-Flow-Src-G",
+   "label": "AL-Flow-Src-G",
+   "runs": [
+    "AL-Flow-Src-G"
+   ]
+  },
+  {
+   "key": "AnyTop",
+   "label": "AnyTop",
+   "runs": [
+    "AnyTop"
+   ]
+  },
+  {
+   "key": "AL-Flow",
+   "label": "AL-Flow",
+   "runs": [
+    "AL-Flow"
+   ]
+  }
+ ]
+}

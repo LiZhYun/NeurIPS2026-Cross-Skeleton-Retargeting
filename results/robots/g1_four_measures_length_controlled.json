@@ -1,0 +1,175 @@
+{
+  "description": "Human motion capture retargeted to the Unitree G1 humanoid, scored on four measures: Source-Instance Fidelity (SIF), how far apart the outputs are, whether the action is still recognisable, and whether the motion looks like real robot motion. Rows are the true retarget, a random clip of the same action, and four trained models. Scored by comparing motions after stretching them to the same length.",
+  "n_action_groups": 90,
+  "realistic_threshold": 1.944852089881897,
+  "rows": [
+    {
+      "method": "true_retarget",
+      "n_action_groups": 90,
+      "sif": 0.9589923385021986,
+      "sif_median": 0.9793983546387899,
+      "variation_mean": 0.52445847755007,
+      "variation": 0.5163058759438073,
+      "variation_middle_half": [
+        0.47347977485006637,
+        0.58003161243329
+      ],
+      "shuffled_mean": 0.00028169458068104625,
+      "z": 17.200707747080614,
+      "p_value": 9.999000099990002e-05,
+      "sif_ci95": [
+        0.9441076294053375,
+        0.9710428099362222
+      ],
+      "realistic_pct": 97.1830985915493,
+      "mean_distance_to_nearest_real_clip": 0.7805605320469804,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.9797887323943664,
+      "action_auc_ci": [
+        0.969924010755988,
+        0.988167899061033
+      ],
+      "n_auc": 355
+    },
+    {
+      "method": "random_clip",
+      "n_action_groups": 90,
+      "sif": -0.06820744691015225,
+      "sif_median": -0.07176260499260331,
+      "variation_mean": 0.40178302261774385,
+      "variation": 0.40646395668314284,
+      "variation_middle_half": [
+        0.3050520865240495,
+        0.4853737076307767
+      ],
+      "shuffled_mean": 7.194240543373792e-05,
+      "z": -1.4321959542487126,
+      "p_value": 0.9254074592540746,
+      "sif_ci95": [
+        -0.15020701989646446,
+        0.014179950067245126
+      ],
+      "realistic_pct": 97.46478873239437,
+      "mean_distance_to_nearest_real_clip": 0.7893757844448719,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.9855492957746479,
+      "action_auc_ci": [
+        0.9777174425081563,
+        0.9922131203441402
+      ],
+      "n_auc": 355
+    },
+    {
+      "method": "unpaired_objective",
+      "n_action_groups": 90,
+      "sif": 0.15387656991148266,
+      "sif_median": 0.10826479912405557,
+      "variation_mean": 0.006314325071615074,
+      "variation": 0.002143424206360529,
+      "variation_middle_half": [
+        0.0005549820740304358,
+        0.005686903651534736
+      ],
+      "shuffled_mean": -0.0009198708537715573,
+      "z": 3.101075381915825,
+      "p_value": 0.0012998700129987,
+      "sif_ci95": [
+        0.06555781995769358,
+        0.24193958606299523
+      ],
+      "realistic_pct": 100.0,
+      "mean_distance_to_nearest_real_clip": 0.959853956565051,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.49926760563380285,
+      "action_auc_ci": [
+        0.44037688224450283,
+        0.5578628118453626
+      ],
+      "n_auc": 355
+    },
+    {
+      "method": "averaging_objective",
+      "n_action_groups": 90,
+      "sif": 0.34332945786674024,
+      "sif_median": 0.44566304000940593,
+      "variation_mean": 0.1291797564651624,
+      "variation": 0.055551927794499106,
+      "variation_middle_half": [
+        0.03248074094486214,
+        0.1737553428976202
+      ],
+      "shuffled_mean": 5.469953934788858e-05,
+      "z": 6.834240371765866,
+      "p_value": 9.999000099990002e-05,
+      "sif_ci95": [
+        0.24797757737678927,
+        0.4383476460872831
+      ],
+      "realistic_pct": 52.95774647887323,
+      "mean_distance_to_nearest_real_clip": 2.215947170156828,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.8204225352112676,
+      "action_auc_ci": [
+        0.7775929015268078,
+        0.8612299279485165
+      ],
+      "n_auc": 355
+    },
+    {
+      "method": "true_pair_model",
+      "n_action_groups": 90,
+      "sif": 0.6983277526525662,
+      "sif_median": 0.8406127142843185,
+      "variation_mean": 0.6194777400228251,
+      "variation": 0.5533422570495119,
+      "variation_middle_half": [
+        0.474245015793719,
+        0.7078344084451005
+      ],
+      "shuffled_mean": 0.00030882131725126636,
+      "z": 12.97499346560608,
+      "p_value": 9.999000099990002e-05,
+      "sif_ci95": [
+        0.6157538918300104,
+        0.7730493404318463
+      ],
+      "realistic_pct": 94.64788732394366,
+      "mean_distance_to_nearest_real_clip": 0.9751947940235407,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.9665352112676057,
+      "action_auc_ci": [
+        0.9525976489757914,
+        0.9793191182289533
+      ],
+      "n_auc": 355
+    },
+    {
+      "method": "adversarial_objective",
+      "n_action_groups": 90,
+      "sif": 0.23930558525623064,
+      "sif_median": 0.3136367230267284,
+      "variation_mean": 8872074.445428407,
+      "variation": 152915.27946395223,
+      "variation_middle_half": [
+        55464.85618783833,
+        1097786.0732967695
+      ],
+      "shuffled_mean": -0.0002230052810532266,
+      "z": 4.850470531497346,
+      "p_value": 9.999000099990002e-05,
+      "sif_ci95": [
+        0.1380042546086186,
+        0.33901157918751346
+      ],
+      "realistic_pct": 0.0,
+      "mean_distance_to_nearest_real_clip": 18.025089720605123,
+      "realistic_threshold": 1.944852089881897,
+      "action_auc_mean": 0.4997323943661972,
+      "action_auc_ci": [
+        0.4395481055903917,
+        0.5567428616293314
+      ],
+      "n_auc": 355
+    }
+  ]
+}

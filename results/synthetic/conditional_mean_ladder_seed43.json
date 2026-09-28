@@ -1,0 +1,79 @@
+{
+ "description": "The same ladder, but at every training step each source clip is trained against the correct target of a different, randomly chosen source clip of the same source skeleton, target skeleton and action.",
+ "settings": {
+  "pairing": "random_same_group",
+  "max_steps": 2500,
+  "batch_size": 64,
+  "seed": 43,
+  "pairs_per_cell_values": [
+   2,
+   4,
+   8,
+   16,
+   32,
+   50
+  ]
+ },
+ "rows": [
+  {
+   "pairs_per_cell": 2,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.0004841452098081807,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.015551331350808788,
+   "mean_squared_error": 0.04718093329124497
+  },
+  {
+   "pairs_per_cell": 4,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.00039211329535491856,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.012595154634573136,
+   "mean_squared_error": 0.03997623208540192
+  },
+  {
+   "pairs_per_cell": 8,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.0005430377659650667,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.017443031684381667,
+   "mean_squared_error": 0.04236058643055869
+  },
+  {
+   "pairs_per_cell": 16,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.0003969428640286403,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.01275028623807757,
+   "mean_squared_error": 0.03978246802130127
+  },
+  {
+   "pairs_per_cell": 32,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.0005342622621905282,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.017161151859479154,
+   "mean_squared_error": 0.0368985562374638
+  },
+  {
+   "pairs_per_cell": 50,
+   "same_as_true_pairs": false,
+   "n_cells": 336,
+   "predicted_variance_per_cell": 0.0005887145292710219,
+   "true_map_variance_per_cell": 0.0311320747328171,
+   "source_variance_per_cell": 0.029733662016691857,
+   "variance_ratio": 0.018910224722364654,
+   "mean_squared_error": 0.038241898270609365
+  }
+ ]
+}

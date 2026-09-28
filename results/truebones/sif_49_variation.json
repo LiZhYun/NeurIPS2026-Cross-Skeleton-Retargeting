@@ -1,0 +1,173 @@
+{
+ "description": "How far apart the outputs of a triple are, compared with the source clips they came from, on the 49-triple evaluation. A value near one means the outputs differ as much as their sources; a value near zero means they collapsed onto a single motion.",
+ "methods": {
+  "AnyTop": {
+   "raw": {
+    "n_triples": 49,
+    "sif": -0.033489980426539195,
+    "variation": 1.337878561670957
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": -0.06466900670057381,
+    "variation": 1.3578040910327371
+   }
+  },
+  "ACE-T": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.38499537681852986,
+    "variation": 0.020133694307901216
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.2051384911787295,
+    "variation": 0.23104523169739064
+   }
+  },
+  "ACE-I": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.4839277538802586,
+    "variation": 0.02000091531677322
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.17835786916876925,
+    "variation": 0.1352028731356644
+   }
+  },
+  "AL-Flow": {
+   "raw": {
+    "n_triples": 45,
+    "sif": -0.0658124558803746,
+    "variation": 0.03985842075737936
+   },
+   "length_controlled": {
+    "n_triples": 45,
+    "sif": -0.04389445832046003,
+    "variation": 0.03284909936337798
+   }
+  },
+  "AL-Flow-Src": {
+   "raw": {
+    "n_triples": 38,
+    "sif": 0.06993429481031496,
+    "variation": 0.10700349364709222
+   },
+   "length_controlled": {
+    "n_triples": 38,
+    "sif": -0.008656850744929098,
+    "variation": 0.10598878767642719
+   }
+  },
+  "AL-Flow-Src-G": {
+   "raw": {
+    "n_triples": 49,
+    "sif": -0.02828139941413088,
+    "variation": 0.08188200065844625
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": -0.10363089838961692,
+    "variation": 0.08290235739389244
+   }
+  },
+  "MoReFlow-T": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.20276263891497667,
+    "variation": 0.2474545562387052
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.22029115052387088,
+    "variation": 0.216733932937018
+   }
+  },
+  "MoReFlow-I": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.13733010435541848,
+    "variation": 0.27631784879381543
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.16002384288423874,
+    "variation": 0.2788232412701064
+   }
+  },
+  "Motion2Motion-BVH": {
+   "raw": {
+    "n_triples": 49,
+    "sif": -0.08469529519836794,
+    "variation": 0.9293319002362503
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": -0.17107814385318162,
+    "variation": 0.9005987258853667
+   }
+  },
+  "ANCHOR": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.013792973220070543,
+    "variation": 2.0253308884168628e-13
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.03493566677706836,
+    "variation": 2.4976015715632775e-13
+   }
+  },
+  "Motion2Motion-Direct": {
+   "raw": {
+    "n_triples": 49,
+    "sif": 0.05285893098030495,
+    "variation": 1.6940947466542267
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": 0.09058575155240363,
+    "variation": 1.5974120968946086
+   }
+  },
+  "random-same-cluster": {
+   "raw": {
+    "n_triples": 48,
+    "sif": 0.0726280489712895,
+    "variation": 0.25448186232144265
+   },
+   "length_controlled": {
+    "n_triples": 48,
+    "sif": 0.0076031110141898395,
+    "variation": 0.38275112560484215
+   }
+  },
+  "random-same-exact-action": {
+   "raw": {
+    "n_triples": 48,
+    "sif": 0.09613168441841669,
+    "variation": 4.480126284367269e-13
+   },
+   "length_controlled": {
+    "n_triples": 48,
+    "sif": 0.032039872232698545,
+    "variation": 0.1339362253094738
+   }
+  },
+  "DPG-SB-v3": {
+   "raw": {
+    "n_triples": 49,
+    "sif": -0.05775916368540487,
+    "variation": 0.2164509906214878
+   },
+   "length_controlled": {
+    "n_triples": 49,
+    "sif": -0.0306868016287473,
+    "variation": 0.2443979211664521
+   }
+  }
+ }
+}

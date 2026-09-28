@@ -1,0 +1,214 @@
+{
+ "description": "ACE keeps part of what makes a source clip distinct. This file asks where that comes from. At generation the source description is either given as it is, set to zero, or swapped between clips; the output is either as long as its source clip or a fixed length. Two models are compared: ACE-T, and a model trained with the source description set to zero. Keys of \"cells\" read source/model/output length. On the 49-triple evaluation.",
+ "evaluation_set": "truebones_49",
+ "n_shuffles": 10000,
+ "seed": 42,
+ "cells": {
+  "real/ACE-T/copied": {
+   "source": "real",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": 0.38501953458473,
+   "variation": 0.02013681407054216,
+   "p_value_independent_triples": 9.999000099990002e-05,
+   "p_value": 9.999000099990002e-05,
+   "shuffled_mean": -7.650843436380254e-05,
+   "model": "ACE-T"
+  },
+  "real/ACE-T/fixed": {
+   "source": "real",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": 0.2936661388328865,
+   "variation": 0.0028546336103776166,
+   "p_value_independent_triples": 0.0006999300069993001,
+   "p_value": 0.0005999400059994001,
+   "shuffled_mean": -0.0002895519391735912,
+   "model": "ACE-T"
+  },
+  "real/ACE-no-source-latent/copied": {
+   "source": "real",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": 0.4187553611849286,
+   "variation": 0.02254436507301747,
+   "p_value_independent_triples": 9.999000099990002e-05,
+   "p_value": 9.999000099990002e-05,
+   "shuffled_mean": 4.109357217444547e-05,
+   "model": "ACE-no-source-latent"
+  },
+  "real/ACE-no-source-latent/fixed": {
+   "source": "real",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": 0.21278636788617064,
+   "variation": 0.004440095572444522,
+   "p_value_independent_triples": 0.006999300069993001,
+   "p_value": 0.006299370062993701,
+   "shuffled_mean": -0.0006127197188737826,
+   "model": "ACE-no-source-latent"
+  },
+  "removed/ACE-T/copied": {
+   "source": "removed",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": 0.30024980832764214,
+   "variation": 0.009138452964159797,
+   "p_value_independent_triples": 0.0006999300069993001,
+   "p_value": 9.999000099990002e-05,
+   "shuffled_mean": 0.0006048278257333792,
+   "model": "ACE-T"
+  },
+  "removed/ACE-T/fixed": {
+   "source": "removed",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": 0.0,
+   "variation": 9.022024077952488e-14,
+   "p_value_independent_triples": 1.0,
+   "p_value": 1.0,
+   "shuffled_mean": 0.0,
+   "model": "ACE-T"
+  },
+  "removed/ACE-no-source-latent/copied": {
+   "source": "removed",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": 0.2993919326351556,
+   "variation": 0.00712843866216242,
+   "p_value_independent_triples": 0.0005999400059994001,
+   "p_value": 0.00029997000299970003,
+   "shuffled_mean": 0.0008878986516477155,
+   "model": "ACE-no-source-latent"
+  },
+  "removed/ACE-no-source-latent/fixed": {
+   "source": "removed",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": 0.0,
+   "variation": 8.005555740600784e-14,
+   "p_value_independent_triples": 1.0,
+   "p_value": 1.0,
+   "shuffled_mean": 0.0,
+   "model": "ACE-no-source-latent"
+  },
+  "shuffled/ACE-T/copied": {
+   "source": "shuffled",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": -0.19241865362773677,
+   "variation": 0.020155570489863963,
+   "p_value_independent_triples": 0.9868013198680132,
+   "p_value": 0.9866013398660134,
+   "shuffled_mean": -0.0004907979245426769,
+   "model": "ACE-T"
+  },
+  "shuffled/ACE-T/fixed": {
+   "source": "shuffled",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": -0.0635811354712227,
+   "variation": 0.002883975579806628,
+   "p_value_independent_triples": 0.767023297670233,
+   "p_value": 0.773922607739226,
+   "shuffled_mean": -0.00013750684449017998,
+   "model": "ACE-T"
+  },
+  "shuffled/ACE-no-source-latent/copied": {
+   "source": "shuffled",
+   "length": "copied",
+   "n_triples": 49,
+   "sif": -0.16450232253905503,
+   "variation": 0.022809112714002527,
+   "p_value_independent_triples": 0.9691030896910309,
+   "p_value": 0.9701029897010299,
+   "shuffled_mean": -0.001964905268465867,
+   "model": "ACE-no-source-latent"
+  },
+  "shuffled/ACE-no-source-latent/fixed": {
+   "source": "shuffled",
+   "length": "fixed",
+   "n_triples": 49,
+   "sif": 0.040358308703487535,
+   "variation": 0.004456338408646224,
+   "p_value_independent_triples": 0.3140685931406859,
+   "p_value": 0.3280671932806719,
+   "shuffled_mean": -0.0012015411857188658,
+   "model": "ACE-no-source-latent"
+  }
+ },
+ "differences_from_the_real_source": {
+  "removed minus real_ACE-T_copied": {
+   "n_triples": 49,
+   "difference": -0.0847697262570878,
+   "ci95": [
+    -0.26181461364589625,
+    0.08354792846298084
+   ],
+   "p_value": 0.27187281271872815
+  },
+  "shuffled minus real_ACE-T_copied": {
+   "n_triples": 49,
+   "difference": -0.5774381882124667,
+   "ci95": [
+    -0.893824768669945,
+    -0.2506444025548369
+   ],
+   "p_value": 0.0005999400059994001
+  },
+  "removed minus real_ACE-T_fixed": {
+   "n_triples": 49,
+   "difference": -0.2936661388328865,
+   "ci95": [
+    -0.47215627950885913,
+    -0.11908493180697366
+   ],
+   "p_value": 0.0023997600239976003
+  },
+  "shuffled minus real_ACE-T_fixed": {
+   "n_triples": 49,
+   "difference": -0.35724727430410924,
+   "ci95": [
+    -0.6593898208295002,
+    -0.06308928807914117
+   ],
+   "p_value": 0.018698130186981302
+  },
+  "removed minus real_ACE-no-source-latent_copied": {
+   "n_triples": 49,
+   "difference": -0.119363428549773,
+   "ci95": [
+    -0.33108073428344503,
+    0.09578303598732361
+   ],
+   "p_value": 0.23057694230576942
+  },
+  "shuffled minus real_ACE-no-source-latent_copied": {
+   "n_triples": 49,
+   "difference": -0.5832576837239836,
+   "ci95": [
+    -0.8727250481160069,
+    -0.2730866279604472
+   ],
+   "p_value": 0.00019998000199980003
+  },
+  "removed minus real_ACE-no-source-latent_fixed": {
+   "n_triples": 49,
+   "difference": -0.21278636788617064,
+   "ci95": [
+    -0.38839889484118867,
+    -0.026114349063251604
+   ],
+   "p_value": 0.0192980701929807
+  },
+  "shuffled minus real_ACE-no-source-latent_fixed": {
+   "n_triples": 49,
+   "difference": -0.17242805918268306,
+   "ci95": [
+    -0.5046997678084392,
+    0.18721340219032595
+   ],
+   "p_value": 0.28377162283771623
+  }
+ }
+}

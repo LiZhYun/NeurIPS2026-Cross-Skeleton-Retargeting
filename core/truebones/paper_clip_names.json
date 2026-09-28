@@ -1,0 +1,3222 @@
+{
+ "Alligator": {
+  "__BigMouth.bvh": [
+   "Alligator___BigMouth_12"
+  ],
+  "__Bite1.bvh": [
+   "Alligator___Bite1_3"
+  ],
+  "__Bite2.bvh": [
+   "Alligator___Bite2_2"
+  ],
+  "__Bite3.bvh": [
+   "Alligator___Bite3_10"
+  ],
+  "__Bite4.bvh": [
+   "Alligator___Bite4_6"
+  ],
+  "__Bite5.bvh": [
+   "Alligator___Bite5_16"
+  ],
+  "__Bite6.bvh": [
+   "Alligator___Bite6_1"
+  ],
+  "__Bite7.bvh": [
+   "Alligator___Bite7_11"
+  ],
+  "__Catch.bvh": [
+   "Alligator___Catch_9"
+  ],
+  "__DIe.bvh": [
+   "Alligator___DIe_15"
+  ],
+  "__Dash.bvh": [
+   "Alligator___Dash_4"
+  ],
+  "__Dash2.bvh": [
+   "Alligator___Dash2_13"
+  ],
+  "__DeadUp.bvh": [
+   "Alligator___DeadUp_20"
+  ],
+  "__DieLoop.bvh": [
+   "Alligator___DieLoop_7"
+  ],
+  "__Shake.bvh": [
+   "Alligator___Shake_21"
+  ],
+  "__StandIdle.bvh": [
+   "Alligator___StandIdle_14"
+  ],
+  "__Throw.bvh": [
+   "Alligator___Throw_8"
+  ],
+  "__Throw2.bvh": [
+   "Alligator___Throw2_5"
+  ],
+  "__Walk1.bvh": [
+   "Alligator___Walk1_17"
+  ],
+  "__Walk2.bvh": [
+   "Alligator___Walk2_18",
+   "Alligator___Walk2_19"
+  ],
+  "__Walk3.bvh": [
+   "Alligator___Walk3_22"
+  ]
+ },
+ "Anaconda": {
+  "__Attack.bvh": [
+   "Anaconda___Attack_35"
+  ],
+  "__Bite.bvh": [
+   "Anaconda___Bite_38"
+  ],
+  "__Bite2.bvh": [
+   "Anaconda___Bite2_25"
+  ],
+  "__Die.bvh": [
+   "Anaconda___Die_23"
+  ],
+  "__Hiss.bvh": [
+   "Anaconda___Hiss_28"
+  ],
+  "__Idle.bvh": [
+   "Anaconda___Idle_24"
+  ],
+  "__Idle2.bvh": [
+   "Anaconda___Idle2_33",
+   "Anaconda___Idle2_34"
+  ],
+  "__Rise.bvh": [
+   "Anaconda___Rise_31"
+  ],
+  "__Rise2.bvh": [
+   "Anaconda___Rise2_42"
+  ],
+  "__Run.bvh": [
+   "Anaconda___Run_36"
+  ],
+  "__Sneaky.bvh": [
+   "Anaconda___Sneaky_39",
+   "Anaconda___Sneaky_40"
+  ],
+  "__Spin.bvh": [
+   "Anaconda___Spin_37"
+  ],
+  "__Strike.bvh": [
+   "Anaconda___Strike_29"
+  ],
+  "__Strike2.bvh": [
+   "Anaconda___Strike2_27"
+  ],
+  "__StruckDie.bvh": [
+   "Anaconda___StruckDie_32"
+  ],
+  "__Tired.bvh": [
+   "Anaconda___Tired_41"
+  ],
+  "__Twistrattle.bvh": [
+   "Anaconda___Twistrattle_26"
+  ],
+  "__WalkSLow.bvh": [
+   "Anaconda___WalkSLow_30"
+  ]
+ },
+ "Ant": {
+  "__Attack.bvh": [
+   "Ant___Attack_56"
+  ],
+  "__Cleaning.bvh": [
+   "Ant___Cleaning_51"
+  ],
+  "__Die.bvh": [
+   "Ant___Die_44"
+  ],
+  "__Die2.bvh": [
+   "Ant___Die2_57"
+  ],
+  "__DieLoop.bvh": [
+   "Ant___DieLoop_47"
+  ],
+  "__DieUp.bvh": [
+   "Ant___DieUp_55"
+  ],
+  "__Idle.bvh": [
+   "Ant___Idle_45"
+  ],
+  "__Idle2.bvh": [
+   "Ant___Idle2_54"
+  ],
+  "__Idle3.bvh": [
+   "Ant___Idle3_43"
+  ],
+  "__JumpForward.bvh": [
+   "Ant___JumpForward_58"
+  ],
+  "__KnockedBack.bvh": [
+   "Ant___KnockedBack_53"
+  ],
+  "__March.bvh": [
+   "Ant___March_49"
+  ],
+  "__Shake.bvh": [
+   "Ant___Shake_59"
+  ],
+  "__Sting.bvh": [
+   "Ant___Sting_52"
+  ],
+  "__Sting2.bvh": [
+   "Ant___Sting2_48"
+  ],
+  "__Throw.bvh": [
+   "Ant___Throw_50"
+  ],
+  "__Walk.bvh": [
+   "Ant___Walk_46"
+  ]
+ },
+ "Bat": {
+  "__AttackBite.bvh": [
+   "Bat___AttackBite_69"
+  ],
+  "__Float.bvh": [
+   "Bat___Float_60"
+  ],
+  "__Fly.bvh": [
+   "Bat___Fly_61"
+  ],
+  "__FlyGlide.bvh": [
+   "Bat___FlyGlide_65"
+  ],
+  "__FlyLoop.bvh": [
+   "Bat___FlyLoop_68"
+  ],
+  "__Kick.bvh": [
+   "Bat___Kick_66"
+  ],
+  "__KnockedBack.bvh": [
+   "Bat___KnockedBack_64"
+  ],
+  "__Looking.bvh": [
+   "Bat___Looking_63"
+  ],
+  "__SlowFly.bvh": [
+   "Bat___SlowFly_67"
+  ],
+  "__Walk.bvh": [
+   "Bat___Walk_62"
+  ]
+ },
+ "Bear": {
+  "__AngerySwat.bvh": [
+   "Bear___AngerySwat_73"
+  ],
+  "__BackUp.bvh": [
+   "Bear___BackUp_93"
+  ],
+  "__BearRun.bvh": [
+   "Bear___BearRun_97"
+  ],
+  "__Bite.bvh": [
+   "Bear___Bite_96"
+  ],
+  "__CatchFish.bvh": [
+   "Bear___CatchFish_87"
+  ],
+  "__Feast.bvh": [
+   "Bear___Feast_94"
+  ],
+  "__FishBite.bvh": [
+   "Bear___FishBite_91"
+  ],
+  "__GetUp.bvh": [
+   "Bear___GetUp_79"
+  ],
+  "__GroundPaw.bvh": [
+   "Bear___GroundPaw_80"
+  ],
+  "__Growl.bvh": [
+   "Bear___Growl_83"
+  ],
+  "__Idle.bvh": [
+   "Bear___Idle_74"
+  ],
+  "__IdlePant.bvh": [
+   "Bear___IdlePant_84"
+  ],
+  "__JumpBite.bvh": [
+   "Bear___JumpBite_85"
+  ],
+  "__LayDown.bvh": [
+   "Bear___LayDown_81"
+  ],
+  "__RiseRoar.bvh": [
+   "Bear___RiseRoar_89"
+  ],
+  "__RunningBear.bvh": [
+   "Bear___RunningBear_95"
+  ],
+  "__SlowWalk.bvh": [
+   "Bear___SlowWalk_72"
+  ],
+  "__Stalking.bvh": [
+   "Bear___Stalking_77"
+  ],
+  "__Stand.bvh": [
+   "Bear___Stand_76"
+  ],
+  "__SwatLeft.bvh": [
+   "Bear___SwatLeft_78"
+  ],
+  "__SwatRight.bvh": [
+   "Bear___SwatRight_71"
+  ],
+  "__TipLeft.bvh": [
+   "Bear___TipLeft_86"
+  ],
+  "__Trot.bvh": [
+   "Bear___Trot_98"
+  ],
+  "__Trotting.bvh": [
+   "Bear___Trotting_82"
+  ],
+  "__Turn180.bvh": [
+   "Bear___Turn180_90"
+  ],
+  "__TurnLeft.bvh": [
+   "Bear___TurnLeft_92"
+  ],
+  "__WakeUp.bvh": [
+   "Bear___WakeUp_70"
+  ],
+  "__WalkForward.bvh": [
+   "Bear___WalkForward_75"
+  ],
+  "__WetShake.bvh": [
+   "Bear___WetShake_88"
+  ]
+ },
+ "Bird": {
+  "__Attack.bvh": [
+   "Bird___Attack_112"
+  ],
+  "__Attack2.bvh": [
+   "Bird___Attack2_110"
+  ],
+  "__Attack3.bvh": [
+   "Bird___Attack3_99"
+  ],
+  "__Attack4.bvh": [
+   "Bird___Attack4_107"
+  ],
+  "__CircleLand.bvh": [
+   "Bird___CircleLand_103",
+   "Bird___CircleLand_104"
+  ],
+  "__Fallen.bvh": [
+   "Bird___Fallen_102"
+  ],
+  "__Falling.bvh": [
+   "Bird___Falling_108"
+  ],
+  "__Floater.bvh": [
+   "Bird___Floater_114"
+  ],
+  "__FlyFast.bvh": [
+   "Bird___FlyFast_109"
+  ],
+  "__FlyLoop.bvh": [
+   "Bird___FlyLoop_117"
+  ],
+  "__FlySlow.bvh": [
+   "Bird___FlySlow_113"
+  ],
+  "__Flying.bvh": [
+   "Bird___Flying_116"
+  ],
+  "__GroundFlap.bvh": [
+   "Bird___GroundFlap_115"
+  ],
+  "__IdleLoop.bvh": [
+   "Bird___IdleLoop_100"
+  ],
+  "__Lander.bvh": [
+   "Bird___Lander_105"
+  ],
+  "__LookRight.bvh": [
+   "Bird___LookRight_106"
+  ],
+  "__SlowLook.bvh": [
+   "Bird___SlowLook_111"
+  ],
+  "__TakeOff.bvh": [
+   "Bird___TakeOff_101"
+  ]
+ },
+ "BrownBear": {
+  "__Attack.bvh": [
+   "BrownBear___Attack_136"
+  ],
+  "__Attack2.bvh": [
+   "BrownBear___Attack2_135"
+  ],
+  "__Attack3.bvh": [
+   "BrownBear___Attack3_118"
+  ],
+  "__Charge.bvh": [
+   "BrownBear___Charge_127"
+  ],
+  "__DeathLoop.bvh": [
+   "BrownBear___DeathLoop_132"
+  ],
+  "__EatFish.bvh": [
+   "BrownBear___EatFish_123",
+   "BrownBear___EatFish_124"
+  ],
+  "__Falling.bvh": [
+   "BrownBear___Falling_133"
+  ],
+  "__Idle.bvh": [
+   "BrownBear___Idle_120"
+  ],
+  "__Limp.bvh": [
+   "BrownBear___Limp_125"
+  ],
+  "__Limping.bvh": [
+   "BrownBear___Limping_130"
+  ],
+  "__Ready.bvh": [
+   "BrownBear___Ready_137"
+  ],
+  "__Rise.bvh": [
+   "BrownBear___Rise_131"
+  ],
+  "__RiseAttack.bvh": [
+   "BrownBear___RiseAttack_139"
+  ],
+  "__RiseSwat.bvh": [
+   "BrownBear___RiseSwat_129"
+  ],
+  "__RunLoop.bvh": [
+   "BrownBear___RunLoop_121"
+  ],
+  "__ScratchEar.bvh": [
+   "BrownBear___ScratchEar_134"
+  ],
+  "__SitClean.bvh": [
+   "BrownBear___SitClean_138"
+  ],
+  "__Sleepy.bvh": [
+   "BrownBear___Sleepy_122"
+  ],
+  "__SlowWalk.bvh": [
+   "BrownBear___SlowWalk_119"
+  ],
+  "__Twitching.bvh": [
+   "BrownBear___Twitching_128"
+  ],
+  "__WalkLoop.bvh": [
+   "BrownBear___WalkLoop_126"
+  ]
+ },
+ "Buffalo": {
+  "__AlertIdle.bvh": [
+   "Buffalo___AlertIdle_150"
+  ],
+  "__AngryAntlers.bvh": [
+   "Buffalo___AngryAntlers_151"
+  ],
+  "__Attack.bvh": [
+   "Buffalo___Attack_152"
+  ],
+  "__Attack1.bvh": [
+   "Buffalo___Attack1_156"
+  ],
+  "__ChargedUp.bvh": [
+   "Buffalo___ChargedUp_153"
+  ],
+  "__Cud.bvh": [
+   "Buffalo___Cud_157",
+   "Buffalo___Cud_158"
+  ],
+  "__Die.bvh": [
+   "Buffalo___Die_140"
+  ],
+  "__Fall.bvh": [
+   "Buffalo___Fall_149"
+  ],
+  "__GetUp.bvh": [
+   "Buffalo___GetUp_144"
+  ],
+  "__GroundLoop.bvh": [
+   "Buffalo___GroundLoop_148"
+  ],
+  "__HoofScrape.bvh": [
+   "Buffalo___HoofScrape_154"
+  ],
+  "__Idle.bvh": [
+   "Buffalo___Idle_141"
+  ],
+  "__Jump.bvh": [
+   "Buffalo___Jump_155"
+  ],
+  "__LoweredHead.bvh": [
+   "Buffalo___LoweredHead_159"
+  ],
+  "__RunLoop.bvh": [
+   "Buffalo___RunLoop_142"
+  ],
+  "__Shot.bvh": [
+   "Buffalo___Shot_147"
+  ],
+  "__SleepUp.bvh": [
+   "Buffalo___SleepUp_145",
+   "Buffalo___SleepUp_146"
+  ],
+  "__WalkLoop.bvh": [
+   "Buffalo___WalkLoop_143"
+  ]
+ },
+ "Buzzard": {
+  "__Attack1.bvh": [
+   "Buzzard___Attack1_167"
+  ],
+  "__Attack2.bvh": [
+   "Buzzard___Attack2_164"
+  ],
+  "__Attack3.bvh": [
+   "Buzzard___Attack3_160"
+  ],
+  "__Die1.bvh": [
+   "Buzzard___Die1_163"
+  ],
+  "__Dying.bvh": [
+   "Buzzard___Dying_166"
+  ],
+  "__FlyLoop.bvh": [
+   "Buzzard___FlyLoop_169"
+  ],
+  "__SlowFly.bvh": [
+   "Buzzard___SlowFly_168"
+  ],
+  "__SlowLoop.bvh": [
+   "Buzzard___SlowLoop_162"
+  ],
+  "__SlowtoLand.bvh": [
+   "Buzzard___SlowtoLand_161"
+  ],
+  "__Soaring.bvh": [
+   "Buzzard___Soaring_165"
+  ]
+ },
+ "Camel": {
+  "__Bite.bvh": [
+   "Camel___Bite_183"
+  ],
+  "__Buck.bvh": [
+   "Camel___Buck_186"
+  ],
+  "__DownLoop.bvh": [
+   "Camel___DownLoop_185"
+  ],
+  "__Fall.bvh": [
+   "Camel___Fall_178"
+  ],
+  "__IdleLoop.bvh": [
+   "Camel___IdleLoop_173"
+  ],
+  "__LayDown.bvh": [
+   "Camel___LayDown_175"
+  ],
+  "__Mope.bvh": [
+   "Camel___Mope_177"
+  ],
+  "__Restless.bvh": [
+   "Camel___Restless_176"
+  ],
+  "__Run.bvh": [
+   "Camel___Run_181"
+  ],
+  "__RunFast.bvh": [
+   "Camel___RunFast_180"
+  ],
+  "__ScrapeHoof.bvh": [
+   "Camel___ScrapeHoof_170"
+  ],
+  "__SlowWalk.bvh": [
+   "Camel___SlowWalk_171"
+  ],
+  "__Specail.bvh": [
+   "Camel___Specail_179"
+  ],
+  "__StandUp.bvh": [
+   "Camel___StandUp_172"
+  ],
+  "__StopWalk.bvh": [
+   "Camel___StopWalk_174"
+  ],
+  "__Trot.bvh": [
+   "Camel___Trot_187"
+  ],
+  "__Wild1.bvh": [
+   "Camel___Wild1_184"
+  ],
+  "__Yell.bvh": [
+   "Camel___Yell_182"
+  ]
+ },
+ "Cat": {
+  "CAT_IdlePurr.bvh": [
+   "Cat_CAT_IdlePurr_194",
+   "Cat_CAT_IdlePurr_195",
+   "Cat_CAT_IdlePurr_196"
+  ],
+  "CAT_LickCleanIdle.bvh": [
+   "Cat_CAT_LickCleanIdle_188",
+   "Cat_CAT_LickCleanIdle_189",
+   "Cat_CAT_LickCleanIdle_190"
+  ],
+  "CAT_StretchYawnIdle.bvh": [
+   "Cat_CAT_StretchYawnIdle_191",
+   "Cat_CAT_StretchYawnIdle_192",
+   "Cat_CAT_StretchYawnIdle_193"
+  ],
+  "CAT_Walk.bvh": [
+   "Cat_CAT_Walk_197"
+  ]
+ },
+ "Centipede": {
+  "__Attack.bvh": [
+   "Centipede___Attack_205"
+  ],
+  "__Attack1.bvh": [
+   "Centipede___Attack1_207"
+  ],
+  "__Attack2.bvh": [
+   "Centipede___Attack2_203"
+  ],
+  "__Die.bvh": [
+   "Centipede___Die_199"
+  ],
+  "__Idle.bvh": [
+   "Centipede___Idle_200"
+  ],
+  "__Idle2.bvh": [
+   "Centipede___Idle2_204"
+  ],
+  "__Idle3.bvh": [
+   "Centipede___Idle3_198"
+  ],
+  "__Rearing.bvh": [
+   "Centipede___Rearing_202"
+  ],
+  "__Run.bvh": [
+   "Centipede___Run_206"
+  ],
+  "__Take_001.bvh": [
+   "Centipede___Take_001_201"
+  ]
+ },
+ "Chicken": {
+  "Chicken_EggLaying.bvh": [
+   "Chicken_Chicken_EggLaying_209"
+  ],
+  "Chicken_IdlePecking.bvh": [
+   "Chicken_Chicken_IdlePecking_208"
+  ],
+  "Chicken_Walk.bvh": [
+   "Chicken_Chicken_Walk_210"
+  ]
+ },
+ "Comodoa": {
+  "__Attack1.bvh": [
+   "Comodoa___Attack1_221"
+  ],
+  "__Attack2.bvh": [
+   "Comodoa___Attack2_218"
+  ],
+  "__Attack3.bvh": [
+   "Comodoa___Attack3_211"
+  ],
+  "__Die.bvh": [
+   "Comodoa___Die_212"
+  ],
+  "__Idle.bvh": [
+   "Comodoa___Idle_213",
+   "Comodoa___Idle_214"
+  ],
+  "__Idle2.bvh": [
+   "Comodoa___Idle2_219"
+  ],
+  "__Run.bvh": [
+   "Comodoa___Run_220"
+  ],
+  "__Walk.bvh": [
+   "Comodoa___Walk_215"
+  ],
+  "__Yawn.bvh": [
+   "Comodoa___Yawn_216",
+   "Comodoa___Yawn_217"
+  ]
+ },
+ "Coyote": {
+  "__Attack1.bvh": [
+   "Coyote___Attack1_231"
+  ],
+  "__Attack2.bvh": [
+   "Coyote___Attack2_229"
+  ],
+  "__Attack3.bvh": [
+   "Coyote___Attack3_222"
+  ],
+  "__Die.bvh": [
+   "Coyote___Die_224"
+  ],
+  "__Howling.bvh": [
+   "Coyote___Howling_230"
+  ],
+  "__Idle.bvh": [
+   "Coyote___Idle_225"
+  ],
+  "__Restless.bvh": [
+   "Coyote___Restless_228"
+  ],
+  "__Running.bvh": [
+   "Coyote___Running_223"
+  ],
+  "__Sniffing.bvh": [
+   "Coyote___Sniffing_227"
+  ],
+  "__Walking.bvh": [
+   "Coyote___Walking_226"
+  ]
+ },
+ "Crab": {
+  "__Attack1.bvh": [
+   "Crab___Attack1_241"
+  ],
+  "__Attack2.bvh": [
+   "Crab___Attack2_239"
+  ],
+  "__Attack3.bvh": [
+   "Crab___Attack3_232"
+  ],
+  "__Attack4.bvh": [
+   "Crab___Attack4_237"
+  ],
+  "__Defeated.bvh": [
+   "Crab___Defeated_236"
+  ],
+  "__Die.bvh": [
+   "Crab___Die_234"
+  ],
+  "__Eat.bvh": [
+   "Crab___Eat_238"
+  ],
+  "__HitBack.bvh": [
+   "Crab___HitBack_240"
+  ],
+  "__Strafe.bvh": [
+   "Crab___Strafe_233"
+  ],
+  "__Walk.bvh": [
+   "Crab___Walk_235"
+  ]
+ },
+ "Cricket": {
+  "__Attack1.bvh": [
+   "Cricket___Attack1_254"
+  ],
+  "__Attack2.bvh": [
+   "Cricket___Attack2_251"
+  ],
+  "__Attack3.bvh": [
+   "Cricket___Attack3_242"
+  ],
+  "__Attack4.bvh": [
+   "Cricket___Attack4_249"
+  ],
+  "__Burrough.bvh": [
+   "Cricket___Burrough_248"
+  ],
+  "__Die.bvh": [
+   "Cricket___Die_244"
+  ],
+  "__Idle.bvh": [
+   "Cricket___Idle_245"
+  ],
+  "__IdlePissed.bvh": [
+   "Cricket___IdlePissed_246"
+  ],
+  "__LookAround.bvh": [
+   "Cricket___LookAround_252",
+   "Cricket___LookAround_253"
+  ],
+  "__OutOfGround.bvh": [
+   "Cricket___OutOfGround_247"
+  ],
+  "__Running.bvh": [
+   "Cricket___Running_243"
+  ],
+  "__Walking.bvh": [
+   "Cricket___Walking_250"
+  ]
+ },
+ "Crocodile": {
+  "__Attack.bvh": [
+   "Crocodile___Attack_262"
+  ],
+  "__Bite.bvh": [
+   "Crocodile___Bite_264"
+  ],
+  "__Bounce.bvh": [
+   "Crocodile___Bounce_265"
+  ],
+  "__Die.bvh": [
+   "Crocodile___Die_257"
+  ],
+  "__GetUp.bvh": [
+   "Crocodile___GetUp_260"
+  ],
+  "__HeavyBreathe.bvh": [
+   "Crocodile___HeavyBreathe_266"
+  ],
+  "__Idle.bvh": [
+   "Crocodile___Idle_258"
+  ],
+  "__NormalBreath.bvh": [
+   "Crocodile___NormalBreath_261"
+  ],
+  "__Running.bvh": [
+   "Crocodile___Running_255"
+  ],
+  "__SleepLoop.bvh": [
+   "Crocodile___SleepLoop_256"
+  ],
+  "__TailWhip.bvh": [
+   "Crocodile___TailWhip_263"
+  ],
+  "__Yawning.bvh": [
+   "Crocodile___Yawning_259"
+  ]
+ },
+ "Deer": {
+  "__Backing.bvh": [
+   "Deer___Backing_273"
+  ],
+  "__Bleat.bvh": [
+   "Deer___Bleat_277"
+  ],
+  "__BuckShy.bvh": [
+   "Deer___BuckShy_275"
+  ],
+  "__Charge.bvh": [
+   "Deer___Charge_271"
+  ],
+  "__ComeDown.bvh": [
+   "Deer___ComeDown_286"
+  ],
+  "__Gallop.bvh": [
+   "Deer___Gallop_285"
+  ],
+  "__GetUp.bvh": [
+   "Deer___GetUp_274"
+  ],
+  "__GetUpAgain.bvh": [
+   "Deer___GetUpAgain_278"
+  ],
+  "__Grazing.bvh": [
+   "Deer___Grazing_282",
+   "Deer___Grazing_283"
+  ],
+  "__Idle.bvh": [
+   "Deer___Idle_268"
+  ],
+  "__RearUp.bvh": [
+   "Deer___RearUp_284"
+  ],
+  "__Rutting.bvh": [
+   "Deer___Rutting_276"
+  ],
+  "__Squirly.bvh": [
+   "Deer___Squirly_272"
+  ],
+  "__TakeOff.bvh": [
+   "Deer___TakeOff_269"
+  ],
+  "__Trot.bvh": [
+   "Deer___Trot_288"
+  ],
+  "__TurnLeft.bvh": [
+   "Deer___TurnLeft_279"
+  ],
+  "__WalkBack.bvh": [
+   "Deer___WalkBack_287"
+  ],
+  "__WalkCall.bvh": [
+   "Deer___WalkCall_267"
+  ],
+  "__WalkForward.bvh": [
+   "Deer___WalkForward_270"
+  ],
+  "__idleEarFlik.bvh": [
+   "Deer___idleEarFlik_280",
+   "Deer___idleEarFlik_281"
+  ]
+ },
+ "Dragon": {
+  "__Attack.bvh": [
+   "Dragon___Attack_299"
+  ],
+  "__Attack2.bvh": [
+   "Dragon___Attack2_297"
+  ],
+  "__Attack3.bvh": [
+   "Dragon___Attack3_289"
+  ],
+  "__Die.bvh": [
+   "Dragon___Die_292"
+  ],
+  "__Fly.bvh": [
+   "Dragon___Fly_295",
+   "Dragon___Fly_296"
+  ],
+  "__Idle.bvh": [
+   "Dragon___Idle_293",
+   "Dragon___Idle_294"
+  ],
+  "__Idle2.bvh": [
+   "Dragon___Idle2_298"
+  ],
+  "__Idle3.bvh": [
+   "Dragon___Idle3_290",
+   "Dragon___Idle3_291"
+  ],
+  "__SlowFly.bvh": [
+   "Dragon___SlowFly_300",
+   "Dragon___SlowFly_301"
+  ]
+ },
+ "Eagle": {
+  "__EggSteal.bvh": [
+   "Eagle___EggSteal_302"
+  ],
+  "__FloatDown.bvh": [
+   "Eagle___FloatDown_310"
+  ],
+  "__FloattUp.bvh": [
+   "Eagle___FloattUp_305"
+  ],
+  "__FlyLoop.bvh": [
+   "Eagle___FlyLoop_313"
+  ],
+  "__GlideLoop.bvh": [
+   "Eagle___GlideLoop_312"
+  ],
+  "__IdleNest.bvh": [
+   "Eagle___IdleNest_306"
+  ],
+  "__Landing.bvh": [
+   "Eagle___Landing_311"
+  ],
+  "__RideWind.bvh": [
+   "Eagle___RideWind_303"
+  ],
+  "__Shot.bvh": [
+   "Eagle___Shot_309"
+  ],
+  "__Strike1.bvh": [
+   "Eagle___Strike1_307"
+  ],
+  "__Strike2.bvh": [
+   "Eagle___Strike2_308"
+  ],
+  "__TakeOff.bvh": [
+   "Eagle___TakeOff_304"
+  ]
+ },
+ "Elephant": {
+  "__Attack1.bvh": [
+   "Elephant___Attack1_323"
+  ],
+  "__Attack2.bvh": [
+   "Elephant___Attack2_321"
+  ],
+  "__Die.bvh": [
+   "Elephant___Die_316"
+  ],
+  "__DownIn.bvh": [
+   "Elephant___DownIn_319"
+  ],
+  "__DownLoop.bvh": [
+   "Elephant___DownLoop_324"
+  ],
+  "__DownOut.bvh": [
+   "Elephant___DownOut_320"
+  ],
+  "__Firing.bvh": [
+   "Elephant___Firing_325"
+  ],
+  "__Idle1.bvh": [
+   "Elephant___Idle1_317"
+  ],
+  "__Idle3.bvh": [
+   "Elephant___Idle3_315"
+  ],
+  "__Passout.bvh": [
+   "Elephant___Passout_326"
+  ],
+  "__Run.bvh": [
+   "Elephant___Run_322"
+  ],
+  "__Take_001.bvh": [
+   "Elephant___Take_001_318"
+  ],
+  "__idle2.bvh": [
+   "Elephant___idle2_314"
+  ],
+  "__walk.bvh": [
+   "Elephant___walk_327"
+  ]
+ },
+ "FireAnt": {
+  "__Angry.bvh": [
+   "FireAnt___Angry_345"
+  ],
+  "__Annoyed.bvh": [
+   "FireAnt___Annoyed_337"
+  ],
+  "__BackUp.bvh": [
+   "FireAnt___BackUp_343"
+  ],
+  "__Bite.bvh": [
+   "FireAnt___Bite_347"
+  ],
+  "__Creep.bvh": [
+   "FireAnt___Creep_331"
+  ],
+  "__Feel.bvh": [
+   "FireAnt___Feel_335"
+  ],
+  "__FightOff.bvh": [
+   "FireAnt___FightOff_349"
+  ],
+  "__ForwardMarch.bvh": [
+   "FireAnt___ForwardMarch_332"
+  ],
+  "__Gesture.bvh": [
+   "FireAnt___Gesture_338"
+  ],
+  "__Hit.bvh": [
+   "FireAnt___Hit_350"
+  ],
+  "__Hungry.bvh": [
+   "FireAnt___Hungry_333"
+  ],
+  "__Idle.bvh": [
+   "FireAnt___Idle_330"
+  ],
+  "__Jump.bvh": [
+   "FireAnt___Jump_346"
+  ],
+  "__Left.bvh": [
+   "FireAnt___Left_329"
+  ],
+  "__Right.bvh": [
+   "FireAnt___Right_339"
+  ],
+  "__Rip.bvh": [
+   "FireAnt___Rip_334"
+  ],
+  "__RipFlesh.bvh": [
+   "FireAnt___RipFlesh_336"
+  ],
+  "__RipFlesh2.bvh": [
+   "FireAnt___RipFlesh2_340"
+  ],
+  "__Roar.bvh": [
+   "FireAnt___Roar_351"
+  ],
+  "__Snap.bvh": [
+   "FireAnt___Snap_328"
+  ],
+  "__TurnLeft.bvh": [
+   "FireAnt___TurnLeft_341"
+  ],
+  "__TurnRight.bvh": [
+   "FireAnt___TurnRight_348"
+  ],
+  "__UpFromDown.bvh": [
+   "FireAnt___UpFromDown_344"
+  ],
+  "__UpFromDown2.bvh": [
+   "FireAnt___UpFromDown2_342"
+  ]
+ },
+ "Flamingo": {
+  "Flamingo_BendIdle.bvh": [
+   "Flamingo_Flamingo_BendIdle_355"
+  ],
+  "Flamingo_OneLEgBEnt.bvh": [
+   "Flamingo_Flamingo_OneLEgBEnt_353"
+  ],
+  "Flamingo_Sleep.bvh": [
+   "Flamingo_Flamingo_Sleep_352"
+  ],
+  "Flamingo_Walk.bvh": [
+   "Flamingo_Flamingo_Walk_354"
+  ]
+ },
+ "Fox": {
+  "-_Attack1.bvh": [
+   "Fox_-_Attack1_360"
+  ],
+  "-_Attack2.bvh": [
+   "Fox_-_Attack2_357"
+  ],
+  "-_Attack3.bvh": [
+   "Fox_-_Attack3_359"
+  ],
+  "-_Attack4.bvh": [
+   "Fox_-_Attack4_364"
+  ],
+  "-_Die.bvh": [
+   "Fox_-_Die_372"
+  ],
+  "-_Die2.bvh": [
+   "Fox_-_Die2_369"
+  ],
+  "-_Idle1.bvh": [
+   "Fox_-_Idle1_367"
+  ],
+  "-_Idle2.bvh": [
+   "Fox_-_Idle2_361"
+  ],
+  "-_Idle3.bvh": [
+   "Fox_-_Idle3_370",
+   "Fox_-_Idle3_371"
+  ],
+  "-_Idle4.bvh": [
+   "Fox_-_Idle4_362",
+   "Fox_-_Idle4_363"
+  ],
+  "-_Idle5.bvh": [
+   "Fox_-_Idle5_365",
+   "Fox_-_Idle5_366"
+  ],
+  "-_Idle_1.bvh": [
+   "Fox_-_Idle_1_356"
+  ],
+  "-_Run.bvh": [
+   "Fox_-_Run_358"
+  ],
+  "-_Walk.bvh": [
+   "Fox_-_Walk_368"
+  ]
+ },
+ "Gazelle": {
+  "__Alert.bvh": [
+   "Gazelle___Alert_379",
+   "Gazelle___Alert_380"
+  ],
+  "__Attack.bvh": [
+   "Gazelle___Attack_377"
+  ],
+  "__Attack1.bvh": [
+   "Gazelle___Attack1_382"
+  ],
+  "__Fall.bvh": [
+   "Gazelle___Fall_376"
+  ],
+  "__HeadPoke.bvh": [
+   "Gazelle___HeadPoke_381"
+  ],
+  "__Idle.bvh": [
+   "Gazelle___Idle_374"
+  ],
+  "__IdleReady.bvh": [
+   "Gazelle___IdleReady_373"
+  ],
+  "__Run.bvh": [
+   "Gazelle___Run_378"
+  ],
+  "__Walk.bvh": [
+   "Gazelle___Walk_375"
+  ]
+ },
+ "Giantbee": {
+  "__Attack.bvh": [
+   "Giantbee___Attack_390"
+  ],
+  "__Attack2.bvh": [
+   "Giantbee___Attack2_388"
+  ],
+  "__Attack3.bvh": [
+   "Giantbee___Attack3_383"
+  ],
+  "__Attack4.bvh": [
+   "Giantbee___Attack4_387"
+  ],
+  "__Die.bvh": [
+   "Giantbee___Die_384"
+  ],
+  "__Die2.bvh": [
+   "Giantbee___Die2_391"
+  ],
+  "__Fly.bvh": [
+   "Giantbee___Fly_386"
+  ],
+  "__Idle.bvh": [
+   "Giantbee___Idle_385"
+  ],
+  "__Idle2.bvh": [
+   "Giantbee___Idle2_389"
+  ]
+ },
+ "Goat": {
+  "__Attack.bvh": [
+   "Goat___Attack_397"
+  ],
+  "__Bleat.bvh": [
+   "Goat___Bleat_396"
+  ],
+  "__Die.bvh": [
+   "Goat___Die_392"
+  ],
+  "__HeadButt.bvh": [
+   "Goat___HeadButt_395"
+  ],
+  "__HeadButt2.bvh": [
+   "Goat___HeadButt2_400"
+  ],
+  "__HoofScrape.bvh": [
+   "Goat___HoofScrape_398"
+  ],
+  "__Idle.bvh": [
+   "Goat___Idle_393"
+  ],
+  "__JumpKnock.bvh": [
+   "Goat___JumpKnock_401"
+  ],
+  "__Run.bvh": [
+   "Goat___Run_399"
+  ],
+  "__Walk.bvh": [
+   "Goat___Walk_394"
+  ]
+ },
+ "Hamster": {
+  "__Idle.bvh": [
+   "Hamster___Idle_402"
+  ],
+  "__RollAttack.bvh": [
+   "Hamster___RollAttack_404"
+  ],
+  "__Run.bvh": [
+   "Hamster___Run_405"
+  ],
+  "__Sniff.bvh": [
+   "Hamster___Sniff_406",
+   "Hamster___Sniff_407"
+  ],
+  "__Walk.bvh": [
+   "Hamster___Walk_403"
+  ]
+ },
+ "HermitCrab": {
+  "__Die.bvh": [
+   "HermitCrab___Die_410"
+  ],
+  "__Eat.bvh": [
+   "HermitCrab___Eat_418"
+  ],
+  "__Expire.bvh": [
+   "HermitCrab___Expire_409"
+  ],
+  "__Fighting.bvh": [
+   "HermitCrab___Fighting_415"
+  ],
+  "__KnockedBack.bvh": [
+   "HermitCrab___KnockedBack_417"
+  ],
+  "__KnockedOut.bvh": [
+   "HermitCrab___KnockedOut_414"
+  ],
+  "__OutofGround.bvh": [
+   "HermitCrab___OutofGround_416"
+  ],
+  "__Pinchers.bvh": [
+   "HermitCrab___Pinchers_413"
+  ],
+  "__SandBurrough.bvh": [
+   "HermitCrab___SandBurrough_420"
+  ],
+  "__Sleep.bvh": [
+   "HermitCrab___Sleep_419"
+  ],
+  "__Slowwalk.bvh": [
+   "HermitCrab___Slowwalk_408"
+  ],
+  "__Take_001.bvh": [
+   "HermitCrab___Take_001_411"
+  ],
+  "__Walk.bvh": [
+   "HermitCrab___Walk_412"
+  ]
+ },
+ "Hippopotamus": {
+  "__Attack.bvh": [
+   "Hippopotamus___Attack_429"
+  ],
+  "__Attack2.bvh": [
+   "Hippopotamus___Attack2_427"
+  ],
+  "__Attack3.bvh": [
+   "Hippopotamus___Attack3_421"
+  ],
+  "__Attack4.bvh": [
+   "Hippopotamus___Attack4_425"
+  ],
+  "__Die.bvh": [
+   "Hippopotamus___Die_422"
+  ],
+  "__Idle.bvh": [
+   "Hippopotamus___Idle_423"
+  ],
+  "__Idle2.bvh": [
+   "Hippopotamus___Idle2_428"
+  ],
+  "__Run.bvh": [
+   "Hippopotamus___Run_430"
+  ],
+  "__Walk.bvh": [
+   "Hippopotamus___Walk_424"
+  ],
+  "__Yawn.bvh": [
+   "Hippopotamus___Yawn_426"
+  ]
+ },
+ "Horse": {
+  "__Attack.bvh": [
+   "Horse___Attack_453"
+  ],
+  "__BackUp.bvh": [
+   "Horse___BackUp_452"
+  ],
+  "__Bucking.bvh": [
+   "Horse___Bucking_458"
+  ],
+  "__Dying.bvh": [
+   "Horse___Dying_456"
+  ],
+  "__FeetUp.bvh": [
+   "Horse___FeetUp_444"
+  ],
+  "__GetUp.bvh": [
+   "Horse___GetUp_440"
+  ],
+  "__HoofScrape.bvh": [
+   "Horse___HoofScrape_454",
+   "Horse___HoofScrape_455"
+  ],
+  "__HoofScrape2.bvh": [
+   "Horse___HoofScrape2_442"
+  ],
+  "__Idle.bvh": [
+   "Horse___Idle_434",
+   "Horse___Idle_435"
+  ],
+  "__Idle3.bvh": [
+   "Horse___Idle3_433"
+  ],
+  "__IdleEars.bvh": [
+   "Horse___IdleEars_460",
+   "Horse___IdleEars_461"
+  ],
+  "__InAir.bvh": [
+   "Horse___InAir_449"
+  ],
+  "__JumpLand.bvh": [
+   "Horse___JumpLand_431"
+  ],
+  "__Jumping.bvh": [
+   "Horse___Jumping_446"
+  ],
+  "__KnockedBack.bvh": [
+   "Horse___KnockedBack_450"
+  ],
+  "__LandRun.bvh": [
+   "Horse___LandRun_448"
+  ],
+  "__LoneRanger.bvh": [
+   "Horse___LoneRanger_438"
+  ],
+  "__Lying.bvh": [
+   "Horse___Lying_451"
+  ],
+  "__Rearing.bvh": [
+   "Horse___Rearing_445"
+  ],
+  "__Rearing2.bvh": [
+   "Horse___Rearing2_437"
+  ],
+  "__Restless.bvh": [
+   "Horse___Restless_447"
+  ],
+  "__Restless2.bvh": [
+   "Horse___Restless2_439"
+  ],
+  "__Restless3.bvh": [
+   "Horse___Restless3_441"
+  ],
+  "__RunJump.bvh": [
+   "Horse___RunJump_457"
+  ],
+  "__RunLoop.bvh": [
+   "Horse___RunLoop_436"
+  ],
+  "__RunToStop.bvh": [
+   "Horse___RunToStop_459"
+  ],
+  "__SlowIdle.bvh": [
+   "Horse___SlowIdle_443"
+  ],
+  "__SlowWalk.bvh": [
+   "Horse___SlowWalk_432"
+  ]
+ },
+ "Hound": {
+  "__Attack.bvh": [
+   "Hound___Attack_471"
+  ],
+  "__Bark1.bvh": [
+   "Hound___Bark1_472"
+  ],
+  "__Barking.bvh": [
+   "Hound___Barking_470"
+  ],
+  "__Die.bvh": [
+   "Hound___Die_462"
+  ],
+  "__DieLoop.bvh": [
+   "Hound___DieLoop_467"
+  ],
+  "__GetUp.bvh": [
+   "Hound___GetUp_466"
+  ],
+  "__Hit.bvh": [
+   "Hound___Hit_474"
+  ],
+  "__Idle.bvh": [
+   "Hound___Idle_463"
+  ],
+  "__Ready2.bvh": [
+   "Hound___Ready2_469"
+  ],
+  "__Restless.bvh": [
+   "Hound___Restless_468"
+  ],
+  "__RunLoop.bvh": [
+   "Hound___RunLoop_464"
+  ],
+  "__Sniff.bvh": [
+   "Hound___Sniff_473"
+  ],
+  "__WalkLoop.bvh": [
+   "Hound___WalkLoop_465"
+  ]
+ },
+ "Isopetra": {
+  "__Attack.bvh": [
+   "Isopetra___Attack_482"
+  ],
+  "__Attack2.bvh": [
+   "Isopetra___Attack2_480"
+  ],
+  "__Attack3.bvh": [
+   "Isopetra___Attack3_475"
+  ],
+  "__Die.bvh": [
+   "Isopetra___Die_477"
+  ],
+  "__Idle.bvh": [
+   "Isopetra___Idle_478"
+  ],
+  "__Idle2.bvh": [
+   "Isopetra___Idle2_481"
+  ],
+  "__Idle3.bvh": [
+   "Isopetra___Idle3_476"
+  ],
+  "__Run.bvh": [
+   "Isopetra___Run_483"
+  ],
+  "__Walk.bvh": [
+   "Isopetra___Walk_479"
+  ]
+ },
+ "Jaguar": {
+  "__Attack.bvh": [
+   "Jaguar___Attack_492"
+  ],
+  "__Attack1.bvh": [
+   "Jaguar___Attack1_496"
+  ],
+  "__Attack2.bvh": [
+   "Jaguar___Attack2_491"
+  ],
+  "__Die1.bvh": [
+   "Jaguar___Die1_490"
+  ],
+  "__Die2.bvh": [
+   "Jaguar___Die2_495"
+  ],
+  "__GetUp.bvh": [
+   "Jaguar___GetUp_486"
+  ],
+  "__Idle.bvh": [
+   "Jaguar___Idle_484"
+  ],
+  "__LieIdle.bvh": [
+   "Jaguar___LieIdle_497"
+  ],
+  "__Low.bvh": [
+   "Jaguar___Low_494"
+  ],
+  "__Run.bvh": [
+   "Jaguar___Run_493"
+  ],
+  "__Sit.bvh": [
+   "Jaguar___Sit_487",
+   "Jaguar___Sit_488"
+  ],
+  "__Stancing.bvh": [
+   "Jaguar___Stancing_489"
+  ],
+  "__Walk.bvh": [
+   "Jaguar___Walk_485"
+  ]
+ },
+ "KingCobra": {
+  "__Attack.bvh": [
+   "KingCobra___Attack_504"
+  ],
+  "__Attack2.bvh": [
+   "KingCobra___Attack2_503"
+  ],
+  "__Bite.bvh": [
+   "KingCobra___Bite_506"
+  ],
+  "__CircleBite.bvh": [
+   "KingCobra___CircleBite_507"
+  ],
+  "__GetUp.bvh": [
+   "KingCobra___GetUp_501"
+  ],
+  "__Idle.bvh": [
+   "KingCobra___Idle_500"
+  ],
+  "__IdleLoop.bvh": [
+   "KingCobra___IdleLoop_498",
+   "KingCobra___IdleLoop_499"
+  ],
+  "__Killed.bvh": [
+   "KingCobra___Killed_505"
+  ],
+  "__Steady.bvh": [
+   "KingCobra___Steady_502"
+  ]
+ },
+ "Leapord": {
+  "__Attack.bvh": [
+   "Leapord___Attack_517"
+  ],
+  "__Bite.bvh": [
+   "Leapord___Bite_521"
+  ],
+  "__Death.bvh": [
+   "Leapord___Death_519"
+  ],
+  "__Die.bvh": [
+   "Leapord___Die_508"
+  ],
+  "__DieLoop.bvh": [
+   "Leapord___DieLoop_515"
+  ],
+  "__Graze.bvh": [
+   "Leapord___Graze_512",
+   "Leapord___Graze_513"
+  ],
+  "__Growl.bvh": [
+   "Leapord___Growl_516"
+  ],
+  "__Idle.bvh": [
+   "Leapord___Idle_509"
+  ],
+  "__JumpUp.bvh": [
+   "Leapord___JumpUp_511"
+  ],
+  "__Pounce.bvh": [
+   "Leapord___Pounce_522"
+  ],
+  "__PounceSwipe.bvh": [
+   "Leapord___PounceSwipe_514"
+  ],
+  "__Run.bvh": [
+   "Leapord___Run_518"
+  ],
+  "__Sick.bvh": [
+   "Leapord___Sick_520"
+  ],
+  "__Walk.bvh": [
+   "Leapord___Walk_510"
+  ]
+ },
+ "Lion": {
+  "__Attack.bvh": [
+   "Lion___Attack_533"
+  ],
+  "__Attack1.bvh": [
+   "Lion___Attack1_536"
+  ],
+  "__DeathIdle.bvh": [
+   "Lion___DeathIdle_532"
+  ],
+  "__Die.bvh": [
+   "Lion___Die_524"
+  ],
+  "__Die2.bvh": [
+   "Lion___Die2_535"
+  ],
+  "__GetUp.bvh": [
+   "Lion___GetUp_526"
+  ],
+  "__Growl.bvh": [
+   "Lion___Growl_528"
+  ],
+  "__JumpBite.bvh": [
+   "Lion___JumpBite_529"
+  ],
+  "__LeapBite.bvh": [
+   "Lion___LeapBite_537"
+  ],
+  "__Run.bvh": [
+   "Lion___Run_534"
+  ],
+  "__SlowIdle.bvh": [
+   "Lion___SlowIdle_527"
+  ],
+  "__Sniff.bvh": [
+   "Lion___Sniff_538"
+  ],
+  "__Swatting.bvh": [
+   "Lion___Swatting_523"
+  ],
+  "__Walk.bvh": [
+   "Lion___Walk_525"
+  ],
+  "__Yawn.bvh": [
+   "Lion___Yawn_530",
+   "Lion___Yawn_531"
+  ]
+ },
+ "Lynx": {
+  "__Attack.bvh": [
+   "Lynx___Attack_548"
+  ],
+  "__Attack2.bvh": [
+   "Lynx___Attack2_546"
+  ],
+  "__Attack3.bvh": [
+   "Lynx___Attack3_539"
+  ],
+  "__Die.bvh": [
+   "Lynx___Die_541"
+  ],
+  "__Die2.bvh": [
+   "Lynx___Die2_551"
+  ],
+  "__DieLoop.bvh": [
+   "Lynx___DieLoop_545"
+  ],
+  "__Idle.bvh": [
+   "Lynx___Idle_542"
+  ],
+  "__Idle2.bvh": [
+   "Lynx___Idle2_547"
+  ],
+  "__Idle3.bvh": [
+   "Lynx___Idle3_540"
+  ],
+  "__Idle4.bvh": [
+   "Lynx___Idle4_552"
+  ],
+  "__Jump.bvh": [
+   "Lynx___Jump_550"
+  ],
+  "__Run.bvh": [
+   "Lynx___Run_549"
+  ],
+  "__Stand.bvh": [
+   "Lynx___Stand_544"
+  ],
+  "__Walk.bvh": [
+   "Lynx___Walk_543"
+  ]
+ },
+ "Mammoth": {
+  "__Bellow.bvh": [
+   "Mammoth___Bellow_564",
+   "Mammoth___Bellow_565"
+  ],
+  "__DeathLoop.bvh": [
+   "Mammoth___DeathLoop_559"
+  ],
+  "__Die.bvh": [
+   "Mammoth___Die_553"
+  ],
+  "__Die2.bvh": [
+   "Mammoth___Die2_563"
+  ],
+  "__Gesture.bvh": [
+   "Mammoth___Gesture_557"
+  ],
+  "__GetUp.bvh": [
+   "Mammoth___GetUp_555"
+  ],
+  "__IDLE.bvh": [
+   "Mammoth___IDLE_560"
+  ],
+  "__Idle2.bvh": [
+   "Mammoth___Idle2_561"
+  ],
+  "__Rise.bvh": [
+   "Mammoth___Rise_558"
+  ],
+  "__Run.bvh": [
+   "Mammoth___Run_562"
+  ],
+  "__SideSwipe.bvh": [
+   "Mammoth___SideSwipe_556"
+  ],
+  "__Walk.bvh": [
+   "Mammoth___Walk_554"
+  ]
+ },
+ "Monkey": {
+  "__Attack1.bvh": [
+   "Monkey___Attack1_579"
+  ],
+  "__Attack2.bvh": [
+   "Monkey___Attack2_576"
+  ],
+  "__Attack3.bvh": [
+   "Monkey___Attack3_566"
+  ],
+  "__Attack4.bvh": [
+   "Monkey___Attack4_575"
+  ],
+  "__B1Die.bvh": [
+   "Monkey___B1Die_580"
+  ],
+  "__B1Idle.bvh": [
+   "Monkey___B1Idle_570",
+   "Monkey___B1Idle_571"
+  ],
+  "__B2Attack.bvh": [
+   "Monkey___B2Attack_574"
+  ],
+  "__Die.bvh": [
+   "Monkey___Die_569"
+  ],
+  "__Idle1.bvh": [
+   "Monkey___Idle1_572"
+  ],
+  "__Idle2.bvh": [
+   "Monkey___Idle2_577"
+  ],
+  "__Idle3.bvh": [
+   "Monkey___Idle3_567",
+   "Monkey___Idle3_568"
+  ],
+  "__Run.bvh": [
+   "Monkey___Run_578"
+  ],
+  "__Walk.bvh": [
+   "Monkey___Walk_573"
+  ]
+ },
+ "Ostrich": {
+  "__Attack.bvh": [
+   "Ostrich___Attack_590"
+  ],
+  "__Attack2.bvh": [
+   "Ostrich___Attack2_588"
+  ],
+  "__Attack3.bvh": [
+   "Ostrich___Attack3_581"
+  ],
+  "__Attack4.bvh": [
+   "Ostrich___Attack4_587"
+  ],
+  "__Die.bvh": [
+   "Ostrich___Die_584"
+  ],
+  "__Idle.bvh": [
+   "Ostrich___Idle_585"
+  ],
+  "__Idle2.bvh": [
+   "Ostrich___Idle2_589"
+  ],
+  "__Idle3.bvh": [
+   "Ostrich___Idle3_582",
+   "Ostrich___Idle3_583"
+  ],
+  "__Run.bvh": [
+   "Ostrich___Run_591"
+  ],
+  "__Walk.bvh": [
+   "Ostrich___Walk_586"
+  ]
+ },
+ "Parrot": {
+  "__Attack.bvh": [
+   "Parrot___Attack_602"
+  ],
+  "__CircleFly.bvh": [
+   "Parrot___CircleFly_592"
+  ],
+  "__Die.bvh": [
+   "Parrot___Die_593"
+  ],
+  "__Die2.bvh": [
+   "Parrot___Die2_603"
+  ],
+  "__Die3.bvh": [
+   "Parrot___Die3_598"
+  ],
+  "__Fly.bvh": [
+   "Parrot___Fly_596"
+  ],
+  "__Hover.bvh": [
+   "Parrot___Hover_594"
+  ],
+  "__Idle.bvh": [
+   "Parrot___Idle_595"
+  ],
+  "__Idle2.bvh": [
+   "Parrot___Idle2_600",
+   "Parrot___Idle2_601"
+  ],
+  "__Land.bvh": [
+   "Parrot___Land_605"
+  ],
+  "__Preen.bvh": [
+   "Parrot___Preen_604"
+  ],
+  "__Rise.bvh": [
+   "Parrot___Rise_599"
+  ],
+  "__Walk.bvh": [
+   "Parrot___Walk_597"
+  ]
+ },
+ "Parrot2": {
+  "Parrot_Idle.bvh": [
+   "Parrot2_Parrot_Idle_609"
+  ],
+  "Parrot_IdleClean.bvh": [
+   "Parrot2_Parrot_IdleClean_608"
+  ],
+  "Parrot_Land.bvh": [
+   "Parrot2_Parrot_Land_606",
+   "Parrot2_Parrot_Land_607"
+  ]
+ },
+ "Pigeon": {
+  "__Circle.bvh": [
+   "Pigeon___Circle_619"
+  ],
+  "__Cooing.bvh": [
+   "Pigeon___Cooing_615"
+  ],
+  "__FlyLoop.bvh": [
+   "Pigeon___FlyLoop_620"
+  ],
+  "__Idle.bvh": [
+   "Pigeon___Idle_613"
+  ],
+  "__IdleLoop.bvh": [
+   "Pigeon___IdleLoop_611",
+   "Pigeon___IdleLoop_612"
+  ],
+  "__Land.bvh": [
+   "Pigeon___Land_621"
+  ],
+  "__Left.bvh": [
+   "Pigeon___Left_610"
+  ],
+  "__Peck.bvh": [
+   "Pigeon___Peck_618"
+  ],
+  "__Right.bvh": [
+   "Pigeon___Right_617"
+  ],
+  "__TakeOff.bvh": [
+   "Pigeon___TakeOff_614"
+  ],
+  "__Walk.bvh": [
+   "Pigeon___Walk_616"
+  ]
+ },
+ "Pirrana": {
+  "__Biting.bvh": [
+   "Pirrana___Biting_632"
+  ],
+  "__Biting2.bvh": [
+   "Pirrana___Biting2_631"
+  ],
+  "__DeadFloat.bvh": [
+   "Pirrana___DeadFloat_626"
+  ],
+  "__DeadFloat2.bvh": [
+   "Pirrana___DeadFloat2_630"
+  ],
+  "__DiveIn.bvh": [
+   "Pirrana___DiveIn_622"
+  ],
+  "__Flopping.bvh": [
+   "Pirrana___Flopping_623"
+  ],
+  "__Jump2.bvh": [
+   "Pirrana___Jump2_625"
+  ],
+  "__MidSwim.bvh": [
+   "Pirrana___MidSwim_627"
+  ],
+  "__RiseTop.bvh": [
+   "Pirrana___RiseTop_629"
+  ],
+  "__Swim.bvh": [
+   "Pirrana___Swim_628"
+  ],
+  "__SwimJump.bvh": [
+   "Pirrana___SwimJump_624"
+  ]
+ },
+ "PolarBear": {
+  "__Attack.bvh": [
+   "PolarBear___Attack_641"
+  ],
+  "__Attack2.bvh": [
+   "PolarBear___Attack2_639"
+  ],
+  "__Attack3.bvh": [
+   "PolarBear___Attack3_633"
+  ],
+  "__Die.bvh": [
+   "PolarBear___Die_636"
+  ],
+  "__Idle.bvh": [
+   "PolarBear___Idle_637"
+  ],
+  "__Idle2.bvh": [
+   "PolarBear___Idle2_640"
+  ],
+  "__Idle3.bvh": [
+   "PolarBear___Idle3_634",
+   "PolarBear___Idle3_635"
+  ],
+  "__Run.bvh": [
+   "PolarBear___Run_642"
+  ],
+  "__Walk.bvh": [
+   "PolarBear___Walk_638"
+  ]
+ },
+ "PolarBearB": {
+  "__Fall.bvh": [
+   "PolarBearB___Fall_647"
+  ],
+  "__GetUp.bvh": [
+   "PolarBearB___GetUp_645"
+  ],
+  "__Idle.bvh": [
+   "PolarBearB___Idle_643"
+  ],
+  "__Idle2.bvh": [
+   "PolarBearB___Idle2_648"
+  ],
+  "__Play.bvh": [
+   "PolarBearB___Play_646"
+  ],
+  "__Run.bvh": [
+   "PolarBearB___Run_649"
+  ],
+  "__Walk.bvh": [
+   "PolarBearB___Walk_644"
+  ]
+ },
+ "Pteranodon": {
+  "__ArcLeft.bvh": [
+   "Pteranodon___ArcLeft_659"
+  ],
+  "__ArcRight.bvh": [
+   "Pteranodon___ArcRight_652"
+  ],
+  "__Death.bvh": [
+   "Pteranodon___Death_656"
+  ],
+  "__Death2.bvh": [
+   "Pteranodon___Death2_658"
+  ],
+  "__Fancy.bvh": [
+   "Pteranodon___Fancy_654"
+  ],
+  "__Flapergasted.bvh": [
+   "Pteranodon___Flapergasted_653"
+  ],
+  "__FlyLoop.bvh": [
+   "Pteranodon___FlyLoop_657"
+  ],
+  "__GlideScream.bvh": [
+   "Pteranodon___GlideScream_650"
+  ],
+  "__Hit.bvh": [
+   "Pteranodon___Hit_661"
+  ],
+  "__Hit2.bvh": [
+   "Pteranodon___Hit2_655"
+  ],
+  "__Lander.bvh": [
+   "Pteranodon___Lander_651"
+  ],
+  "__ScreamFly.bvh": [
+   "Pteranodon___ScreamFly_660"
+  ]
+ },
+ "Puppy": {
+  "Puppy_IdleEnergetic.bvh": [
+   "Puppy_Puppy_IdleEnergetic_666",
+   "Puppy_Puppy_IdleEnergetic_667",
+   "Puppy_Puppy_IdleEnergetic_668"
+  ],
+  "Puppy_IdleLayDown.bvh": [
+   "Puppy_Puppy_IdleLayDown_662",
+   "Puppy_Puppy_IdleLayDown_663",
+   "Puppy_Puppy_IdleLayDown_664"
+  ],
+  "Puppy_Run.bvh": [
+   "Puppy_Puppy_Run_665"
+  ],
+  "Puppy_Walk.bvh": [
+   "Puppy_Puppy_Walk_669"
+  ]
+ },
+ "Raindeer": {
+  "__Attack.bvh": [
+   "Raindeer___Attack_676"
+  ],
+  "__Attack2.bvh": [
+   "Raindeer___Attack2_674"
+  ],
+  "__Attack3.bvh": [
+   "Raindeer___Attack3_670"
+  ],
+  "__Die.bvh": [
+   "Raindeer___Die_671"
+  ],
+  "__Idle.bvh": [
+   "Raindeer___Idle_672"
+  ],
+  "__Run.bvh": [
+   "Raindeer___Run_677"
+  ],
+  "__Stance.bvh": [
+   "Raindeer___Stance_675"
+  ],
+  "__Walk.bvh": [
+   "Raindeer___Walk_673"
+  ],
+  "__Yell.bvh": [
+   "Raindeer___Yell_678"
+  ]
+ },
+ "Raptor": {
+  "__Attack.bvh": [
+   "Raptor___Attack_689"
+  ],
+  "__Die.bvh": [
+   "Raptor___Die_680"
+  ],
+  "__FastWalk.bvh": [
+   "Raptor___FastWalk_690"
+  ],
+  "__HeadSmash.bvh": [
+   "Raptor___HeadSmash_685"
+  ],
+  "__Idle.bvh": [
+   "Raptor___Idle_681",
+   "Raptor___Idle_682"
+  ],
+  "__Idle2.bvh": [
+   "Raptor___Idle2_688"
+  ],
+  "__LegScratch.bvh": [
+   "Raptor___LegScratch_683",
+   "Raptor___LegScratch_684"
+  ],
+  "__Roar.bvh": [
+   "Raptor___Roar_691"
+  ],
+  "__SlowWalk.bvh": [
+   "Raptor___SlowWalk_679"
+  ],
+  "__Yawn.bvh": [
+   "Raptor___Yawn_686",
+   "Raptor___Yawn_687"
+  ]
+ },
+ "Raptor2": {
+  "__BreatheIdle.bvh": [
+   "Raptor2___BreatheIdle_716"
+  ],
+  "__Clean.bvh": [
+   "Raptor2___Clean_697"
+  ],
+  "__Die.bvh": [
+   "Raptor2___Die_701"
+  ],
+  "__Die2GetUp.bvh": [
+   "Raptor2___Die2GetUp_707"
+  ],
+  "__DieGetUp.bvh": [
+   "Raptor2___DieGetUp_731"
+  ],
+  "__Eat.bvh": [
+   "Raptor2___Eat_717"
+  ],
+  "__EatGrass.bvh": [
+   "Raptor2___EatGrass_705"
+  ],
+  "__EggTend.bvh": [
+   "Raptor2___EggTend_720"
+  ],
+  "__Fall.bvh": [
+   "Raptor2___Fall_714"
+  ],
+  "__FallGetUp.bvh": [
+   "Raptor2___FallGetUp_710"
+  ],
+  "__FenceClimbFall.bvh": [
+   "Raptor2___FenceClimbFall_730"
+  ],
+  "__Idle.bvh": [
+   "Raptor2___Idle_702"
+  ],
+  "__IdleAlert.bvh": [
+   "Raptor2___IdleAlert_725"
+  ],
+  "__IdleBiteApple.bvh": [
+   "Raptor2___IdleBiteApple_713"
+  ],
+  "__IdleCurious.bvh": [
+   "Raptor2___IdleCurious_699",
+   "Raptor2___IdleCurious_700"
+  ],
+  "__IdleForward.bvh": [
+   "Raptor2___IdleForward_722"
+  ],
+  "__IdleLeft.bvh": [
+   "Raptor2___IdleLeft_694"
+  ],
+  "__IdleLookLeft.bvh": [
+   "Raptor2___IdleLookLeft_712"
+  ],
+  "__IdleLookRight.bvh": [
+   "Raptor2___IdleLookRight_729"
+  ],
+  "__IdleRight.bvh": [
+   "Raptor2___IdleRight_718"
+  ],
+  "__JumpSpinRun.bvh": [
+   "Raptor2___JumpSpinRun_723"
+  ],
+  "__LeftHeadRun.bvh": [
+   "Raptor2___LeftHeadRun_698"
+  ],
+  "__LeftRunBite.bvh": [
+   "Raptor2___LeftRunBite_728"
+  ],
+  "__ReverseRun.bvh": [
+   "Raptor2___ReverseRun_703"
+  ],
+  "__RightHeadRun.bvh": [
+   "Raptor2___RightHeadRun_727"
+  ],
+  "__RightRunBite.bvh": [
+   "Raptor2___RightRunBite_708"
+  ],
+  "__Run.bvh": [
+   "Raptor2___Run_719"
+  ],
+  "__RunFall.bvh": [
+   "Raptor2___RunFall_721"
+  ],
+  "__RunJump.bvh": [
+   "Raptor2___RunJump_726"
+  ],
+  "__RunJumpBite.bvh": [
+   "Raptor2___RunJumpBite_724"
+  ],
+  "__RunJumpFall.bvh": [
+   "Raptor2___RunJumpFall_693"
+  ],
+  "__RunJumpLandBack.bvh": [
+   "Raptor2___RunJumpLandBack_709"
+  ],
+  "__RunJumpRoll.bvh": [
+   "Raptor2___RunJumpRoll_695"
+  ],
+  "__RunScreamJump.bvh": [
+   "Raptor2___RunScreamJump_704"
+  ],
+  "__RunToStopRoar.bvh": [
+   "Raptor2___RunToStopRoar_696"
+  ],
+  "__RunToStopRoar2.bvh": [
+   "Raptor2___RunToStopRoar2_715"
+  ],
+  "__SpinRun.bvh": [
+   "Raptor2___SpinRun_711"
+  ],
+  "__Stride.bvh": [
+   "Raptor2___Stride_692"
+  ],
+  "__Walk.bvh": [
+   "Raptor2___Walk_706"
+  ]
+ },
+ "Raptor3": {
+  "__AttackRight.bvh": [
+   "Raptor3___AttackRight_736"
+  ],
+  "__BarkForward.bvh": [
+   "Raptor3___BarkForward_734"
+  ],
+  "__LeftPuke.bvh": [
+   "Raptor3___LeftPuke_740"
+  ],
+  "__MeanLEft.bvh": [
+   "Raptor3___MeanLEft_735"
+  ],
+  "__MeanRight.bvh": [
+   "Raptor3___MeanRight_733"
+  ],
+  "__RoarLeft.bvh": [
+   "Raptor3___RoarLeft_738"
+  ],
+  "__RoarRight.bvh": [
+   "Raptor3___RoarRight_732"
+  ],
+  "__StepLeft.bvh": [
+   "Raptor3___StepLeft_741"
+  ],
+  "__StepRight.bvh": [
+   "Raptor3___StepRight_739"
+  ],
+  "__StepRoar.bvh": [
+   "Raptor3___StepRoar_744"
+  ],
+  "__Yell.bvh": [
+   "Raptor3___Yell_742"
+  ],
+  "__roarforward.bvh": [
+   "Raptor3___roarforward_737"
+  ],
+  "__run.bvh": [
+   "Raptor3___run_743"
+  ]
+ },
+ "Rat": {
+  "__AlertRun.bvh": [
+   "Rat___AlertRun_747"
+  ],
+  "__Clean.bvh": [
+   "Rat___Clean_746"
+  ],
+  "__Eat.bvh": [
+   "Rat___Eat_749"
+  ],
+  "__Itch.bvh": [
+   "Rat___Itch_748"
+  ],
+  "__Scamper.bvh": [
+   "Rat___Scamper_750"
+  ],
+  "__Trottle.bvh": [
+   "Rat___Trottle_745"
+  ]
+ },
+ "Rhino": {
+  "__Attack.bvh": [
+   "Rhino___Attack_758"
+  ],
+  "__Attack2.bvh": [
+   "Rhino___Attack2_756"
+  ],
+  "__Attack3.bvh": [
+   "Rhino___Attack3_751"
+  ],
+  "__Die.bvh": [
+   "Rhino___Die_754"
+  ],
+  "__Idle2.bvh": [
+   "Rhino___Idle2_757"
+  ],
+  "__Idle3.bvh": [
+   "Rhino___Idle3_752",
+   "Rhino___Idle3_753"
+  ],
+  "__Run.bvh": [
+   "Rhino___Run_760"
+  ],
+  "__Walk.bvh": [
+   "Rhino___Walk_755"
+  ],
+  "__idle.bvh": [
+   "Rhino___idle_759"
+  ]
+ },
+ "Roach": {
+  "__Bristle.bvh": [
+   "Roach___Bristle_768"
+  ],
+  "__Fall.bvh": [
+   "Roach___Fall_766"
+  ],
+  "__Hop.bvh": [
+   "Roach___Hop_764"
+  ],
+  "__Left.bvh": [
+   "Roach___Left_762"
+  ],
+  "__Move.bvh": [
+   "Roach___Move_771"
+  ],
+  "__Scurry.bvh": [
+   "Roach___Scurry_765"
+  ],
+  "__Shake.bvh": [
+   "Roach___Shake_770"
+  ],
+  "__Smelling.bvh": [
+   "Roach___Smelling_761"
+  ],
+  "__TurnLeft.bvh": [
+   "Roach___TurnLeft_767"
+  ],
+  "__TurnRight.bvh": [
+   "Roach___TurnRight_769"
+  ],
+  "__Uppity.bvh": [
+   "Roach___Uppity_763"
+  ]
+ },
+ "SabreToothTiger": {
+  "__180Flip.bvh": [
+   "SabreToothTiger___180Flip_810"
+  ],
+  "__180RIght.bvh": [
+   "SabreToothTiger___180RIght_802"
+  ],
+  "__45TurnLeft.bvh": [
+   "SabreToothTiger___45TurnLeft_796"
+  ],
+  "__Agitated.bvh": [
+   "SabreToothTiger___Agitated_773"
+  ],
+  "__Attack.bvh": [
+   "SabreToothTiger___Attack_801"
+  ],
+  "__BackUp.bvh": [
+   "SabreToothTiger___BackUp_798"
+  ],
+  "__Backing.bvh": [
+   "SabreToothTiger___Backing_780"
+  ],
+  "__Begg.bvh": [
+   "SabreToothTiger___Begg_811"
+  ],
+  "__Bite.bvh": [
+   "SabreToothTiger___Bite_807"
+  ],
+  "__CageBat.bvh": [
+   "SabreToothTiger___CageBat_787"
+  ],
+  "__Cowering.bvh": [
+   "SabreToothTiger___Cowering_776"
+  ],
+  "__Cowering2.bvh": [
+   "SabreToothTiger___Cowering2_783"
+  ],
+  "__Eating.bvh": [
+   "SabreToothTiger___Eating_777"
+  ],
+  "__GetUp.bvh": [
+   "SabreToothTiger___GetUp_784"
+  ],
+  "__GetUp2.bvh": [
+   "SabreToothTiger___GetUp2_805"
+  ],
+  "__GetUpMad.bvh": [
+   "SabreToothTiger___GetUpMad_791"
+  ],
+  "__Growling.bvh": [
+   "SabreToothTiger___Growling_778"
+  ],
+  "__Layout.bvh": [
+   "SabreToothTiger___Layout_781"
+  ],
+  "__Leaper.bvh": [
+   "SabreToothTiger___Leaper_790"
+  ],
+  "__LeftTurn.bvh": [
+   "SabreToothTiger___LeftTurn_806"
+  ],
+  "__Mean.bvh": [
+   "SabreToothTiger___Mean_815"
+  ],
+  "__PawSwatting.bvh": [
+   "SabreToothTiger___PawSwatting_812"
+  ],
+  "__PissedOff.bvh": [
+   "SabreToothTiger___PissedOff_794"
+  ],
+  "__PissedOff2.bvh": [
+   "SabreToothTiger___PissedOff2_785"
+  ],
+  "__Raged.bvh": [
+   "SabreToothTiger___Raged_774"
+  ],
+  "__Roaring.bvh": [
+   "SabreToothTiger___Roaring_799"
+  ],
+  "__Run.bvh": [
+   "SabreToothTiger___Run_803"
+  ],
+  "__Run2.bvh": [
+   "SabreToothTiger___Run2_782"
+  ],
+  "__Sit.bvh": [
+   "SabreToothTiger___Sit_786"
+  ],
+  "__Sitting.bvh": [
+   "SabreToothTiger___Sitting_788"
+  ],
+  "__Sitting2.bvh": [
+   "SabreToothTiger___Sitting2_809"
+  ],
+  "__Slow180.bvh": [
+   "SabreToothTiger___Slow180_800"
+  ],
+  "__Snap.bvh": [
+   "SabreToothTiger___Snap_772"
+  ],
+  "__Spin180.bvh": [
+   "SabreToothTiger___Spin180_792"
+  ],
+  "__Stablize.bvh": [
+   "SabreToothTiger___Stablize_775"
+  ],
+  "__Stalker.bvh": [
+   "SabreToothTiger___Stalker_789"
+  ],
+  "__StartLeft.bvh": [
+   "SabreToothTiger___StartLeft_808"
+  ],
+  "__Startwalk.bvh": [
+   "SabreToothTiger___Startwalk_804"
+  ],
+  "__SwatLft.bvh": [
+   "SabreToothTiger___SwatLft_779"
+  ],
+  "__Swim.bvh": [
+   "SabreToothTiger___Swim_795"
+  ],
+  "__TiredYawn.bvh": [
+   "SabreToothTiger___TiredYawn_793"
+  ],
+  "__Trot.bvh": [
+   "SabreToothTiger___Trot_814"
+  ],
+  "__TurnLeft.bvh": [
+   "SabreToothTiger___TurnLeft_797"
+  ],
+  "__Warning.bvh": [
+   "SabreToothTiger___Warning_813"
+  ]
+ },
+ "SandMouse": {
+  "__Attack.bvh": [
+   "SandMouse___Attack_826"
+  ],
+  "__Attack2.bvh": [
+   "SandMouse___Attack2_824"
+  ],
+  "__Die.bvh": [
+   "SandMouse___Die_818"
+  ],
+  "__Die2.bvh": [
+   "SandMouse___Die2_828"
+  ],
+  "__Die3.bvh": [
+   "SandMouse___Die3_823"
+  ],
+  "__DigIn.bvh": [
+   "SandMouse___DigIn_816"
+  ],
+  "__DigOut.bvh": [
+   "SandMouse___DigOut_822"
+  ],
+  "__Idle.bvh": [
+   "SandMouse___Idle_819",
+   "SandMouse___Idle_820"
+  ],
+  "__Idle2.bvh": [
+   "SandMouse___Idle2_825"
+  ],
+  "__Idle3.bvh": [
+   "SandMouse___Idle3_817"
+  ],
+  "__Idle4.bvh": [
+   "SandMouse___Idle4_829",
+   "SandMouse___Idle4_830"
+  ],
+  "__Run.bvh": [
+   "SandMouse___Run_827"
+  ],
+  "__Walk.bvh": [
+   "SandMouse___Walk_821"
+  ]
+ },
+ "Scorpion": {
+  "__Agitated.bvh": [
+   "Scorpion___Agitated_833"
+  ],
+  "__Attack1.bvh": [
+   "Scorpion___Attack1_841"
+  ],
+  "__BackUp.bvh": [
+   "Scorpion___BackUp_839"
+  ],
+  "__Defend.bvh": [
+   "Scorpion___Defend_843",
+   "Scorpion___Defend_844"
+  ],
+  "__IdleLoop.bvh": [
+   "Scorpion___IdleLoop_834"
+  ],
+  "__Recoil.bvh": [
+   "Scorpion___Recoil_832"
+  ],
+  "__Recoil2.bvh": [
+   "Scorpion___Recoil2_840"
+  ],
+  "__SlowForward.bvh": [
+   "Scorpion___SlowForward_835"
+  ],
+  "__Stinger.bvh": [
+   "Scorpion___Stinger_837"
+  ],
+  "__StretchArms.bvh": [
+   "Scorpion___StretchArms_831"
+  ],
+  "__TurnLeft.bvh": [
+   "Scorpion___TurnLeft_838"
+  ],
+  "__TurnRight.bvh": [
+   "Scorpion___TurnRight_842"
+  ],
+  "__WalkForward.bvh": [
+   "Scorpion___WalkForward_836"
+  ]
+ },
+ "Scorpion-2": {
+  "__Attack_Retreat.bvh": [
+   "Scorpion-2___Attack_Retreat_860"
+  ],
+  "__Back_Up.bvh": [
+   "Scorpion-2___Back_Up_876"
+  ],
+  "__Back_confused.bvh": [
+   "Scorpion-2___Back_confused_868"
+  ],
+  "__Backing_Crazy.bvh": [
+   "Scorpion-2___Backing_Crazy_882"
+  ],
+  "__Belly_Death.bvh": [
+   "Scorpion-2___Belly_Death_857"
+  ],
+  "__Belly_death_1.bvh": [
+   "Scorpion-2___Belly_death_1_881"
+  ],
+  "__Bite_Attack.bvh": [
+   "Scorpion-2___Bite_Attack_874"
+  ],
+  "__Bite_Grab.bvh": [
+   "Scorpion-2___Bite_Grab_854"
+  ],
+  "__Blasted_Death.bvh": [
+   "Scorpion-2___Blasted_Death_870"
+  ],
+  "__Death.bvh": [
+   "Scorpion-2___Death_871",
+   "Scorpion-2___Death_872"
+  ],
+  "__Death_2.bvh": [
+   "Scorpion-2___Death_2_885"
+  ],
+  "__Flipped.bvh": [
+   "Scorpion-2___Flipped_861"
+  ],
+  "__Guns.bvh": [
+   "Scorpion-2___Guns_846"
+  ],
+  "__Hasppy_Fangs.bvh": [
+   "Scorpion-2___Hasppy_Fangs_866"
+  ],
+  "__Hit_and_Sorr.bvh": [
+   "Scorpion-2___Hit_and_Sorr_847"
+  ],
+  "__Idle.bvh": [
+   "Scorpion-2___Idle_850"
+  ],
+  "__Jump_Sting.bvh": [
+   "Scorpion-2___Jump_Sting_869"
+  ],
+  "__Limp_Alive.bvh": [
+   "Scorpion-2___Limp_Alive_878"
+  ],
+  "__Lunge_Forward.bvh": [
+   "Scorpion-2___Lunge_Forward_879"
+  ],
+  "__On_back_Dying.bvh": [
+   "Scorpion-2___On_back_Dying_845"
+  ],
+  "__Pissed_Fangs.bvh": [
+   "Scorpion-2___Pissed_Fangs_851"
+  ],
+  "__Rising_Walk.bvh": [
+   "Scorpion-2___Rising_Walk_862"
+  ],
+  "__Run_Attack.bvh": [
+   "Scorpion-2___Run_Attack_884"
+  ],
+  "__Run_To_Attrack.bvh": [
+   "Scorpion-2___Run_To_Attrack_849"
+  ],
+  "__Settle_Back.bvh": [
+   "Scorpion-2___Settle_Back_855"
+  ],
+  "__Slide_Back.bvh": [
+   "Scorpion-2___Slide_Back_848"
+  ],
+  "__Slow_Idle.bvh": [
+   "Scorpion-2___Slow_Idle_877"
+  ],
+  "__Stand_Attack.bvh": [
+   "Scorpion-2___Stand_Attack_880"
+  ],
+  "__Standing_Run.bvh": [
+   "Scorpion-2___Standing_Run_867"
+  ],
+  "__SteadyWalk.bvh": [
+   "Scorpion-2___SteadyWalk_873"
+  ],
+  "__Sting_Kill.bvh": [
+   "Scorpion-2___Sting_Kill_859"
+  ],
+  "__Sting_Kill_2.bvh": [
+   "Scorpion-2___Sting_Kill_2_858"
+  ],
+  "__Sting_Ya_YA.bvh": [
+   "Scorpion-2___Sting_Ya_YA_863"
+  ],
+  "__Sting_ya.bvh": [
+   "Scorpion-2___Sting_ya_852"
+  ],
+  "__Strafe_Left.bvh": [
+   "Scorpion-2___Strafe_Left_864"
+  ],
+  "__Strafe_Right.bvh": [
+   "Scorpion-2___Strafe_Right_856"
+  ],
+  "__Walk_Forward.bvh": [
+   "Scorpion-2___Walk_Forward_853"
+  ],
+  "__Walk_and_Rise.bvh": [
+   "Scorpion-2___Walk_and_Rise_875"
+  ],
+  "__Wild_Death.bvh": [
+   "Scorpion-2___Wild_Death_883"
+  ],
+  "__stand_ready.bvh": [
+   "Scorpion-2___stand_ready_865"
+  ]
+ },
+ "Skunk": {
+  "__Die.bvh": [
+   "Skunk___Die_887"
+  ],
+  "__Idle.bvh": [
+   "Skunk___Idle_888"
+  ],
+  "__Idle2.bvh": [
+   "Skunk___Idle2_891"
+  ],
+  "__Idle3.bvh": [
+   "Skunk___Idle3_886"
+  ],
+  "__Run.bvh": [
+   "Skunk___Run_892"
+  ],
+  "__Spray.bvh": [
+   "Skunk___Spray_890"
+  ],
+  "__Walk.bvh": [
+   "Skunk___Walk_889"
+  ]
+ },
+ "Spider": {
+  "__Attack1.bvh": [
+   "Spider___Attack1_916"
+  ],
+  "__Attack2.bvh": [
+   "Spider___Attack2_907"
+  ],
+  "__Attack4.bvh": [
+   "Spider___Attack4_903"
+  ],
+  "__Attack5.bvh": [
+   "Spider___Attack5_894"
+  ],
+  "__AttackLeft.bvh": [
+   "Spider___AttackLeft_925"
+  ],
+  "__Attackright.bvh": [
+   "Spider___Attackright_921"
+  ],
+  "__BackRear.bvh": [
+   "Spider___BackRear_912"
+  ],
+  "__BackitUp.bvh": [
+   "Spider___BackitUp_893"
+  ],
+  "__Fangy.bvh": [
+   "Spider___Fangy_922",
+   "Spider___Fangy_923"
+  ],
+  "__Gliding.bvh": [
+   "Spider___Gliding_899"
+  ],
+  "__Hurt.bvh": [
+   "Spider___Hurt_910"
+  ],
+  "__Jump.bvh": [
+   "Spider___Jump_913"
+  ],
+  "__LandinHAir.bvh": [
+   "Spider___LandinHAir_901"
+  ],
+  "__Landing.bvh": [
+   "Spider___Landing_909"
+  ],
+  "__Rearing.bvh": [
+   "Spider___Rearing_904"
+  ],
+  "__Retreat.bvh": [
+   "Spider___Retreat_924"
+  ],
+  "__RetreatInjured.bvh": [
+   "Spider___RetreatInjured_911"
+  ],
+  "__RetreatSlow.bvh": [
+   "Spider___RetreatSlow_920"
+  ],
+  "__Riser.bvh": [
+   "Spider___Riser_906"
+  ],
+  "__Rising.bvh": [
+   "Spider___Rising_897"
+  ],
+  "__Scary.bvh": [
+   "Spider___Scary_919"
+  ],
+  "__Scramble.bvh": [
+   "Spider___Scramble_902"
+  ],
+  "__SlowIdle.bvh": [
+   "Spider___SlowIdle_900"
+  ],
+  "__TravelWeb.bvh": [
+   "Spider___TravelWeb_917"
+  ],
+  "__Walker.bvh": [
+   "Spider___Walker_905"
+  ],
+  "__barking.bvh": [
+   "Spider___barking_914"
+  ],
+  "__injuredwalk.bvh": [
+   "Spider___injuredwalk_896"
+  ],
+  "__runleft.bvh": [
+   "Spider___runleft_915"
+  ],
+  "__walkleft.bvh": [
+   "Spider___walkleft_908"
+  ],
+  "__walkloop.bvh": [
+   "Spider___walkloop_895"
+  ],
+  "__weaver.bvh": [
+   "Spider___weaver_918"
+  ],
+  "__weaving.bvh": [
+   "Spider___weaving_898"
+  ]
+ },
+ "SpiderG": {
+  "__Attack.bvh": [
+   "SpiderG___Attack_942"
+  ],
+  "__Attack2.bvh": [
+   "SpiderG___Attack2_939"
+  ],
+  "__Attack3.bvh": [
+   "SpiderG___Attack3_926"
+  ],
+  "__Attack4.bvh": [
+   "SpiderG___Attack4_937"
+  ],
+  "__Attack5.bvh": [
+   "SpiderG___Attack5_933"
+  ],
+  "__Attack6.bvh": [
+   "SpiderG___Attack6_934"
+  ],
+  "__Attack7.bvh": [
+   "SpiderG___Attack7_941"
+  ],
+  "__Burrough.bvh": [
+   "SpiderG___Burrough_936"
+  ],
+  "__ComeOut.bvh": [
+   "SpiderG___ComeOut_927"
+  ],
+  "__Die.bvh": [
+   "SpiderG___Die_930",
+   "SpiderG___Die_931"
+  ],
+  "__Fangs.bvh": [
+   "SpiderG___Fangs_944",
+   "SpiderG___Fangs_945"
+  ],
+  "__Idle.bvh": [
+   "SpiderG___Idle_932"
+  ],
+  "__Idle2.bvh": [
+   "SpiderG___Idle2_940"
+  ],
+  "__Idle3.bvh": [
+   "SpiderG___Idle3_928",
+   "SpiderG___Idle3_929"
+  ],
+  "__Retreat.bvh": [
+   "SpiderG___Retreat_946"
+  ],
+  "__Run.bvh": [
+   "SpiderG___Run_943"
+  ],
+  "__Shiver.bvh": [
+   "SpiderG___Shiver_938"
+  ],
+  "__Walk.bvh": [
+   "SpiderG___Walk_935"
+  ]
+ },
+ "Stego": {
+  "__Attack.bvh": [
+   "Stego___Attack_953"
+  ],
+  "__Attack2.bvh": [
+   "Stego___Attack2_951"
+  ],
+  "__Attack3.bvh": [
+   "Stego___Attack3_947"
+  ],
+  "__Fall.bvh": [
+   "Stego___Fall_950"
+  ],
+  "__Idle.bvh": [
+   "Stego___Idle_949"
+  ],
+  "__Idle2.bvh": [
+   "Stego___Idle2_952"
+  ],
+  "__Run.bvh": [
+   "Stego___Run_954"
+  ],
+  "__Shake.bvh": [
+   "Stego___Shake_956"
+  ],
+  "__Slowwalk.bvh": [
+   "Stego___Slowwalk_948"
+  ],
+  "__TailWhip.bvh": [
+   "Stego___TailWhip_955"
+  ]
+ },
+ "Trex": {
+  "__Big_roar_step.bvh": [
+   "Trex___Big_roar_step_960"
+  ],
+  "__Chase_Roar.bvh": [
+   "Trex___Chase_Roar_993"
+  ],
+  "__ROAR.bvh": [
+   "Trex___ROAR_1028"
+  ],
+  "__STILL.bvh": [
+   "Trex___STILL_1019"
+  ],
+  "__bite_90_left.bvh": [
+   "Trex___bite_90_left_997"
+  ],
+  "__bite_90_right.bvh": [
+   "Trex___bite_90_right_988"
+  ],
+  "__bite_close_left.bvh": [
+   "Trex___bite_close_left_1018"
+  ],
+  "__bite_close_right.bvh": [
+   "Trex___bite_close_right_1031"
+  ],
+  "__bite_step_back_forward.bvh": [
+   "Trex___bite_step_back_forward_1001"
+  ],
+  "__chase_bite.bvh": [
+   "Trex___chase_bite_981"
+  ],
+  "__chase_bite_left.bvh": [
+   "Trex___chase_bite_left_967"
+  ],
+  "__chase_bite_right.bvh": [
+   "Trex___chase_bite_right_1021"
+  ],
+  "__chase_head_butt_left.bvh": [
+   "Trex___chase_head_butt_left_983"
+  ],
+  "__chase_roar_left.bvh": [
+   "Trex___chase_roar_left_1022"
+  ],
+  "__chase_roar_right.bvh": [
+   "Trex___chase_roar_right_1013"
+  ],
+  "__climb_down.bvh": [
+   "Trex___climb_down_972"
+  ],
+  "__climb_up.bvh": [
+   "Trex___climb_up_1010"
+  ],
+  "__death.bvh": [
+   "Trex___death_961"
+  ],
+  "__death_short.bvh": [
+   "Trex___death_short_966"
+  ],
+  "__head_butt_left.bvh": [
+   "Trex___head_butt_left_1002"
+  ],
+  "__hit_head_1.bvh": [
+   "Trex___hit_head_1_992"
+  ],
+  "__hit_head_2.bvh": [
+   "Trex___hit_head_2_1003"
+  ],
+  "__hit_head_3.bvh": [
+   "Trex___hit_head_3_1009"
+  ],
+  "__hit_leg.bvh": [
+   "Trex___hit_leg_1016"
+  ],
+  "__hit_leg_2.bvh": [
+   "Trex___hit_leg_2_1020"
+  ],
+  "__hit_torso_left.bvh": [
+   "Trex___hit_torso_left_996"
+  ],
+  "__hit_torso_right.bvh": [
+   "Trex___hit_torso_right_970"
+  ],
+  "__human_bite.bvh": [
+   "Trex___human_bite_1008"
+  ],
+  "__human_kill.bvh": [
+   "Trex___human_kill_978"
+  ],
+  "__human_shake.bvh": [
+   "Trex___human_shake_1011"
+  ],
+  "__idle_attack.bvh": [
+   "Trex___idle_attack_991"
+  ],
+  "__idle_attack_to_run_left.bvh": [
+   "Trex___idle_attack_to_run_left_1030"
+  ],
+  "__idle_attack_to_run_right.bvh": [
+   "Trex___idle_attack_to_run_right_1006"
+  ],
+  "__idle_investigae_out.bvh": [
+   "Trex___idle_investigae_out_982"
+  ],
+  "__idle_investigate.bvh": [
+   "Trex___idle_investigate_1004"
+  ],
+  "__idle_investigate_loop.bvh": [
+   "Trex___idle_investigate_loop_964"
+  ],
+  "__idle_sneeze.bvh": [
+   "Trex___idle_sneeze_976",
+   "Trex___idle_sneeze_977"
+  ],
+  "__idle_to_run.bvh": [
+   "Trex___idle_to_run_979"
+  ],
+  "__kill_long.bvh": [
+   "Trex___kill_long_973",
+   "Trex___kill_long_974"
+  ],
+  "__long_death.bvh": [
+   "Trex___long_death_998",
+   "Trex___long_death_999",
+   "Trex___long_death_1000"
+  ],
+  "__look_forward.bvh": [
+   "Trex___look_forward_963"
+  ],
+  "__look_forward_2.bvh": [
+   "Trex___look_forward_2_987"
+  ],
+  "__look_left.bvh": [
+   "Trex___look_left_1025"
+  ],
+  "__look_right.bvh": [
+   "Trex___look_right_975"
+  ],
+  "__mama_cave_bite.bvh": [
+   "Trex___mama_cave_bite_971"
+  ],
+  "__mama_cave_bite_loop.bvh": [
+   "Trex___mama_cave_bite_loop_1032"
+  ],
+  "__mama_cave_bite_out.bvh": [
+   "Trex___mama_cave_bite_out_1027"
+  ],
+  "__roar_left.bvh": [
+   "Trex___roar_left_1007"
+  ],
+  "__roar_right.bvh": [
+   "Trex___roar_right_985"
+  ],
+  "__run_head_butt_right.bvh": [
+   "Trex___run_head_butt_right_968"
+  ],
+  "__run_head_loop.bvh": [
+   "Trex___run_head_loop_1024"
+  ],
+  "__run_head_low.bvh": [
+   "Trex___run_head_low_958"
+  ],
+  "__run_head_low_2.bvh": [
+   "Trex___run_head_low_2_984"
+  ],
+  "__run_to_stop.bvh": [
+   "Trex___run_to_stop_957"
+  ],
+  "__sprint_head_left.bvh": [
+   "Trex___sprint_head_left_969"
+  ],
+  "__sprint_head_right.bvh": [
+   "Trex___sprint_head_right_990"
+  ],
+  "__sprint_loop.bvh": [
+   "Trex___sprint_loop_959"
+  ],
+  "__step_back.bvh": [
+   "Trex___step_back_1029"
+  ],
+  "__stunned.bvh": [
+   "Trex___stunned_994",
+   "Trex___stunned_995"
+  ],
+  "__turn_180_look.bvh": [
+   "Trex___turn_180_look_989"
+  ],
+  "__turn_180_right.bvh": [
+   "Trex___turn_180_right_965"
+  ],
+  "__turn_180_turn_right.bvh": [
+   "Trex___turn_180_turn_right_1015"
+  ],
+  "__turn_90_left.bvh": [
+   "Trex___turn_90_left_986"
+  ],
+  "__turn_90_right.bvh": [
+   "Trex___turn_90_right_1017"
+  ],
+  "__walk_back.bvh": [
+   "Trex___walk_back_1012"
+  ],
+  "__walk_bite.bvh": [
+   "Trex___walk_bite_1014"
+  ],
+  "__walk_head_low.bvh": [
+   "Trex___walk_head_low_1026"
+  ],
+  "__walk_left_bite.bvh": [
+   "Trex___walk_left_bite_1023"
+  ],
+  "__walk_loop.bvh": [
+   "Trex___walk_loop_1005"
+  ],
+  "__walk_right_bite.bvh": [
+   "Trex___walk_right_bite_962"
+  ],
+  "__walk_slow_loop.bvh": [
+   "Trex___walk_slow_loop_980"
+  ]
+ },
+ "Tricera": {
+  "__Attack.bvh": [
+   "Tricera___Attack_1040"
+  ],
+  "__Attack2.bvh": [
+   "Tricera___Attack2_1039"
+  ],
+  "__Attack3.bvh": [
+   "Tricera___Attack3_1033"
+  ],
+  "__Attack4.bvh": [
+   "Tricera___Attack4_1036"
+  ],
+  "__Fall.bvh": [
+   "Tricera___Fall_1038"
+  ],
+  "__Idle.bvh": [
+   "Tricera___Idle_1034"
+  ],
+  "__NoseDirt.bvh": [
+   "Tricera___NoseDirt_1037"
+  ],
+  "__Run.bvh": [
+   "Tricera___Run_1041"
+  ],
+  "__Walk.bvh": [
+   "Tricera___Walk_1035"
+  ]
+ },
+ "Tukan": {
+  "__Fly.bvh": [
+   "Tukan___Fly_1043"
+  ],
+  "__FlyForward.bvh": [
+   "Tukan___FlyForward_1044"
+  ],
+  "__FlyLoop.bvh": [
+   "Tukan___FlyLoop_1048"
+  ],
+  "__IdleLook.bvh": [
+   "Tukan___IdleLook_1047"
+  ],
+  "__Shake.bvh": [
+   "Tukan___Shake_1049"
+  ],
+  "__SlowDown.bvh": [
+   "Tukan___SlowDown_1046"
+  ],
+  "__Sqwak.bvh": [
+   "Tukan___Sqwak_1045"
+  ],
+  "__WingScratch.bvh": [
+   "Tukan___WingScratch_1042"
+  ]
+ },
+ "Turtle": {
+  "__Attack.bvh": [
+   "Turtle___Attack_1059"
+  ],
+  "__Attack2.bvh": [
+   "Turtle___Attack2_1056"
+  ],
+  "__Attack3.bvh": [
+   "Turtle___Attack3_1050"
+  ],
+  "__Hide.bvh": [
+   "Turtle___Hide_1051"
+  ],
+  "__Idle.bvh": [
+   "Turtle___Idle_1052"
+  ],
+  "__Idle2.bvh": [
+   "Turtle___Idle2_1058"
+  ],
+  "__Onback.bvh": [
+   "Turtle___Onback_1057"
+  ],
+  "__Run.bvh": [
+   "Turtle___Run_1060"
+  ],
+  "__Walk.bvh": [
+   "Turtle___Walk_1053"
+  ],
+  "__Yawn.bvh": [
+   "Turtle___Yawn_1054",
+   "Turtle___Yawn_1055"
+  ]
+ },
+ "Tyranno": {
+  "__Attack.bvh": [
+   "Tyranno___Attack_1067"
+  ],
+  "__Attack2.bvh": [
+   "Tyranno___Attack2_1065"
+  ],
+  "__Fall.bvh": [
+   "Tyranno___Fall_1064"
+  ],
+  "__HeadButt.bvh": [
+   "Tyranno___HeadButt_1063"
+  ],
+  "__Idle.bvh": [
+   "Tyranno___Idle_1061"
+  ],
+  "__Idle2.bvh": [
+   "Tyranno___Idle2_1066"
+  ],
+  "__Roar.bvh": [
+   "Tyranno___Roar_1070"
+  ],
+  "__Run.bvh": [
+   "Tyranno___Run_1068"
+  ],
+  "__TailWhip.bvh": [
+   "Tyranno___TailWhip_1069"
+  ],
+  "__Walk.bvh": [
+   "Tyranno___Walk_1062"
+  ]
+ }
+}

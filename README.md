@@ -42,8 +42,8 @@ made each source clip different, while the same model trained on the true pairs 
 ## Quick start: score your own retargeted motions
 
 ```bash
-git clone https://github.com/LiZhYun/NeurIPS2026-MR.git
-cd NeurIPS2026-MR
+git clone https://github.com/LiZhYun/NeurIPS2026-Cross-Skeleton-Retargeting.git
+cd NeurIPS2026-Cross-Skeleton-Retargeting
 pip install -e .
 python examples/quickstart.py
 ```

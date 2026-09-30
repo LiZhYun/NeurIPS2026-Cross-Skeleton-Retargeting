@@ -3,7 +3,7 @@
 Zhiyuan Li, Wenyan Yang, Pekka Marttinen, Joni Pajarinen
 Aalto University, Finland
 
-NeurIPS 2026 · [Project page](https://cross-skeleton-retargeting.netlify.app/)
+NeurIPS 2026 · [Paper](https://arxiv.org/abs/2609.37297) · [Project page](https://cross-skeleton-retargeting.netlify.app/)
 
 ![Two source clips can map to distinct target motions or collapse to one shared habit; action-level scores cannot tell these apart, SIF can](docs/teaser.png)
 
